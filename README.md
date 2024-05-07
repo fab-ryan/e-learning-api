@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/Maintained-Yes-green)
 ![](https://img.shields.io/badge/Pull_Requests-Accepting-green)
 ![](https://img.shields.io/badge/Contributions-Accepting-cyan)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![CircleCI](https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23404d59.svg?style=for-the-badge&logo=nestjs&logoColor=%2361DAFB) ![CircleCI](https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white)
 
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
