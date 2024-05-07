@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/fab-ryan/e-learning-api/tree/develop.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/fab-ryan/e-learning-api/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/fab-ryan/e-learning-api/tree/main)
 [![Coverage Status](https://coveralls.io/repos/github/fab-ryan/e-learning-api/badge.svg)](https://coveralls.io/github/fab-ryan/e-learning-api)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b78a6f52e1e387547aa3/maintainability)](https://codeclimate.com/github/fab-ryan/e-learning-api/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/b78a6f52e1e387547aa3/test_coverage)](https://codeclimate.com/github/fab-ryan/e-learning-api/test_coverage)
