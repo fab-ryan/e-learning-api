@@ -1,0 +1,17 @@
+{
+  "USER_REGISTER": {
+    "NAME_REQUIRED": "Izina ni byo bishobora",
+    "EMAIL_REQUIRED": "Email ni byo bishobora",
+    "EMAIL_INVALID": "Email ntibishobora",
+    "PASSWORD_REQUIRED": "Ijambo ry'ibanga ni byo bishobora",
+    "PASSWORD_MIN": "Ijambo ry'ibanga rishobora kuba n'ibanga 8",
+    "PASSWORD_MATCH": "Ijambo ry'ibanga ntiribishobora",
+    "PHONE_REQUIRED": "Telefoni ni byo bishobora",
+    "PHONE_INVALID": "Telefoni ntibishobora kuba n'ibanga",
+    "EMAIL_EXISTS": "Iyi email isanzwe iri muri sistem",
+    "USERNAME_REQUIRED": "Izina rishobora kuba n'ibanga",
+    "USERNAME_EXISTS": "Iyi izina rishobora kuba ririmo",
+    "USER_SUCCESS": "Umuntu yashoboye kwinjira muri sistem byagenze neza",
+    "USER_FAIL": "Ntibyagenze neza, ongera ugerageze"
+  }
+}
