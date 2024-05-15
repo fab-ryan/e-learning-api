@@ -48,6 +48,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.11.6", "@babel/core@^7.12.3", "@babel/core@^7.23.9", "@babel/core@^7.8.0", "@babel/core@>=7.0.0-beta.0 <8":
 =======
 <<<<<<< HEAD
@@ -57,6 +58,10 @@
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
 "@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.11.6", "@babel/core@^7.12.3", "@babel/core@^7.23.9", "@babel/core@^7.8.0", "@babel/core@>=7.0.0-beta.0 <8":
+=======
+"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.11.6", "@babel/core@^7.12.3", "@babel/core@^7.23.9", "@babel/core@^7.8.0", "@babel/core@>=7.0.0-beta.0 <8":
+"@babel/core@^7.11.6", "@babel/core@^7.12.3", "@babel/core@^7.23.9":
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "7.24.5"
   dependencies:
     "@ampproject/remapping" "^2.2.0"
@@ -302,10 +307,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@colors/colors@1.6.0", "@colors/colors@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.6.0.tgz#ec6cd237440700bc23ca23087f513c75508958b0"
@@ -313,16 +323,22 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   dependencies:
@@ -333,16 +349,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@css-inline/css-inline-darwin-x64@0.14.1":
   version "0.14.1"
 
@@ -366,10 +388,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 "@dabh/diagnostics@^2.0.2":
   version "2.0.3"
@@ -378,16 +405,22 @@
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     colorspace "1.1.x"
     enabled "2.0.x"
@@ -610,12 +643,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@jest/types@^29.6.3":
 =======
 "@jest/types@^29.0.0", "@jest/types@^29.6.3":
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 "@jest/types@^29.6.3":
@@ -625,6 +662,11 @@
 =======
 "@jest/types@^29.0.0", "@jest/types@^29.6.3":
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+"@jest/types@^29.6.3":
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "29.6.3"
   dependencies:
     "@jest/schemas" "^29.6.3"
@@ -661,16 +703,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@jridgewell/trace-mapping@^0.3.12", "@jridgewell/trace-mapping@^0.3.18", "@jridgewell/trace-mapping@^0.3.20", "@jridgewell/trace-mapping@^0.3.24", "@jridgewell/trace-mapping@^0.3.25":
   version "0.3.25"
   dependencies:
@@ -681,21 +729,30 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@jridgewell/trace-mapping@0.3.9":
   version "0.3.9"
   dependencies:
@@ -706,10 +763,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@jridgewell/trace-mapping@^0.3.12", "@jridgewell/trace-mapping@^0.3.18", "@jridgewell/trace-mapping@^0.3.20", "@jridgewell/trace-mapping@^0.3.24", "@jridgewell/trace-mapping@^0.3.25":
   version "0.3.25"
   resolved "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.25.tgz"
@@ -720,16 +782,22 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@ljharb/through@^2.3.11":
   version "2.3.13"
   dependencies:
@@ -774,10 +842,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@mapbox/node-pre-gyp@^1.0.11":
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.11.tgz#417db42b7f5323d79e93b34a6d7a2a12c0df43fa"
@@ -800,16 +873,22 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@nestjs/cli@^10.0.0":
   version "10.3.2"
   dependencies:
@@ -887,6 +966,9 @@
 <<<<<<< HEAD
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
     iterare "1.2.1"
     tslib "2.6.2"
@@ -901,10 +983,13 @@
     lodash "4.17.21"
     uuid "9.0.1"
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 "@nestjs/config@^3.2.2":
   version "3.2.2"
@@ -921,12 +1006,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
     uid "2.0.2"
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
     uid "2.0.2"
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
     uid "2.0.2"
 =======
@@ -934,6 +1023,8 @@
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
     "@nuxtjs/opencollective" "0.3.2"
     fast-safe-stringify "2.1.1"
     iterare "1.2.1"
@@ -943,10 +1034,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 "@nestjs/jwt@^10.2.0":
   version "10.2.0"
@@ -967,11 +1063,15 @@
   integrity sha512-znJ9Y4S8ZDVY+j4doWAJ8EuuVO7SkQN3yOBmzxbGaXbvcSwFDAdGJ+OMCg52NdzIO4tQoN4pYKx8W6M0ArfFRQ==
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
     uid "2.0.2"
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
     uid "2.0.2"
@@ -980,6 +1080,8 @@
 =======
     uid "2.0.2"
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 "@nestjs/jwt@^10.2.0":
   version "10.2.0"
@@ -1016,16 +1118,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@nestjs/schematics@^10.0.1":
   version "10.1.1"
   dependencies:
@@ -1041,10 +1149,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 "@nestjs/swagger@^7.3.1":
   version "7.3.1"
@@ -1053,16 +1166,22 @@
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     "@microsoft/tsdoc" "^0.14.2"
     "@nestjs/mapped-types" "2.0.5"
@@ -1083,26 +1202,37 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/@nestjs/typeorm/-/typeorm-10.0.2.tgz#25e3ec3c9a127b085c06fd7ea25f8690dba145c2"
   integrity sha512-H738bJyydK4SQkRCTeh1aFBxoO1E9xdL/HaLGThwrqN95os5mEyAtK7BLADOS+vldP4jDZ2VQPLj4epWwRqCeQ==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     uuid "9.0.1"
 
@@ -1116,12 +1246,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@nodelib/fs.stat@2.0.5", "@nodelib/fs.stat@^2.0.2":
 =======
 "@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.5":
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 "@nodelib/fs.stat@2.0.5", "@nodelib/fs.stat@^2.0.2":
@@ -1131,6 +1265,11 @@
 =======
 "@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.5":
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+"@nodelib/fs.stat@2.0.5", "@nodelib/fs.stat@^2.0.2":
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "2.0.5"
 
 "@nodelib/fs.walk@^1.2.3", "@nodelib/fs.walk@^1.2.8":
@@ -1595,26 +1734,37 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/@sqltools/formatter/-/formatter-1.2.5.tgz#3abc203c79b8c3e90fd6c156a0c62d5403520e12"
   integrity sha512-Uy0+khmZqUrUGm5dmMqVlnvufZRSK0FbYzVgp0UMstm+F5+W2/jnEEQyc9vo1ZR/E5ZI/B1WjjoTqBqwJL6Krw==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.11"
@@ -1658,10 +1808,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@types/bcrypt@^5":
   version "5.0.2"
 =======
@@ -1672,12 +1827,16 @@
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 "@types/bcrypt@^5":
   version "5.0.2"
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -1687,6 +1846,10 @@
 "@types/bcrypt@^5":
   version "5.0.2"
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     "@types/node" "*"
 
@@ -1697,26 +1860,37 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/@types/bcryptjs/-/bcryptjs-2.4.6.tgz#2b92e3c2121c66eba3901e64faf8bb922ec291fa"
   integrity sha512-9xlo6R2qDs5uixm0bcIqCeMCE6HiQsIyel9KQySStiyqNl2tnj2mP3DX1Nf56MD6KMenNNlBBsy3LJ7gUEQPXQ==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 "@types/body-parser@*":
   version "1.19.5"
@@ -1745,12 +1919,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@types/eslint@*":
 =======
 "@types/eslint@*", "@types/eslint@>=8.0.0":
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 "@types/eslint@*":
@@ -1760,6 +1938,11 @@
 =======
 "@types/eslint@*", "@types/eslint@>=8.0.0":
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+"@types/eslint@*":
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "8.56.10"
   dependencies:
     "@types/estree" "*"
@@ -1834,10 +2017,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@types/jsonwebtoken@*":
   version "9.0.6"
   resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-9.0.6.tgz#d1af3544d99ad992fb6681bbe60676e06b032bd3"
@@ -1859,16 +2047,22 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@types/methods@^1.1.4":
   version "1.1.4"
 
@@ -1905,16 +2099,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@types/nodemailer@^6.4.15":
   version "6.4.15"
   dependencies:
@@ -1938,10 +2138,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 "@types/passport-jwt@^4.0.1":
   version "4.0.1"
@@ -1950,16 +2155,22 @@
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     "@types/jsonwebtoken" "*"
     "@types/passport-strategy" "*"
@@ -1969,16 +2180,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@types/passport-oauth2@*":
   version "1.4.17"
   dependencies:
@@ -1992,10 +2209,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 "@types/passport-strategy@*":
   version "0.2.38"
@@ -2004,16 +2226,22 @@
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     "@types/express" "*"
     "@types/passport" "*"
@@ -2025,16 +2253,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     "@types/express" "*"
 
@@ -2061,10 +2295,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/@types/passport/-/passport-1.0.16.tgz#5a2918b180a16924c4d75c31254c31cdca5ce6cf"
   integrity sha512-FD0qD5hbPWQzaM0wHUnJ/T0BBCJBxCeemtnCwc/ThhTg3x9jfrAcRUmj5Dopza+MfFS9acTe3wk7rcVnRIp/0A==
@@ -2074,16 +2313,22 @@
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@types/qs@*":
   version "6.9.15"
 
@@ -2141,16 +2386,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 "@types/uuid@^9.0.8":
   version "9.0.8"
@@ -2161,10 +2412,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/@types/triple-beam/-/triple-beam-1.3.5.tgz#74fef9ffbaa198eb8b588be029f38b00299caa2c"
   integrity sha512-6WaYesThRMCl19iryMYP7/x2OVgCtbIVflDGFpWnb9irXI3UjYE4AzmYuiUKY1AJstGijoY+MgUszMgRxIYTYw==
@@ -2181,16 +2437,22 @@
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 "@types/yargs-parser@*":
   version "21.0.3"
@@ -2219,12 +2481,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@typescript-eslint/parser@^7.8.0":
 =======
 "@typescript-eslint/parser@^7.0.0", "@typescript-eslint/parser@^7.8.0":
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 "@typescript-eslint/parser@^7.8.0":
@@ -2234,6 +2500,11 @@
 =======
 "@typescript-eslint/parser@^7.0.0", "@typescript-eslint/parser@^7.8.0":
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+"@typescript-eslint/parser@^7.8.0":
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "7.8.0"
   dependencies:
     "@typescript-eslint/scope-manager" "7.8.0"
@@ -2295,12 +2566,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@webassemblyjs/ast@1.12.1", "@webassemblyjs/ast@^1.11.5":
 =======
 "@webassemblyjs/ast@^1.11.5", "@webassemblyjs/ast@1.12.1":
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 "@webassemblyjs/ast@1.12.1", "@webassemblyjs/ast@^1.11.5":
@@ -2310,6 +2585,11 @@
 =======
 "@webassemblyjs/ast@^1.11.5", "@webassemblyjs/ast@1.12.1":
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+"@webassemblyjs/ast@1.12.1", "@webassemblyjs/ast@^1.11.5":
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "1.12.1"
   dependencies:
     "@webassemblyjs/helper-numbers" "1.11.6"
@@ -2388,12 +2668,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "@webassemblyjs/wasm-parser@1.12.1", "@webassemblyjs/wasm-parser@^1.11.5":
 =======
 "@webassemblyjs/wasm-parser@^1.11.5", "@webassemblyjs/wasm-parser@1.12.1":
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 "@webassemblyjs/wasm-parser@1.12.1", "@webassemblyjs/wasm-parser@^1.11.5":
@@ -2403,6 +2687,11 @@
 =======
 "@webassemblyjs/wasm-parser@^1.11.5", "@webassemblyjs/wasm-parser@1.12.1":
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+"@webassemblyjs/wasm-parser@1.12.1", "@webassemblyjs/wasm-parser@^1.11.5":
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "1.12.1"
   dependencies:
     "@webassemblyjs/ast" "1.12.1"
@@ -2476,10 +2765,15 @@ accept-language-parser@^1.5.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -2492,16 +2786,22 @@ accept-language-parser@^1.5.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 accepts@~1.3.8:
   version "1.3.8"
   dependencies:
@@ -2526,18 +2826,27 @@ acorn-walk@^8.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 acorn@^8.4.1, acorn@^8.7.1, acorn@^8.8.2, acorn@^8.9.0:
 =======
 "acorn@^6.0.0 || ^7.0.0 || ^8.0.0", acorn@^8, acorn@^8.4.1, acorn@^8.7.1, acorn@^8.8.2, acorn@^8.9.0:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 acorn@^8.4.1, acorn@^8.7.1, acorn@^8.8.2, acorn@^8.9.0:
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+acorn@^8.4.1, acorn@^8.7.1, acorn@^8.8.2, acorn@^8.9.0:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "8.11.3"
 =======
 "acorn@^6.0.0 || ^7.0.0 || ^8.0.0", acorn@^8, acorn@^8.14.0, acorn@^8.4.1, acorn@^8.7.1, acorn@^8.8.2, acorn@^8.9.0:
@@ -2558,10 +2867,15 @@ agent-base@6:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 agent-base@6:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
@@ -2571,16 +2885,22 @@ agent-base@6:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 ajv-formats@2.1.1:
   version "2.1.1"
   dependencies:
@@ -2593,10 +2913,15 @@ ajv-keywords@^3.5.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 ajv@8.12.0:
   version "8.12.0"
   resolved "https://registry.npmjs.org/ajv/-/ajv-8.12.0.tgz"
@@ -2610,11 +2935,15 @@ ajv@8.12.0:
 ajv@^6.12.4, ajv@^6.12.5:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 ajv@^6.12.4, ajv@^6.12.5, ajv@^6.9.1:
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 ajv@^6.12.4, ajv@^6.12.5, ajv@^6.9.1:
@@ -2623,6 +2952,8 @@ ajv@^6.12.4, ajv@^6.12.5, ajv@^6.9.1:
 =======
 ajv@^6.12.4, ajv@^6.12.5, ajv@^6.9.1:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "6.12.6"
   dependencies:
     fast-deep-equal "^3.1.1"
@@ -2635,16 +2966,22 @@ ajv@^6.12.4, ajv@^6.12.5, ajv@^6.9.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 ajv@^8.0.0, ajv@8.12.0:
   version "8.12.0"
   dependencies:
@@ -2664,10 +3001,15 @@ ansi-colors@^4.1.1, ansi-colors@4.1.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 ajv@^8.0.0:
   version "8.13.0"
@@ -2683,16 +3025,22 @@ ansi-colors@4.1.3:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "4.1.3"
 
 ansi-escapes@^4.2.1, ansi-escapes@^4.3.2:
@@ -2729,10 +3077,15 @@ any-promise@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 any-promise@^1.0.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/any-promise/-/any-promise-1.3.0.tgz#abc6afeedcea52e809cdc0376aed3ce39635d17f"
@@ -2740,16 +3093,22 @@ any-promise@^1.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 anymatch@^3.0.3, anymatch@~3.1.2:
   version "3.1.3"
   dependencies:
@@ -2763,26 +3122,37 @@ app-root-path@^3.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-3.1.0.tgz#5971a2fc12ba170369a7a1ef018c71e6e47c2e86"
   integrity sha512-biN3PwB2gUtjaYy/isrU3aNWI5w+fAfvHkSvCKeQGxhmYpwKFUxudR3Yya+KqVRHBmEDYh+/lTozYCFbmzX4nA==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 append-field@^1.0.0:
   version "1.0.0"
@@ -2800,10 +3170,15 @@ are-we-there-yet@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 "aproba@^1.0.3 || ^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/aproba/-/aproba-2.0.0.tgz#52520b8ae5b569215b354efc0caa3fe1e45a8adc"
@@ -2819,16 +3194,22 @@ are-we-there-yet@^2.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 arg@^4.1.0:
   version "4.1.3"
 
@@ -2916,10 +3297,15 @@ async@^3.2.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 async@^3.2.3:
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/async/-/async-3.2.5.tgz#ebd52a8fdaf7a2289a24df399f8d8485c8a46b66"
@@ -2927,16 +3313,22 @@ async@^3.2.3:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 asynckit@^0.4.0:
   version "0.4.0"
 
@@ -2949,12 +3341,16 @@ available-typed-arrays@^1.0.7:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 babel-jest@^29.7.0:
 =======
 babel-jest@^29.0.0, babel-jest@^29.7.0:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 babel-jest@^29.7.0:
@@ -2964,6 +3360,11 @@ babel-jest@^29.7.0:
 =======
 babel-jest@^29.0.0, babel-jest@^29.7.0:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+babel-jest@^29.7.0:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "29.7.0"
   dependencies:
     "@jest/transform" "^29.7.0"
@@ -3040,10 +3441,15 @@ bcryptjs@^2.4.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 bcrypt@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/bcrypt/-/bcrypt-5.1.1.tgz#0f732c6dcb4e12e5b70a25e326a72965879ba6e2"
@@ -3138,12 +3544,16 @@ braces@^3.0.2, braces@~3.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 browserslist@^4.21.10, browserslist@^4.22.2:
 =======
 browserslist@^4.21.10, browserslist@^4.22.2, "browserslist@>= 4.21.0":
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 browserslist@^4.21.10, browserslist@^4.22.2:
@@ -3153,6 +3563,11 @@ browserslist@^4.21.10, browserslist@^4.22.2:
 =======
 browserslist@^4.21.10, browserslist@^4.22.2, "browserslist@>= 4.21.0":
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+browserslist@^4.21.10, browserslist@^4.22.2:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "4.23.0"
   dependencies:
     caniuse-lite "^1.0.30001587"
@@ -3177,26 +3592,37 @@ buffer-equal-constant-time@1.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz#f8e71132f7ffe6e01a5c9697a4c6f3e48d5cc819"
   integrity sha512-zRpUiDwd/xk6ADqPMATG8vc9VPrkck7T07OIx0gnjmJAnHnTVXNQG3vfvWNuiZIkwu9KrKdA1iJKfsfTVxE6NA==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 buffer-from@^1.0.0:
   version "1.1.2"
@@ -3214,26 +3640,37 @@ buffer@^6.0.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/buffer/-/buffer-6.0.3.tgz#2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6"
   integrity sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     base64-js "^1.3.1"
     ieee754 "^1.2.1"
@@ -3285,10 +3722,15 @@ caniuse-lite@^1.0.30001587:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 chalk@4.1.2, chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
@@ -3299,16 +3741,22 @@ chalk@4.1.2, chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 chalk@^2.4.2:
   version "2.4.2"
   dependencies:
@@ -3321,16 +3769,22 @@ chalk@^2.4.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 chalk@^3.0.0:
   version "3.0.0"
   dependencies:
@@ -3347,21 +3801,30 @@ chalk@^4.0.0, chalk@^4.0.2, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2, chalk@4.1.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 chalk@^5.3.0:
   version "5.3.0"
 
@@ -3381,16 +3844,22 @@ chardet@^0.7.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 cheerio-select@^2.1.0:
   version "2.1.0"
   dependencies:
@@ -3417,23 +3886,32 @@ chokidar@^3.0.0, chokidar@^3.5.2, chokidar@^3.5.3, chokidar@3.6.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 chokidar@3.6.0, chokidar@^3.5.3:
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 chokidar@3.6.0, chokidar@^3.5.3:
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "3.6.0"
   dependencies:
     anymatch "~3.1.2"
@@ -3453,26 +3931,37 @@ chownr@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 chrome-trace-event@^1.0.2:
   version "1.0.3"
@@ -3502,10 +3991,15 @@ clean-css@^4.2.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 class-transformer@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.5.1.tgz#24147d5dffd2a6cea930a3250a677addf96ab336"
@@ -3522,16 +4016,22 @@ class-validator@^0.14.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 cli-cursor@^3.1.0:
   version "3.1.0"
   dependencies:
@@ -3544,26 +4044,37 @@ cli-highlight@^2.1.11:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/cli-highlight/-/cli-highlight-2.1.11.tgz#49736fa452f0aaf4fae580e30acb26828d2dc1bf"
   integrity sha512-9KDcoEVwyUXrjcJNvHD0NFc/hiwe/WPVYIleQh2O1N2Zro5gWJZ/K+3DGn8w8P/F6FxOgzyC5bxDyHIgCSPhGg==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     chalk "^4.0.0"
     highlight.js "^10.7.1"
@@ -3599,10 +4110,15 @@ cliui@^7.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 cliui@^7.0.2:
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-7.0.4.tgz#a0265ee655476fc807aea9df3df8df7783808b4f"
@@ -3614,16 +4130,22 @@ cliui@^7.0.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 cliui@^8.0.1:
   version "8.0.1"
   dependencies:
@@ -3655,10 +4177,15 @@ color-convert@^2.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 color-name@^1.0.0, color-name@~1.1.4:
   version "1.1.4"
 
@@ -3666,13 +4193,17 @@ color-name@^1.0.0, color-name@~1.1.4:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 color-name@^1.0.0, color-name@~1.1.4:
   version "1.1.4"
 
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -3683,6 +4214,10 @@ color-name@^1.0.0, color-name@~1.1.4:
   version "1.1.4"
 
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 color-name@1.1.3:
   version "1.1.3"
 
@@ -3711,10 +4246,15 @@ colorspace@1.1.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 color-name@^1.0.0, color-name@~1.1.4:
   version "1.1.4"
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
@@ -3751,16 +4291,22 @@ colorspace@1.1.x:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 combined-stream@^1.0.8:
   version "1.0.8"
   dependencies:
@@ -3771,16 +4317,22 @@ combined-stream@^1.0.8:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 commander@^10.0.0:
   version "10.0.1"
 
@@ -3797,10 +4349,15 @@ commander@^6.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 commander@4.1.1:
@@ -3813,13 +4370,17 @@ commander@^2.20.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 commander@4.1.1:
   version "4.1.1"
 
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -3830,6 +4391,10 @@ commander@4.1.1:
   version "4.1.1"
 
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 comment-json@4.2.3:
   version "4.2.3"
   dependencies:
@@ -3875,10 +4440,15 @@ constantinople@^4.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 console-control-strings@^1.0.0, console-control-strings@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
@@ -3886,16 +4456,22 @@ console-control-strings@^1.0.0, console-control-strings@^1.1.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 content-disposition@0.5.4:
   version "0.5.4"
   dependencies:
@@ -3920,10 +4496,15 @@ cookie@0.6.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 cookie@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
@@ -3931,16 +4512,22 @@ cookie@^0.5.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 cookiejar@^2.1.4:
   version "2.1.4"
 
@@ -4031,16 +4618,22 @@ dayjs@^1.11.9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 debug@^3.2.7:
   version "3.2.7"
@@ -4057,20 +4650,29 @@ debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@^4.3
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.11.tgz#dfe0e9d54c5f8b68ccf8ca5f72ac603e7e5ed59e"
   integrity sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
@@ -4078,6 +4680,8 @@ debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@^4.3
 =======
     ms "^2.1.3"
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 debug@2.6.9:
   version "2.6.9"
@@ -4089,14 +4693,20 @@ debug@2.6.9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 debug@4:
   version "4.3.5"
   dependencies:
@@ -4105,10 +4715,15 @@ debug@4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
@@ -4127,16 +4742,22 @@ debug@^3.2.7:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 dedent@^1.0.0:
   version "1.5.3"
 
@@ -4178,10 +4799,15 @@ delegates@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
@@ -4189,16 +4815,22 @@ delegates@^1.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 depd@2.0.0:
   version "2.0.0"
 
@@ -4210,16 +4842,22 @@ destroy@1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 detect-indent@^6.0.0:
   version "6.1.0"
 
@@ -4231,10 +4869,15 @@ detect-newline@^3.0.0, detect-newline@^3.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 detect-libc@^2.0.0:
   version "2.0.3"
@@ -4245,16 +4888,22 @@ detect-newline@^3.0.0:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "3.1.0"
 
 detect-node@^2.0.4, detect-node@2.1.0:
@@ -4298,16 +4947,22 @@ doctrine@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 doctypes@^1.1.0:
   version "1.1.0"
 
@@ -4366,10 +5021,15 @@ dotenv@^16.0.3, dotenv@^16.4.5, dotenv@16.4.5:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 dotenv-expand@10.0.0:
   version "10.0.0"
@@ -4383,16 +5043,22 @@ dotenv@16.4.5, dotenv@^16.0.3, dotenv@^16.4.5:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 eastasianwidth@^0.2.0:
   version "0.2.0"
@@ -4414,10 +5080,15 @@ editorconfig@^1.0.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 ecdsa-sig-formatter@1.0.11:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz#ae0f0fa2d85045ef14a817daa3ce9acd0489e5bf"
@@ -4427,16 +5098,22 @@ ecdsa-sig-formatter@1.0.11:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 ee-first@1.1.1:
   version "1.1.1"
 
@@ -4464,10 +5141,15 @@ enabled@2.0.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 enabled@2.0.x:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/enabled/-/enabled-2.0.0.tgz#f9dd92ec2d6f4bbc0d5d1e64e21d61cd4665e7c2"
@@ -4475,16 +5157,22 @@ enabled@2.0.x:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 encodeurl@~1.0.2:
   version "1.0.2"
 
@@ -4634,12 +5322,16 @@ eslint-compat-utils@^0.5.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 eslint-config-prettier@^9.1.0:
 =======
 eslint-config-prettier@*, eslint-config-prettier@^9.1.0:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 eslint-config-prettier@^9.1.0:
@@ -4649,6 +5341,11 @@ eslint-config-prettier@^9.1.0:
 =======
 eslint-config-prettier@*, eslint-config-prettier@^9.1.0:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+eslint-config-prettier@^9.1.0:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "9.1.0"
 
 eslint-config-standard@^17.1.0:
@@ -4677,12 +5374,16 @@ eslint-plugin-es-x@^7.5.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 eslint-plugin-import@^2.29.1:
 =======
 eslint-plugin-import@^2.25.2, eslint-plugin-import@^2.29.1:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 eslint-plugin-import@^2.29.1:
@@ -4692,6 +5393,11 @@ eslint-plugin-import@^2.29.1:
 =======
 eslint-plugin-import@^2.25.2, eslint-plugin-import@^2.29.1:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+eslint-plugin-import@^2.29.1:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "2.29.1"
   dependencies:
     array-includes "^3.1.7"
@@ -4716,12 +5422,16 @@ eslint-plugin-import@^2.25.2, eslint-plugin-import@^2.29.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 eslint-plugin-n@^16.6.2:
 =======
 "eslint-plugin-n@^15.0.0 || ^16.0.0 ", eslint-plugin-n@^16.6.2:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 eslint-plugin-n@^16.6.2:
@@ -4731,6 +5441,11 @@ eslint-plugin-n@^16.6.2:
 =======
 "eslint-plugin-n@^15.0.0 || ^16.0.0 ", eslint-plugin-n@^16.6.2:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+eslint-plugin-n@^16.6.2:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "16.6.2"
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
@@ -4755,8 +5470,11 @@ eslint-plugin-prettier@^5.1.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 eslint-plugin-promise@^6.1.1:
   version "6.1.1"
 
@@ -4767,12 +5485,16 @@ eslint-plugin-promise@^6.0.0, eslint-plugin-promise@^6.1.1:
 
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 eslint-plugin-promise@^6.1.1:
   version "6.1.1"
 
 <<<<<<< HEAD
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
@@ -4780,6 +5502,8 @@ eslint-plugin-promise@^6.0.0, eslint-plugin-promise@^6.1.1:
   version "6.1.1"
 
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 eslint-scope@^7.2.2:
   version "7.2.2"
   dependencies:
@@ -4790,21 +5514,30 @@ eslint-scope@^7.2.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 eslint-scope@5.1.1:
   version "5.1.1"
   dependencies:
@@ -4815,10 +5548,15 @@ eslint-scope@5.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 eslint-scope@^7.2.2:
   version "7.2.2"
   resolved "https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.2.2.tgz"
@@ -4842,16 +5580,22 @@ eslint-visitor-keys@^3.3.0, eslint-visitor-keys@^3.4.1, eslint-visitor-keys@^3.4
 <<<<<<< HEAD
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 eslint-visitor-keys@^3.3.0, eslint-visitor-keys@^3.4.1, eslint-visitor-keys@^3.4.3:
   version "3.4.3"
 
 eslint@^8.57.0:
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "8.57.0"
   dependencies:
     "@eslint-community/eslint-utils" "^4.2.0"
@@ -5034,12 +5778,16 @@ fast-glob@^3.2.9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 fast-json-stable-stringify@2.x, fast-json-stable-stringify@^2.0.0, fast-json-stable-stringify@^2.1.0:
 =======
 fast-json-stable-stringify@^2.0.0, fast-json-stable-stringify@^2.1.0, fast-json-stable-stringify@2.x:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 fast-json-stable-stringify@2.x, fast-json-stable-stringify@^2.0.0, fast-json-stable-stringify@^2.1.0:
@@ -5049,6 +5797,11 @@ fast-json-stable-stringify@2.x, fast-json-stable-stringify@^2.0.0, fast-json-sta
 =======
 fast-json-stable-stringify@^2.0.0, fast-json-stable-stringify@^2.1.0, fast-json-stable-stringify@2.x:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+fast-json-stable-stringify@2.x, fast-json-stable-stringify@^2.0.0, fast-json-stable-stringify@^2.1.0:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "2.1.0"
 
 fast-levenshtein@^2.0.6:
@@ -5058,12 +5811,16 @@ fast-levenshtein@^2.0.6:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 fast-safe-stringify@2.1.1, fast-safe-stringify@^2.1.1:
 =======
 fast-safe-stringify@^2.1.1, fast-safe-stringify@2.1.1:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 fast-safe-stringify@2.1.1, fast-safe-stringify@^2.1.1:
@@ -5073,6 +5830,11 @@ fast-safe-stringify@2.1.1, fast-safe-stringify@^2.1.1:
 =======
 fast-safe-stringify@^2.1.1, fast-safe-stringify@2.1.1:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+fast-safe-stringify@2.1.1, fast-safe-stringify@^2.1.1:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "2.1.1"
 
 fastq@^1.6.0:
@@ -5092,26 +5854,37 @@ fecha@^4.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/fecha/-/fecha-4.2.3.tgz#4d9ccdbc61e8629b259fdca67e65891448d569fd"
   integrity sha512-OP2IUU6HeYKJi3i0z4A19kHMQoLVs4Hc+DPqqxI2h/DPZHTm/vjsfC6P0b4jCMy14XizLBqvndQ+UilD7707Jw==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 figures@^3.0.0:
   version "3.2.0"
@@ -5136,16 +5909,22 @@ file-stream-rotator@^0.6.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     moment "^2.29.1"
 
@@ -5160,10 +5939,15 @@ fill-range@^7.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/file-stream-rotator/-/file-stream-rotator-0.6.1.tgz#007019e735b262bb6c6f0197e58e5c87cb96cec3"
   integrity sha512-u+dBid4PvZw17PmDeRcNOtCP9CCK/9lRN2w+r1xIS7yOL9JFrIBKTvrYsxT4P0pGtThYTn++QS5ChHaUov3+zQ==
@@ -5177,16 +5961,22 @@ fill-range@^7.0.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     to-regex-range "^5.0.1"
 
@@ -5240,10 +6030,15 @@ fn.name@1.x.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 fn.name@1.x.x:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/fn.name/-/fn.name-1.1.0.tgz#26cad8017967aea8731bc42961d04a3d5988accc"
@@ -5251,16 +6046,22 @@ fn.name@1.x.x:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 for-each@^0.3.3:
   version "0.3.3"
   dependencies:
@@ -5328,26 +6129,37 @@ fs-minipass@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/fs-minipass/-/fs-minipass-2.1.0.tgz#7f5036fdbf12c63c169190cbe4199c852271f9fb"
   integrity sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     minipass "^3.0.0"
 
@@ -5391,10 +6203,15 @@ gauge@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 gauge@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-3.0.2.tgz#03bf4441c044383908bcfa0656ad91803259b395"
@@ -5412,16 +6229,22 @@ gauge@^3.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
 
@@ -5497,10 +6320,15 @@ glob@^10.3.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 glob@10.3.10:
   version "10.3.10"
   resolved "https://registry.npmjs.org/glob/-/glob-10.3.10.tgz"
@@ -5525,16 +6353,22 @@ glob@^10.3.10:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 glob@^7.0.0, glob@^7.1.3, glob@^7.1.4:
   version "7.2.3"
   dependencies:
@@ -5558,16 +6392,22 @@ glob@^9.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 glob@10.3.10:
   version "10.3.10"
   dependencies:
@@ -5590,21 +6430,30 @@ glob@10.3.12:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 globals@^11.1.0:
   version "11.12.0"
 
@@ -5685,26 +6534,37 @@ has-unicode@^2.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/has-unicode/-/has-unicode-2.0.1.tgz#e0e6fe6a28cf51138855e086d1691e771de2a8b9"
   integrity sha512-8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 hasown@^2.0.0, hasown@^2.0.1, hasown@^2.0.2:
   version "2.0.2"
@@ -5716,16 +6576,22 @@ hasown@^2.0.0, hasown@^2.0.1, hasown@^2.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 he@^1.2.0, he@1.2.0:
   version "1.2.0"
 
@@ -5735,10 +6601,15 @@ helmet@^7.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 helmet@^7.1.0:
   version "7.1.0"
@@ -5747,16 +6618,22 @@ helmet@^7.1.0:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 hexoid@^1.0.0:
   version "1.0.0"
@@ -5768,10 +6645,15 @@ highlight.js@^10.7.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 highlight.js@^10.7.1:
   version "10.7.3"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
@@ -5779,16 +6661,22 @@ highlight.js@^10.7.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 html-escaper@^2.0.0:
   version "2.0.2"
 
@@ -5852,26 +6740,37 @@ https-proxy-agent@^5.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz#c59ef224a04fe8b754f3db0063a25ea30d0005d6"
   integrity sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     agent-base "6"
     debug "4"
@@ -5884,21 +6783,30 @@ human-signals@^2.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 iconv-lite@^0.4.24:
 =======
 iconv-lite@0.4.24, iconv-lite@^0.4.24:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 iconv-lite@^0.4.24:
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 iconv-lite@^0.4.24:
@@ -5907,6 +6815,8 @@ iconv-lite@^0.4.24:
 =======
 iconv-lite@^0.4.24:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "0.4.24"
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
@@ -5916,16 +6826,22 @@ iconv-lite@^0.4.24:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 iconv-lite@^0.6.2, iconv-lite@0.6.3:
   version "0.6.3"
   dependencies:
@@ -5940,21 +6856,30 @@ iconv-lite@0.4.24:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 ieee754@^1.1.13, ieee754@^1.2.1:
   version "1.2.1"
 
@@ -5997,21 +6922,30 @@ inflight@^1.0.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3, inherits@2, inherits@2.0.4:
 =======
 inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3, inherits@2, inherits@2.0.4:
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3, inherits@2, inherits@2.0.4:
@@ -6020,6 +6954,8 @@ inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3, inherits@2, 
 =======
 inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3, inherits@2, inherits@2.0.4:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "2.0.4"
 
 ini@^1.3.4, ini@~1.3.0:
@@ -6092,10 +7028,15 @@ is-arrayish@^0.3.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 is-arrayish@^0.3.1:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.3.2.tgz#4574a2ae56f7ab206896fb431eaeed066fdf8f03"
@@ -6103,16 +7044,22 @@ is-arrayish@^0.3.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 is-bigint@^1.0.1:
   version "1.0.4"
   dependencies:
@@ -6298,21 +7245,30 @@ istanbul-reports@^3.1.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 iterare@^1.2.1, iterare@1.2.1:
 =======
 iterare@1.2.1, iterare@^1.2.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 iterare@^1.2.1, iterare@1.2.1:
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 iterare@^1.2.1, iterare@1.2.1:
@@ -6321,6 +7277,8 @@ iterare@^1.2.1, iterare@1.2.1:
 =======
 iterare@^1.2.1, iterare@1.2.1:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "1.2.1"
 
 jackspeak@^2.3.5, jackspeak@^2.3.6:
@@ -6519,12 +7477,16 @@ jest-resolve-dependencies@^29.7.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 jest-resolve@^29.7.0:
 =======
 jest-resolve@*, jest-resolve@^29.7.0:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 jest-resolve@^29.7.0:
@@ -6534,6 +7496,11 @@ jest-resolve@^29.7.0:
 =======
 jest-resolve@*, jest-resolve@^29.7.0:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+jest-resolve@^29.7.0:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "29.7.0"
   dependencies:
     chalk "^4.0.0"
@@ -6672,12 +7639,16 @@ jest-worker@^29.7.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 jest@^29.5.0:
 =======
 jest@^29.0.0, jest@^29.5.0:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 jest@^29.5.0:
@@ -6687,6 +7658,11 @@ jest@^29.5.0:
 =======
 jest@^29.0.0, jest@^29.5.0:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+jest@^29.5.0:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "29.7.0"
   dependencies:
     "@jest/core" "^29.7.0"
@@ -6716,10 +7692,15 @@ js-tokens@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 js-yaml@4.1.0, js-yaml@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz"
@@ -6729,16 +7710,22 @@ js-yaml@4.1.0, js-yaml@^4.1.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 js-yaml@^3.13.1:
   version "3.14.1"
   dependencies:
@@ -6750,16 +7737,22 @@ js-yaml@^3.13.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 js-yaml@^4.1.0, js-yaml@4.1.0:
   version "4.1.0"
   dependencies:
@@ -6769,21 +7762,30 @@ js-yaml@^4.1.0, js-yaml@4.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 jsesc@^2.5.1:
   version "2.5.2"
 
@@ -6828,10 +7830,15 @@ jsonfile@^6.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 jsonwebtoken@^9.0.0, jsonwebtoken@9.0.2:
   version "9.0.2"
 =======
@@ -6842,12 +7849,16 @@ jsonwebtoken@9.0.2, jsonwebtoken@^9.0.0:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 jsonwebtoken@^9.0.0, jsonwebtoken@9.0.2:
   version "9.0.2"
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -6857,6 +7868,10 @@ jsonwebtoken@^9.0.0, jsonwebtoken@9.0.2:
 jsonwebtoken@^9.0.0, jsonwebtoken@9.0.2:
   version "9.0.2"
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     jws "^3.2.2"
     lodash.includes "^4.3.0"
@@ -6874,16 +7889,22 @@ jsonwebtoken@^9.0.0, jsonwebtoken@9.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 jstransformer@1.0.0:
   version "1.0.0"
   dependencies:
@@ -6905,10 +7926,15 @@ jwa@^1.4.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 jwa@^1.4.1:
   version "1.4.1"
@@ -6917,16 +7943,22 @@ jwa@^1.4.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     buffer-equal-constant-time "1.0.1"
     ecdsa-sig-formatter "1.0.11"
@@ -6939,26 +7971,37 @@ jws@^3.2.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/jws/-/jws-3.2.2.tgz#001099f3639468c9414000e99995fa52fb478304"
   integrity sha512-YHlZCB6lMTllWDtSPHz/ZXTsi8S00usEV6v1tjq8tOUZzw7DpSDWVXjXDre6ed1w/pd495ODpHZYSdkRTsa0HA==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     jwa "^1.4.1"
     safe-buffer "^5.0.1"
@@ -6981,10 +8024,15 @@ leac@^0.6.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 kuler@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/kuler/-/kuler-2.0.0.tgz#e2c570a3800388fb44407e851531c1d670b061b3"
@@ -6992,16 +8040,22 @@ kuler@^2.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 leven@^3.1.0:
   version "3.1.0"
 
@@ -7016,16 +8070,22 @@ levn@^0.4.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 libbase64@1.2.1:
   version "1.2.1"
 
@@ -7060,10 +8120,15 @@ libqp@2.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 libphonenumber-js@^1.10.53:
   version "1.11.1"
@@ -7072,16 +8137,22 @@ libphonenumber-js@^1.10.53:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 lines-and-columns@^1.1.6:
   version "1.2.4"
@@ -7116,16 +8187,22 @@ lodash.includes@^4.3.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 lodash.isboolean@^3.0.3:
   version "3.0.3"
@@ -7145,10 +8222,15 @@ lodash.isstring@^4.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/lodash.includes/-/lodash.includes-4.3.0.tgz#60bb98a87cb923c68ca1e51325483314849f553f"
   integrity sha512-W3Bx6mdkRTGtlJISOvVD/lbqjTlPPUDTMnlXZFnVwi9NKJ6tiAk6LVdlhZMm17VZisqhKcgzpO5Wz91PCt5b0w==
@@ -7180,16 +8262,22 @@ lodash.isstring@^4.0.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 lodash.memoize@4.x:
   version "4.1.2"
@@ -7204,10 +8292,15 @@ lodash.once@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 lodash@^4.17.15, lodash@^4.17.21, lodash@4.17.21:
 =======
@@ -7218,12 +8311,16 @@ lodash@4.17.21, lodash@^4.17.21:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 
 lodash@^4.17.15, lodash@^4.17.21, lodash@4.17.21:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -7233,6 +8330,10 @@ lodash@^4.17.15, lodash@^4.17.21, lodash@4.17.21:
 
 lodash@^4.17.15, lodash@^4.17.21, lodash@4.17.21:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "4.17.21"
 
 log-symbols@^4.1.0:
@@ -7248,26 +8349,37 @@ logform@^2.3.2, logform@^2.4.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/logform/-/logform-2.6.0.tgz#8c82a983f05d6eaeb2d75e3decae7a768b2bf9b5"
   integrity sha512-1ulHeNPp6k/LD8H91o7VYFBng5i1BDE7HoKxVbZiGFidS1Rj65qcywLxX+pVfAPoQJEjRdvKcusKwOupHCVOVQ==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     "@colors/colors" "1.6.0"
     "@types/triple-beam" "^1.3.2"
@@ -7281,10 +8393,15 @@ logform@^2.3.2, logform@^2.4.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 lower-case@^1.1.1:
   version "1.1.4"
 
@@ -7292,13 +8409,17 @@ lower-case@^1.1.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 lower-case@^1.1.1:
   version "1.1.4"
 
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -7309,6 +8430,10 @@ lower-case@^1.1.1:
   version "1.1.4"
 
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 lru-cache@^10.2.0:
   version "10.2.2"
 
@@ -7332,16 +8457,22 @@ magic-string@0.30.5:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 mailparser@^3.7.1:
   version "3.7.1"
   dependencies:
@@ -7369,10 +8500,15 @@ make-dir@^3.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 make-dir@^3.1.0:
   version "3.1.0"
@@ -7381,16 +8517,22 @@ make-dir@^3.1.0:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     semver "^6.0.0"
 
@@ -7403,12 +8545,16 @@ make-dir@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 make-error@1.x, make-error@^1.1.1:
 =======
 make-error@^1.1.1, make-error@1.x:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 make-error@1.x, make-error@^1.1.1:
@@ -7418,6 +8564,11 @@ make-error@1.x, make-error@^1.1.1:
 =======
 make-error@^1.1.1, make-error@1.x:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+make-error@1.x, make-error@^1.1.1:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "1.3.6"
 
 makeerror@1.0.12:
@@ -7491,16 +8642,22 @@ minimatch@^8.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 minimatch@^9.0.1:
   version "9.0.4"
   dependencies:
@@ -7516,23 +8673,32 @@ minimatch@^9.0.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 minimatch@^9.0.1, minimatch@^9.0.4:
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 minimatch@^9.0.1, minimatch@^9.0.4:
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "9.0.4"
   dependencies:
     brace-expansion "^2.0.1"
@@ -7554,10 +8720,15 @@ minipass@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 minipass@^3.0.0:
   version "3.3.6"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.3.6.tgz#7bba384db3a1520d18c9c0e5251c3444e95dd94a"
@@ -7585,6 +8756,9 @@ minipass@^4.2.4:
 <<<<<<< HEAD
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 minipass@^4.2.4:
   version "4.2.8"
@@ -7596,10 +8770,13 @@ minipass@^5.0.0:
 
 "minipass@^5.0.0 || ^6.0.2 || ^7.0.0", minipass@^7.0.4:
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "7.1.0"
 
 minipass@^5.0.0:
@@ -7890,10 +9067,15 @@ mjml@^4.15.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 minizlib@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-2.1.2.tgz#e90d3466ba209b932451508a11ce3d3632145931"
@@ -7904,16 +9086,22 @@ minizlib@^2.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 mkdirp@^0.5.4:
   version "0.5.6"
   dependencies:
@@ -7926,16 +9114,22 @@ mkdirp@^1.0.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 mkdirp@^2.1.3:
   version "2.1.6"
@@ -7949,10 +9143,15 @@ ms@^2.1.1, ms@2.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
@@ -7969,10 +9168,14 @@ moment@^2.29.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
@@ -7991,6 +9194,8 @@ ms@^2.1.1, ms@^2.1.3, ms@2.1.3:
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 ms@2.0.0:
   version "2.0.0"
@@ -7999,10 +9204,15 @@ ms@2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 ms@2.1.2, ms@^2.1.1:
   version "2.1.2"
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
@@ -8010,14 +9220,20 @@ ms@2.1.2, ms@^2.1.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 ms@2.1.3:
   version "2.1.3"
 
@@ -8062,10 +9278,15 @@ mz@^2.4.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 mz@^2.4.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/mz/-/mz-2.7.0.tgz#95008057a56cafadc2bc63dde7f9ff6955948e32"
@@ -8077,16 +9298,22 @@ mz@^2.4.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 natural-compare@^1.4.0:
   version "1.4.0"
 
@@ -8126,10 +9353,15 @@ no-case@^2.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 nest-winston@^1.9.4:
   version "1.9.4"
   resolved "https://registry.yarnpkg.com/nest-winston/-/nest-winston-1.9.4.tgz#1cc53a2087818bc89663cbaa0bf65061d6b81c6f"
@@ -8156,16 +9388,22 @@ nestjs-typeorm-paginate@^4.0.4:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 node-abort-controller@^3.0.1:
   version "3.1.1"
 
@@ -8176,10 +9414,15 @@ node-addon-api@^5.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 node-addon-api@^5.0.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-5.1.0.tgz#49da1ca055e109a23d537e9de43c09cca21eb762"
@@ -8187,16 +9430,22 @@ node-addon-api@^5.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 node-emoji@1.11.0:
   version "1.11.0"
   dependencies:
@@ -8207,21 +9456,30 @@ node-emoji@1.11.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 node-fetch@^2.6.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
 =======
 node-fetch@^2.6.1, node-fetch@^2.6.7:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 node-fetch@^2.6.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 node-fetch@^2.6.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
@@ -8230,6 +9488,8 @@ node-fetch@^2.6.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
 =======
 node-fetch@^2.6.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "2.7.0"
   dependencies:
     whatwg-url "^5.0.0"
@@ -8260,10 +9520,15 @@ nopt@^7.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 nopt@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/nopt/-/nopt-5.0.0.tgz#530942bb58a512fccafe53fe210f13a25355dc88"
@@ -8273,16 +9538,22 @@ nopt@^5.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
 
@@ -8303,26 +9574,37 @@ npmlog@^5.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/npmlog/-/npmlog-5.0.1.tgz#f06678e80e29419ad67ab964e0fa69959c1eb8b0"
   integrity sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     are-we-there-yet "^2.0.0"
     console-control-strings "^1.1.0"
@@ -8334,16 +9616,22 @@ npmlog@^5.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 nth-check@^2.0.1:
   version "2.1.1"
   dependencies:
@@ -8356,21 +9644,30 @@ oauth@0.10.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.1:
   version "4.1.1"
 
@@ -8381,10 +9678,15 @@ object-hash@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 object-hash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-3.0.0.tgz#73f97f753e7baffc0e2cc9d6e079079744ac82e9"
@@ -8392,16 +9694,22 @@ object-hash@^3.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 object-inspect@^1.13.1:
   version "1.13.1"
 
@@ -8455,26 +9763,37 @@ one-time@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/one-time/-/one-time-1.0.0.tgz#e06bc174aed214ed58edede573b433bbf827cb45"
   integrity sha512-5DXOiRKwuSEcQ/l0kGCF6Q3jcADFv5tSmRaJck/OqkVFcOzutB134KRSfF0xDrL39MNnqxbHBbUUcjZIhTgb2g==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     fn.name "1.x.x"
 
@@ -8503,12 +9822,16 @@ optionator@^0.9.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 ora@5.4.1, ora@^5.4.1:
 =======
 ora@^5.4.1, ora@5.4.1:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ora@5.4.1, ora@^5.4.1:
@@ -8518,6 +9841,11 @@ ora@5.4.1, ora@^5.4.1:
 =======
 ora@^5.4.1, ora@5.4.1:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+ora@5.4.1, ora@^5.4.1:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "5.4.1"
   dependencies:
     bl "^4.1.0"
@@ -8602,16 +9930,22 @@ parse5-htmlparser2-tree-adapter@^6.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     parse5 "^6.0.1"
 
@@ -8641,10 +9975,15 @@ parseley@^0.12.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/parse5-htmlparser2-tree-adapter/-/parse5-htmlparser2-tree-adapter-6.0.1.tgz#2cdf9ad823321140370d4dbf5d3e92c7c8ddc6e6"
   integrity sha512-qPuWvbLgvDGilKc5BoicRovlT4MtYT6JfJyBOMDsKoiT+GiuP5qyrPCnR9HcPECIJJmZh5jRndyNThnhhb/vlA==
@@ -8663,16 +10002,22 @@ parse5@^6.0.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 parseurl@~1.3.3:
   version "1.3.3"
@@ -8711,10 +10056,15 @@ passport-strategy@^1.0.0, passport-strategy@1.x.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 passport-jwt@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/passport-jwt/-/passport-jwt-4.0.1.tgz#c443795eff322c38d173faa0a3c481479646ec3d"
@@ -8739,16 +10089,22 @@ passport@^0.7.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 path-exists@^4.0.0:
   version "4.0.0"
 
@@ -8838,10 +10194,15 @@ pgpass@1.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 pause@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
@@ -8923,6 +10284,7 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch@^2.3.1:
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 picocolors@^1.0.0:
@@ -8949,20 +10311,37 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch@^2.3.1:
 =======
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 picocolors@^1.0.0:
   version "1.0.0"
 
+<<<<<<< HEAD
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch@^2.3.1:
   version "2.3.1"
 
+=======
+>>>>>>> 327280f (stoping to auth unthentication)
 picomatch@3.0.1:
   version "3.0.1"
 
 <<<<<<< HEAD
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
+  integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
+
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 pirates@^4.0.4:
   version "4.0.6"
 
@@ -8998,10 +10377,15 @@ postgres@^3.4.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 postgres-array@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/postgres-array/-/postgres-array-2.0.0.tgz#48f8fce054fbc69671999329b8834b772652d82e"
@@ -9031,16 +10415,22 @@ postgres@^3.4.4:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 prelude-ls@^1.2.1:
   version "1.2.1"
 
@@ -9053,12 +10443,16 @@ prettier-linter-helpers@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 prettier@^3.0.0:
 =======
 prettier@^3.0.0, prettier@>=3.0.0:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 prettier@^3.0.0:
@@ -9068,6 +10462,11 @@ prettier@^3.0.0:
 =======
 prettier@^3.0.0, prettier@>=3.0.0:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+prettier@^3.0.0:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "3.2.5"
 
 pretty-format@^29.0.0, pretty-format@^29.7.0:
@@ -9260,16 +10659,22 @@ pure-rand@^6.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 qs@^6.11.0:
   version "6.12.1"
   dependencies:
@@ -9279,21 +10684,30 @@ qs@^6.11.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 qs@6.11.0:
   version "6.11.0"
   dependencies:
@@ -9303,10 +10717,15 @@ qs@6.11.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 qs@^6.11.0:
   version "6.12.1"
   resolved "https://registry.npmjs.org/qs/-/qs-6.12.1.tgz"
@@ -9316,16 +10735,22 @@ qs@^6.11.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 queue-microtask@^1.2.2:
   version "1.2.3"
 
@@ -9389,21 +10814,30 @@ rechoir@^0.6.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 "reflect-metadata@^0.1.12 || ^0.2.0", "reflect-metadata@^0.1.13 || ^0.2.0", reflect-metadata@^0.2.0, reflect-metadata@^0.2.1:
 =======
 reflect-metadata@^0.2.0, reflect-metadata@^0.2.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 "reflect-metadata@^0.1.12 || ^0.2.0", "reflect-metadata@^0.1.13 || ^0.2.0", reflect-metadata@^0.2.0, reflect-metadata@^0.2.1:
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 "reflect-metadata@^0.1.12 || ^0.2.0", "reflect-metadata@^0.1.13 || ^0.2.0", reflect-metadata@^0.2.0, reflect-metadata@^0.2.1:
@@ -9412,6 +10846,8 @@ reflect-metadata@^0.2.0, reflect-metadata@^0.2.1:
 =======
 "reflect-metadata@^0.1.12 || ^0.2.0", "reflect-metadata@^0.1.13 || ^0.2.0", reflect-metadata@^0.2.0, reflect-metadata@^0.2.1:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "0.2.2"
 
 regenerator-runtime@^0.14.0:
@@ -9484,16 +10920,22 @@ reusify@^1.0.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 rimraf@^3.0.2:
   version "3.0.2"
   dependencies:
@@ -9503,21 +10945,30 @@ rimraf@^3.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 rimraf@4.4.1:
   version "4.4.1"
   dependencies:
@@ -9528,16 +10979,22 @@ rimraf@4.4.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 run-applescript@^3.0.0:
   version "3.2.0"
   dependencies:
@@ -9546,10 +11003,15 @@ run-applescript@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 rimraf@^3.0.2:
   version "3.0.2"
@@ -9560,16 +11022,22 @@ rimraf@^3.0.2:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 run-async@^2.4.0:
   version "2.4.1"
@@ -9587,21 +11055,30 @@ run-parallel@^1.1.9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 rxjs@*, rxjs@^7.1.0, rxjs@^7.2.0, rxjs@^7.5.5, rxjs@^7.8.1, rxjs@7.8.1:
 =======
 rxjs@7.8.1, rxjs@^7.5.5, rxjs@^7.8.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 rxjs@*, rxjs@^7.1.0, rxjs@^7.2.0, rxjs@^7.5.5, rxjs@^7.8.1, rxjs@7.8.1:
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 rxjs@*, rxjs@^7.1.0, rxjs@^7.2.0, rxjs@^7.5.5, rxjs@^7.8.1, rxjs@7.8.1:
@@ -9610,6 +11087,8 @@ rxjs@*, rxjs@^7.1.0, rxjs@^7.2.0, rxjs@^7.5.5, rxjs@^7.8.1, rxjs@7.8.1:
 =======
 rxjs@*, rxjs@^7.1.0, rxjs@^7.2.0, rxjs@^7.5.5, rxjs@^7.8.1, rxjs@7.8.1:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "7.8.1"
   dependencies:
     tslib "^2.1.0"
@@ -9627,21 +11106,30 @@ safe-array-concat@^1.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0, safe-buffer@5.2.1:
 =======
 safe-buffer@5.2.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0, safe-buffer@5.2.1:
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0, safe-buffer@5.2.1:
@@ -9650,6 +11138,8 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0, safe-buffer@5.2.1:
 =======
 safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0, safe-buffer@5.2.1:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "5.2.1"
 
 safe-buffer@~5.1.0, safe-buffer@~5.1.1:
@@ -9669,10 +11159,15 @@ safe-stable-stringify@^2.3.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 "safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
 =======
@@ -9683,12 +11178,16 @@ safe-stable-stringify@^2.3.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 
 "safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -9698,6 +11197,10 @@ safe-stable-stringify@^2.3.1:
 
 "safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "2.1.2"
 
 schema-utils@^3.1.1, schema-utils@^3.2.0:
@@ -9712,16 +11215,22 @@ schema-utils@^3.1.1, schema-utils@^3.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 selderee@^0.11.0:
   version "0.11.0"
   dependencies:
@@ -9741,23 +11250,32 @@ semver@^6.3.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 semver@^6.0.0, semver@^6.3.0, semver@^6.3.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 semver@^6.0.0, semver@^6.3.0, semver@^6.3.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "6.3.1"
 
 semver@^7.0.0, semver@^7.3.4, semver@^7.3.5, semver@^7.3.8, semver@^7.5.2, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0:
@@ -9802,26 +11320,37 @@ set-blocking@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 set-function-length@^1.2.1:
   version "1.2.2"
@@ -9859,10 +11388,15 @@ shebang-command@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 sha.js@^2.4.11:
   version "2.4.11"
   resolved "https://registry.yarnpkg.com/sha.js/-/sha.js-2.4.11.tgz#37a5cf0b81ecbc6943de109ba2960d1b26584ae7"
@@ -9873,16 +11407,22 @@ sha.js@^2.4.11:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 shebang-command@^2.0.0:
   version "2.0.0"
   dependencies:
@@ -9929,10 +11469,15 @@ simple-swizzle@^0.2.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 simple-swizzle@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
@@ -9942,16 +11487,22 @@ simple-swizzle@^0.2.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 sisteransi@^1.0.5:
   version "1.0.5"
 
@@ -9970,10 +11521,13 @@ slick@^1.12.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6826d35 (course implementation)
 =======
 >>>>>>> f26cb66 (prometheus test)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
@@ -9989,6 +11543,7 @@ slugify@^1.6.6:
 >>>>>>> 0b9225a (prometheus test)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
@@ -10001,6 +11556,8 @@ slugify@^1.6.6:
 >>>>>>> f26cb66 (prometheus test)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 source-map-support@^0.5.21, source-map-support@~0.5.20, source-map-support@0.5.21:
   version "0.5.21"
   dependencies:
@@ -10011,21 +11568,30 @@ source-map-support@^0.5.21, source-map-support@~0.5.20, source-map-support@0.5.2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 source-map-support@0.5.13:
   version "0.5.13"
   dependencies:
@@ -10037,8 +11603,11 @@ source-map-support@0.5.13:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0:
 =======
 source-map-support@0.5.21, source-map-support@^0.5.21, source-map-support@~0.5.20:
@@ -10060,6 +11629,7 @@ source-map@^0.6.0, source-map@^0.6.1:
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -10088,16 +11658,43 @@ source-map@^0.6.0, source-map@^0.6.1:
 <<<<<<< HEAD
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0:
+=======
+source-map-support@0.5.21, source-map-support@^0.5.21, source-map-support@~0.5.20:
+  version "0.5.21"
+  resolved "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
+source-map@0.7.4, source-map@^0.7.4:
+  version "0.7.4"
+  resolved "https://registry.npmjs.org/source-map/-/source-map-0.7.4.tgz"
+  integrity sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==
+
+source-map@^0.6.0, source-map@^0.6.1:
+>>>>>>> 327280f (stoping to auth unthentication)
   version "0.6.1"
 
+<<<<<<< HEAD
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 >>>>>>> c0c4a88 (adding user categories)
 =======
 source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0:
   version "0.6.1"
 
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 source-map@^0.7.4:
   version "0.7.4"
 
@@ -10110,10 +11707,15 @@ split2@^4.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 split2@^4.1.0:
   version "4.2.0"
@@ -10122,16 +11724,22 @@ split2@^4.1.0:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 sprintf-js@~1.0.2:
   version "1.0.3"
@@ -10143,10 +11751,15 @@ stack-trace@0.0.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 stack-trace@0.0.x:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/stack-trace/-/stack-trace-0.0.10.tgz#547c70b347e8d32b4e108ea1a2a159e5fdde19c0"
@@ -10154,16 +11767,22 @@ stack-trace@0.0.x:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 stack-utils@^2.0.3:
   version "2.0.6"
   dependencies:
@@ -10180,16 +11799,22 @@ streamsearch@^1.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 string_decoder@^1.1.1:
   version "1.3.0"
   dependencies:
@@ -10203,10 +11828,15 @@ string_decoder@~1.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 string-format@^2.0.0:
   version "2.0.0"
@@ -10215,16 +11845,22 @@ string-format@^2.0.0:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 string-format@^2.0.0:
   version "2.0.0"
@@ -10240,16 +11876,22 @@ string-length@^4.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "string-width-cjs@npm:string-width@^4.2.0":
   version "4.2.3"
   dependencies:
@@ -10262,23 +11904,32 @@ string-length@^4.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 "string-width-cjs@npm:string-width@^4.2.0", "string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 "string-width-cjs@npm:string-width@^4.2.0", "string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "4.2.3"
   dependencies:
     emoji-regex "^8.0.0"
@@ -10319,8 +11970,11 @@ string.prototype.trimstart@^1.0.8:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1":
   version "6.0.1"
 =======
@@ -10341,6 +11995,7 @@ string_decoder@~1.1.1:
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -10371,17 +12026,41 @@ string_decoder@~1.1.1:
 =======
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1":
   version "6.0.1"
+=======
+string_decoder@^1.1.1:
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz"
+  integrity sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==
+>>>>>>> 327280f (stoping to auth unthentication)
   dependencies:
-    ansi-regex "^5.0.1"
+    safe-buffer "~5.2.0"
 
+<<<<<<< HEAD
 strip-ansi@^6.0.0, strip-ansi@^6.0.1:
 <<<<<<< HEAD
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz"
+  integrity sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+  dependencies:
+    safe-buffer "~5.1.0"
+
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "6.0.1"
   dependencies:
     ansi-regex "^5.0.1"
@@ -10454,10 +12133,15 @@ swagger-ui-dist@5.11.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 swagger-ui-dist@5.11.2:
   version "5.11.2"
   resolved "https://registry.yarnpkg.com/swagger-ui-dist/-/swagger-ui-dist-5.11.2.tgz#b423e820928df703586ff58f80b09ffcf2434e08"
@@ -10465,16 +12149,22 @@ swagger-ui-dist@5.11.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 symbol-observable@4.0.0:
   version "4.0.0"
 
@@ -10523,10 +12213,15 @@ tdigest@^0.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> f26cb66 (prometheus test)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 tar@^6.1.11:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/tar/-/tar-6.2.1.tgz#717549c541bc3c2af15751bea94b1dd068d4b03a"
@@ -10541,10 +12236,14 @@ tar@^6.1.11:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 0b9225a (prometheus test)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -10556,6 +12255,10 @@ tar@^6.1.11:
 >>>>>>> f26cb66 (prometheus test)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 terser-webpack-plugin@^5.3.10:
   version "5.3.10"
   dependencies:
@@ -10587,26 +12290,37 @@ text-hex@1.0.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/text-hex/-/text-hex-1.0.0.tgz#69dc9c1b17446ee79a92bf5b884bb4b9127506f5"
   integrity sha512-uuVGNWzgJ4yhRaNSiubPY7OjISw4sw4E5Uv0wbjp+OzcbmVU/rsT8ujgcXJhn9ypzsgr5vlzpPqP+MBBKcGvbg==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 text-table@^0.2.0:
   version "0.2.0"
@@ -10625,10 +12339,15 @@ thenify-all@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 thenify-all@^1.0.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/thenify-all/-/thenify-all-1.6.0.tgz#1a1918d402d8fc3f98fbf234db0bcc8cc10e9726"
@@ -10645,16 +12364,22 @@ thenify-all@^1.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 through@^2.3.6:
   version "2.3.8"
 
@@ -10696,10 +12421,15 @@ triple-beam@^1.3.0, triple-beam@^1.4.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 triple-beam@^1.3.0, triple-beam@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/triple-beam/-/triple-beam-1.4.1.tgz#6fde70271dc6e5d73ca0c3b24e2d92afb7441984"
@@ -10707,16 +12437,22 @@ triple-beam@^1.3.0, triple-beam@^1.4.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 ts-api-utils@^1.3.0:
   version "1.3.0"
 
@@ -10746,21 +12482,30 @@ ts-loader@^9.4.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 ts-node@^10.7.0, ts-node@^10.9.1, ts-node@>=9.0.0:
 =======
 ts-node@^10.9.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 ts-node@^10.7.0, ts-node@^10.9.1, ts-node@>=9.0.0:
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 ts-node@^10.7.0, ts-node@^10.9.1, ts-node@>=9.0.0:
@@ -10769,6 +12514,8 @@ ts-node@^10.7.0, ts-node@^10.9.1, ts-node@>=9.0.0:
 =======
 ts-node@^10.7.0, ts-node@^10.9.1, ts-node@>=9.0.0:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "10.9.2"
   dependencies:
     "@cspotcode/source-map-support" "^0.8.0"
@@ -10796,10 +12543,15 @@ tsconfig-paths-webpack-plugin@4.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 tsconfig-paths@4.2.0, tsconfig-paths@^4.1.2, tsconfig-paths@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-4.2.0.tgz"
@@ -10811,16 +12563,22 @@ tsconfig-paths@4.2.0, tsconfig-paths@^4.1.2, tsconfig-paths@^4.2.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 tsconfig-paths@^3.15.0:
   version "3.15.0"
   dependencies:
@@ -10834,16 +12592,22 @@ tsconfig-paths@^3.15.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 tsconfig-paths@^4.1.2, tsconfig-paths@^4.2.0, tsconfig-paths@4.2.0:
   version "4.2.0"
   dependencies:
@@ -10856,23 +12620,32 @@ tslib@^2.1.0, tslib@^2.5.0, tslib@^2.6.2, tslib@2.6.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 tslib@2.6.2, tslib@^2.1.0, tslib@^2.5.0, tslib@^2.6.2:
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 tslib@2.6.2, tslib@^2.1.0, tslib@^2.5.0, tslib@^2.6.2:
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "2.6.2"
 
 type-check@^0.4.0, type-check@~0.4.0:
@@ -10958,8 +12731,11 @@ typeorm@^0.3.0, typeorm@^0.3.20:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 typescript@*, typescript@^5.1.3, typescript@>=2.7, typescript@>=4.2.0, "typescript@>=4.3 <6", typescript@>=4.8.2:
   version "5.4.5"
 =======
@@ -10987,6 +12763,7 @@ typeorm@^0.3.20:
 
 typescript@5.3.3:
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -11024,15 +12801,48 @@ typescript@5.3.3:
 =======
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 typescript@*, typescript@^5.1.3, typescript@>=2.7, typescript@>=4.2.0, "typescript@>=4.3 <6", typescript@>=4.8.2:
   version "5.4.5"
+=======
+typeorm@^0.3.20:
+  version "0.3.20"
+  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.3.20.tgz#4b61d737c6fed4e9f63006f88d58a5e54816b7ab"
+  integrity sha512-sJ0T08dV5eoZroaq9uPKBoNcGslHBR4E4y+EBHs//SiGbblGe7IeduP/IH4ddCcj0qp3PHwDwGnuvqEAnKlq/Q==
+  dependencies:
+    "@sqltools/formatter" "^1.2.5"
+    app-root-path "^3.1.0"
+    buffer "^6.0.3"
+    chalk "^4.1.2"
+    cli-highlight "^2.1.11"
+    dayjs "^1.11.9"
+    debug "^4.3.4"
+    dotenv "^16.0.3"
+    glob "^10.3.10"
+    mkdirp "^2.1.3"
+    reflect-metadata "^0.2.1"
+    sha.js "^2.4.11"
+    tslib "^2.5.0"
+    uuid "^9.0.0"
+    yargs "^17.6.2"
+>>>>>>> 327280f (stoping to auth unthentication)
 
+<<<<<<< HEAD
 typescript@>=4.9.5, typescript@>3.6.0, typescript@5.3.3:
 <<<<<<< HEAD
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+typescript@5.3.3:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "5.3.3"
 
 uc.micro@^2.0.0:
@@ -11045,10 +12855,15 @@ uglify-js@^3.1.4, uglify-js@^3.5.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 typescript@^5.1.3:
   version "5.4.5"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.4.5.tgz"
@@ -11056,16 +12871,22 @@ typescript@^5.1.3:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 uid@2.0.2:
   version "2.0.2"
   dependencies:
@@ -11092,12 +12913,16 @@ universalify@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 unpipe@1.0.0, unpipe@~1.0.0:
 =======
 unpipe@~1.0.0, unpipe@1.0.0:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 unpipe@1.0.0, unpipe@~1.0.0:
@@ -11107,6 +12932,11 @@ unpipe@1.0.0, unpipe@~1.0.0:
 =======
 unpipe@~1.0.0, unpipe@1.0.0:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+unpipe@1.0.0, unpipe@~1.0.0:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "1.0.0"
 
 update-browserslist-db@^1.0.13:
@@ -11131,21 +12961,30 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 utils-merge@^1.0.1, utils-merge@1.0.1, utils-merge@1.x.x:
 =======
 utils-merge@1.0.1, utils-merge@^1.0.1:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 utils-merge@^1.0.1, utils-merge@1.0.1, utils-merge@1.x.x:
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 utils-merge@^1.0.1, utils-merge@1.0.1, utils-merge@1.x.x:
@@ -11154,6 +12993,8 @@ utils-merge@^1.0.1, utils-merge@1.0.1, utils-merge@1.x.x:
 =======
 utils-merge@^1.0.1, utils-merge@1.0.1, utils-merge@1.x.x:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "1.0.1"
 
 uuid@^9.0.0, uuid@^9.0.1, uuid@9.0.1:
@@ -11163,10 +13004,15 @@ uuid@^9.0.0, uuid@^9.0.1, uuid@9.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 uuid@9.0.1, uuid@^9.0.0, uuid@^9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
@@ -11174,16 +13020,22 @@ uuid@9.0.1, uuid@^9.0.0, uuid@^9.0.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
 
@@ -11199,16 +13051,22 @@ v8-to-istanbul@^9.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 valid-data-url@^3.0.0:
   version "3.0.1"
 
@@ -11218,10 +13076,15 @@ validator@^13.9.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 validator@^13.9.0:
   version "13.12.0"
@@ -11230,16 +13093,22 @@ validator@^13.9.0:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 
 vary@^1, vary@~1.1.2:
   version "1.1.2"
@@ -11286,12 +13155,16 @@ webpack-sources@^3.2.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 webpack@5.90.1:
 =======
 webpack@^5.0.0, webpack@^5.1.0, webpack@^5.11.0, webpack@5.90.1:
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 webpack@5.90.1:
@@ -11301,6 +13174,11 @@ webpack@5.90.1:
 =======
 webpack@^5.0.0, webpack@^5.1.0, webpack@^5.11.0, webpack@5.90.1:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+webpack@5.90.1:
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "5.90.1"
   dependencies:
     "@types/eslint-scope" "^3.7.3"
@@ -11362,14 +13240,20 @@ which@^1.2.9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 which@^2.0.1:
 =======
 which@^2.0.1, which@^2.0.2:
@@ -11384,10 +13268,15 @@ wide-align@^1.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 wide-align@^1.1.2:
   version "1.1.5"
@@ -11396,16 +13285,22 @@ wide-align@^1.1.2:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     string-width "^1.0.2 || 2 || 3 || 4"
 
@@ -11416,26 +13311,37 @@ winston-daily-rotate-file@^5.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/winston-daily-rotate-file/-/winston-daily-rotate-file-5.0.0.tgz#8cd94800025490e47c00ec892b655a5821f4266d"
   integrity sha512-JDjiXXkM5qvwY06733vf09I2wnMXpZEhxEVOSPenZMii+g7pcDcTBt2MRugnoi8BwVSuCT2jfRXBUy+n1Zz/Yw==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     file-stream-rotator "^0.6.1"
     object-hash "^3.0.0"
@@ -11449,26 +13355,37 @@ winston-transport@^4.7.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
   resolved "https://registry.yarnpkg.com/winston-transport/-/winston-transport-4.7.0.tgz#e302e6889e6ccb7f383b926df6936a5b781bd1f0"
   integrity sha512-ajBj65K5I7denzer2IYW6+2bNIVqLGDHqDw3Ow8Ohh+vdW+rv4MZ6eiDvHoKhfJFZ2auyN8byXieDDJ96ViONg==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     logform "^2.3.2"
     readable-stream "^3.6.0"
@@ -11479,10 +13396,15 @@ winston-transport@^4.7.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
 winston@^3, winston@^3.0.0, winston@^3.13.0:
   version "3.13.0"
 =======
@@ -11493,12 +13415,16 @@ winston@^3.13.0:
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 winston@^3, winston@^3.0.0, winston@^3.13.0:
   version "3.13.0"
 >>>>>>> b714d19 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
@@ -11508,6 +13434,10 @@ winston@^3, winston@^3.0.0, winston@^3.13.0:
 winston@^3, winston@^3.0.0, winston@^3.13.0:
   version "3.13.0"
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     "@colors/colors" "^1.6.0"
     "@dabh/diagnostics" "^2.0.2"
@@ -11526,16 +13456,22 @@ winston@^3, winston@^3.0.0, winston@^3.13.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 with@^7.0.0:
   version "7.0.2"
   dependencies:
@@ -11548,21 +13484,30 @@ with@^7.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 word-wrap@^1.2.5:
   version "1.2.5"
 
@@ -11573,23 +13518,32 @@ wordwrap@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
   name wrap-ansi-cjs
 =======
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
   name wrap-ansi-cjs
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "7.0.0"
   dependencies:
     ansi-styles "^4.0.0"
@@ -11615,16 +13569,22 @@ wrap-ansi@^6.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 wrap-ansi@^7.0.0:
   version "7.0.0"
   dependencies:
@@ -11636,21 +13596,30 @@ wrap-ansi@^7.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 =======
 >>>>>>> b714d19 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 =======
 =======
 >>>>>>> 327280f (stoping to auth unthentication)
 >>>>>>> 141ef9d (stoping to auth unthentication)
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 wrap-ansi@^8.1.0:
   version "8.1.0"
   dependencies:
@@ -11684,6 +13653,9 @@ yargs-parser@^20.2.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf27eed (stoping to auth unthentication)
 yargs-parser@21.1.1, yargs-parser@^21.0.1, yargs-parser@^21.1.1:
   version "21.1.1"
 
@@ -11701,6 +13673,7 @@ yargs@^16.0.0:
   integrity sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==
 >>>>>>> 327280f (stoping to auth unthentication)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 =======
@@ -11716,6 +13689,9 @@ yargs@^16.0.0:
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+>>>>>>> 141ef9d (stoping to auth unthentication)
+>>>>>>> cf27eed (stoping to auth unthentication)
   dependencies:
     cliui "^7.0.2"
     escalade "^3.1.1"
@@ -11725,6 +13701,7 @@ yargs@^16.0.0:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -11747,6 +13724,14 @@ yargs@^17.3.1, yargs@^17.6.2, yargs@^17.7.2:
 =======
 yargs@^17.3.1, yargs@^17.6.2, yargs@^17.7.2:
 >>>>>>> f2e8c17 (fixing the issues with login all)
+=======
+
+yargs@^17.3.1, yargs@^17.6.2, yargs@^17.7.2:
+yargs@^17.3.1, yargs@^17.6.2:
+
+yargs@^17.3.1, yargs@^17.6.2, yargs@^17.7.2:
+
+>>>>>>> cf27eed (stoping to auth unthentication)
   version "17.7.2"
   dependencies:
     cliui "^8.0.1"
@@ -11765,12 +13750,16 @@ yocto-queue@^0.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 =======
 >>>>>>> 2633012 (Category implementation)
+=======
+
+>>>>>>> cf27eed (stoping to auth unthentication)
 # This file is generated by running "yarn install" inside your project.
 # Manual changes might be lost - proceed with caution!
 
