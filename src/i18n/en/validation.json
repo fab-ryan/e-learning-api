@@ -1,0 +1,17 @@
+{
+  "USER_REGISTER": {
+    "NAME_REQUIRED": "Name is required",
+    "EMAIL_REQUIRED": "Email is required",
+    "EMAIL_INVALID": "Email is invalid",
+    "PASSWORD_REQUIRED": "Password is required",
+    "PASSWORD_MIN": "Password must be at least 6 characters",
+    "PASSWORD_MATCH": "Passwords must have at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character",
+    "PHONE_REQUIRED": "Phone is required",
+    "PHONE_INVALID": "Phone is invalid must with country code",
+    "USERNAME_REQUIRED": "Username is required",
+    "USERNAME_EXISTS": "Username already exists",
+    "EMAIL_EXISTS": "Email already exists",
+    "USER_SUCCESS": "User registered successfully",
+    "USER_FAIL": "User registration failed"
+  }
+}

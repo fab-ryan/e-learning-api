@@ -1,0 +1,17 @@
+{
+  "USER_REGISTER": {
+    "NAME_REQUIRED": "Nom est requis",
+    "EMAIL_REQUIRED": "Email est requis",
+    "EMAIL_INVALID": "Email est invalide",
+    "PASSWORD_REQUIRED": "Mot de passe est requis",
+    "PASSWORD_MIN": "Mot de passe doit avoir au moins 8 caractères",
+    "PASSWORD_MATCH": "Les mots de passe ne correspondent pas",
+    "PHONE_REQUIRED": "Téléphone est requis",
+    "PHONE_INVALID": "Téléphone est invalide",
+    "EMAIL_EXISTS": "Email existe déjà",
+    "USERNAME_REQUIRED": "Nom d'utilisateur est requis",
+    "USERNAME_EXISTS": "Nom d'utilisateur existe déjà",
+    "USER_SUCCESS": "Utilisateur enregistré avec succès",
+    "USER_FAIL": "Erreur lors de l'enregistrement de l'utilisateur"
+  }
+}
