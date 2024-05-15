@@ -18,7 +18,7 @@ export class AuthGuard implements CanActivate {
     private readonly responseServices: ResponseService,
     private authMiddleware: AuthenticateMiddleware,
     private reflector: Reflector,
-  ) {}
+  ) { }
   matchRoles(roles: Role[], userRole: Role) {
     return roles.some((role) => {
       return role === userRole;
@@ -28,7 +28,7 @@ export class AuthGuard implements CanActivate {
     await this.authMiddleware.use(
       context.switchToHttp().getRequest<Request>(),
       context.switchToHttp().getResponse<Response>(),
-      () => {},
+      () => { },
     );
     const requiredRoles = this.reflector.getAllAndOverride<Role[]>(ROLE_KEY, [
       context.getHandler(),
@@ -55,7 +55,7 @@ export class AuthGuard implements CanActivate {
     }
 
     if (!this.matchRoles(requiredRoles, user.role as Role)) {
-      
+
       throw this.responseServices.Response({
         success: false,
         data: null,

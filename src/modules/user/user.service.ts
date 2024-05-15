@@ -12,7 +12,11 @@ import {
 import { I18nContext, I18nService } from 'nestjs-i18n';
 import { I18nTranslations } from '@/generated';
 import * as bcrypt from 'bcrypt';
+<<<<<<< HEAD
 import { RolesEnum as Roles } from '@/enums';
+=======
+import { Roles } from '@/enums';
+>>>>>>> 327280f (stoping to auth unthentication)
 import { PaginateHelper } from '@/utils/paginate';
 
 @Injectable()
@@ -23,7 +27,7 @@ export class UserService {
     private readonly responseService: ResponseService,
     private readonly i18n: I18nService<I18nTranslations>,
     private readonly userPagination: PaginateHelper<User>,
-  ) {}
+  ) { }
   async create(createUserDto: CreateUserDto) {
     try {
       const lang = I18nContext.current().lang;
@@ -52,8 +56,13 @@ export class UserService {
       const UserRole = Roles[role];
       const user = this.userRepository.create({
         ...createUserDto,
+<<<<<<< HEAD
         phone,
         username: this.formatUsername(username),
+=======
+        username: this.formatUsername(username),
+        phone,
+>>>>>>> 327280f (stoping to auth unthentication)
         password: hashedPassword,
         role: UserRole,
       });
@@ -102,7 +111,7 @@ export class UserService {
         key: 'users',
         message: 'Users fetched successfully',
       });
-    } catch (error) {}
+    } catch (error) { }
   }
 
   async findOne(id: string) {

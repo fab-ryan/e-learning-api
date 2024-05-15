@@ -12,7 +12,7 @@ export class AuthenticateMiddleware implements NestMiddleware {
   constructor(
     private readonly jwtService: JwtService,
     private readonly responseService: ResponseService,
-  ) {}
+  ) { }
 
   async use(req: Request, res: Response, next: NextFunction) {
     try {
