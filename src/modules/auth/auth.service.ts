@@ -25,7 +25,7 @@ export class AuthService {
     private readonly i18n: I18nService<I18nTranslations>,
     private readonly responseService: ResponseService,
     private readonly mailService: MailService,
-  ) {}
+  ) { }
 
   async create(createAuthDto: CreateAuthDto) {
     const lang = I18nContext.current().lang;
