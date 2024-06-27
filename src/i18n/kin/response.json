@@ -1,4 +1,10 @@
 {
   "DEFAULT_MESSAGE": "Urakaza neza, kandi ushobora kubona amakuru yose ku kibare cy'urubuga.",
-  "DEFAULT_ERROR": "Ibyo wifuza ntibikunze, ongera ugerageze kuri urubuga."
+  "DEFAULT_ERROR": "Ibyo wifuza ntibikunze, ongera ugerageze kuri urubuga.",
+  "AUTH": {
+    "INVALID_CREDENTIALS": "Ijambo ry'umukoresha cyangwa ijambo ry'umukorari ntibikunze, ongera ugerageze.",
+    "EMAIL_ALREADY_EXISTS": "Iyi imë yavuye mu matora, ongera ugerageze.",
+    "PHONE_ALREADY_EXISTS": "Iyi telefoni yavuye mu matora, ongera ugerageze.",
+    "USER_NOT_FOUND": "Umukoresha ntavutse, ongera ugerageze."
+  }
 }

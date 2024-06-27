@@ -2,9 +2,10 @@ import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { DbModule, I18nConfigModule } from '@/configs';
 import { UserModule, DefaultModule } from './modules';
 import { LanguageMiddleware } from '@/middlewares';
+import { AuthModule } from './modules/auth/auth.module';
 
 @Module({
-  imports: [DefaultModule, I18nConfigModule, DbModule, UserModule],
+  imports: [DefaultModule, I18nConfigModule, DbModule, UserModule, AuthModule],
   controllers: [],
   providers: [],
 })

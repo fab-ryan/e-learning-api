@@ -14,7 +14,7 @@ describe('UserController', () => {
     controller = module.get<UserController>(UserController);
   });
 
-  it('should be defined', () => {
+  it('create a User Controller', () => {
     expect(controller).toBeDefined();
   });
 });

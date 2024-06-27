@@ -1,4 +1,10 @@
 {
   "DEFAULT_MESSAGE": "Hello, World!",
-  "DEFAULT_ERROR": "An error occurred. Please try again later."
+  "DEFAULT_ERROR": "An error occurred. Please try again later.",
+  "AUTH": {
+    "INVALID_CREDENTIALS": "Invalid credentials",
+    "EMAIL_ALREADY_EXISTS": "Email already exists",
+    "PHONE_ALREADY_EXISTS": "Phone number already exists",
+    "USER_NOT_FOUND": "User not found"
+  }
 }
