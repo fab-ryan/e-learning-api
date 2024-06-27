@@ -14,11 +14,7 @@ import {
 import { I18nContext, I18nService } from 'nestjs-i18n';
 import { I18nTranslations } from '@/generated';
 import * as bcrypt from 'bcrypt';
-<<<<<<< HEAD
 import { RolesEnum as Roles } from '@/enums';
-=======
-import { Roles } from '@/enums';
->>>>>>> 327280f (stoping to auth unthentication)
 import { PaginateHelper } from '@/utils/paginate';
 import { AuthUserType } from '@/guards';
 
@@ -59,13 +55,8 @@ export class UserService {
       const UserRole = Roles[role];
       const user = this.userRepository.create({
         ...createUserDto,
-<<<<<<< HEAD
         phone,
         username: this.formatUsername(username),
-=======
-        username: this.formatUsername(username),
-        phone,
->>>>>>> 327280f (stoping to auth unthentication)
         password: hashedPassword,
         role: UserRole,
       });
