@@ -1,1 +1,3 @@
 src/generated/i18n.generated.ts
+test/jest-e2e.js
+test/jest.config.ts

@@ -37,12 +37,10 @@ export class AuthenticateMiddleware implements NestMiddleware {
           }),
         );
       }
-      const user = (await this.jwtService.verifyAsync(token)) as {
-        id: string;
-        iat: number;
-        exp: number;
-        readonly role: string;
-      };
+
+      const user = await this.jwtService.verifyAsync(token, {
+        secret: 'secret',
+      });
 
       req.user = user as User;
     } catch (error) {

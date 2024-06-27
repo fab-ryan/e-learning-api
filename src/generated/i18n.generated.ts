@@ -8,6 +8,12 @@ export type I18nTranslations = {
     "response": {
         "DEFAULT_MESSAGE": string;
         "DEFAULT_ERROR": string;
+        "AUTH": {
+            "INVALID_CREDENTIALS": string;
+            "EMAIL_ALREADY_EXISTS": string;
+            "PHONE_ALREADY_EXISTS": string;
+            "USER_NOT_FOUND": string;
+        };
     };
     "validation": {
         "USER_REGISTER": {
@@ -24,6 +30,15 @@ export type I18nTranslations = {
             "EMAIL_EXISTS": string;
             "USER_SUCCESS": string;
             "USER_FAIL": string;
+        };
+        "AUTH_LOGIN": {
+            "USER_NAME": string;
+            "PASSWORD_REQUIRED": string;
+            "PASSWORD_MIN": string;
+            "USER_NOT_FOUND": string;
+            "PASSWORD_INCORRECT": string;
+            "LOGIN_SUCCESS": string;
+            "LOGIN_FAIL": string;
         };
     };
 };

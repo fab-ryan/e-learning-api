@@ -1,4 +1,10 @@
 {
   "DEFAULT_MESSAGE": "Welcome to E-learning Platform API",
-  "DEFAULT_ERROR": "An error occurred while processing your request"
+  "DEFAULT_ERROR": "An error occurred while processing your request",
+  "AUTH":{
+    "INVALID_CREDENTIALS": "Invalid credentials",
+    "EMAIL_ALREADY_EXISTS": "Email already exists",
+    "PHONE_ALREADY_EXISTS": "Phone number already exists",
+    "USER_NOT_FOUND": "User not found in the system"
+  }
 }

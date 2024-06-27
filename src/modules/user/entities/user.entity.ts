@@ -8,8 +8,8 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 import { IsEmail, IsNotEmpty, IsString, MinLength } from 'class-validator';
-import { Exclude } from 'class-transformer';
-import { Roles } from '@/enums';
+import { Exclude, Type } from 'class-transformer';
+import { RolesEnum as Roles } from '../../../enums';
 import { uuid } from '@/utils';
 
 @Entity('users')
@@ -31,13 +31,13 @@ export class User {
   @Unique('email', ['email'])
   email: string;
 
-  @Column({ nullable: false })
+  @Column({ nullable: false, unique: true })
+  username: string;
+
+  @Column({ nullable: true })
   @IsString()
   @IsNotEmpty()
   phone: string;
-
-  @Column({ nullable: false, unique: true })
-  username: string;
 
   @Column({ nullable: false, default: true })
   status: boolean;
@@ -60,6 +60,7 @@ export class User {
   @Exclude()
   refresh_token: string;
 
+  @Type(() => Date)
   @CreateDateColumn({ type: 'timestamp', nullable: false })
   created_at: Date;
 

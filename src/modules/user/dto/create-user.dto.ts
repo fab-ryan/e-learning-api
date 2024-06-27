@@ -11,7 +11,7 @@ import {
 import { ApiProperty } from '@nestjs/swagger';
 import { i18nValidationMessage } from 'nestjs-i18n';
 import { I18nTranslations } from '@/generated';
-import { Roles } from '@/enums';
+import { RolesEnum as Roles } from '@/enums';
 
 export class CreateUserDto {
   @ApiProperty({

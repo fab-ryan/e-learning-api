@@ -9,12 +9,16 @@ import {
   Query,
   ParseIntPipe,
   DefaultValuePipe,
+  UseGuards,
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { ApiTags, ApiQuery } from '@nestjs/swagger';
+import { ApiTags, ApiQuery, ApiBearerAuth } from '@nestjs/swagger';
 import { AssociativeArray } from '@/utils';
+import { AuthGuard } from '@/guards';
+import { Roles } from '@/decorators';
+import { RolesEnum } from '@/enums';
 
 @ApiTags('Users')
 @Controller('users')
@@ -25,7 +29,9 @@ export class UserController {
   create(@Body() createUserDto: CreateUserDto) {
     return this.userService.create(createUserDto);
   }
-
+  @ApiBearerAuth()
+  @UseGuards(AuthGuard)
+  @Roles(RolesEnum.ADMIN)
   @Get()
   @ApiQuery({
     name: 'page',
@@ -49,16 +55,23 @@ export class UserController {
     return this.userService.findAll(filters);
   }
 
+  @ApiBearerAuth()
+  @Roles(RolesEnum.ADMIN)
+  @UseGuards(AuthGuard)
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.userService.findOne(id);
   }
-
+  @ApiBearerAuth()
+  @Roles(RolesEnum.ADMIN)
+  @UseGuards(AuthGuard)
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
     return this.userService.update(id, updateUserDto);
   }
-
+  @ApiBearerAuth()
+  @Roles(RolesEnum.ADMIN)
+  @UseGuards(AuthGuard)
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.userService.remove(id);

@@ -12,7 +12,7 @@ import {
 import { I18nContext, I18nService } from 'nestjs-i18n';
 import { I18nTranslations } from '@/generated';
 import * as bcrypt from 'bcrypt';
-import { Roles } from '@/enums';
+import { RolesEnum as Roles } from '@/enums';
 import { PaginateHelper } from '@/utils/paginate';
 
 @Injectable()
@@ -52,8 +52,8 @@ export class UserService {
       const UserRole = Roles[role];
       const user = this.userRepository.create({
         ...createUserDto,
-        username: this.formatUsername(username),
         phone,
+        username: this.formatUsername(username),
         password: hashedPassword,
         role: UserRole,
       });
