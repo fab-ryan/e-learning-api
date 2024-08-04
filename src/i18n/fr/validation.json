@@ -22,7 +22,6 @@
     "PASSWORD_INCORRECT": "Password is incorrect",
     "LOGIN_SUCCESS": "Login successful",
     "LOGIN_FAIL": "Login failed",
-
     "OTP_REQUIRED": "OTP is required",
     "OTP_INVALID": "OTP is invalid",
     "OTP_EXPIRED": "OTP is expired",
