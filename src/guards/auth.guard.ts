@@ -55,7 +55,6 @@ export class AuthGuard implements CanActivate {
     }
 
     if (!this.matchRoles(requiredRoles, user.role as Role)) {
-      console.log('Unauthorized', user.role, requiredRoles);
       throw this.responseServices.Response({
         success: false,
         data: null,

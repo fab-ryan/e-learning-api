@@ -15,12 +15,22 @@
     "USER_FAIL": "User registration failed"
   },
   "AUTH_LOGIN": {
-    "USER_NAME":"Username must be provided",
+    "USER_NAME": "Username must be provided",
     "PASSWORD_REQUIRED": "Password is required",
     "PASSWORD_MIN": "Password must be at least 6 characters",
     "USER_NOT_FOUND": "User not found",
     "PASSWORD_INCORRECT": "Password is incorrect",
     "LOGIN_SUCCESS": "Login successful",
-    "LOGIN_FAIL": "Login failed"
+    "LOGIN_FAIL": "Login failed",
+
+    "OTP_REQUIRED": "OTP is required",
+    "OTP_INVALID": "OTP is invalid",
+    "OTP_EXPIRED": "OTP is expired",
+    "OTP_SUCCESS": "OTP verified successfully"
+  },
+  "CATEGORY_REGISTER": {
+    "NAME_REQUIRED": "Name is required",
+    "DESCRIPTION_REQUIRED": "Description is required",
+    "ICON_URL_REQUIRED": "Icon URL is required"
   }
 }

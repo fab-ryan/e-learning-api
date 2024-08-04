@@ -7,6 +7,8 @@ import { config } from '@/configs';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from '../user/entities/user.entity';
 import { ResponseService } from '@/utils';
+import { GoogleStrategy } from '@/strategy';
+import { MailModule } from '../mails/mail.module';
 
 @Module({
   imports: [
@@ -16,9 +18,10 @@ import { ResponseService } from '@/utils';
       global: true,
     }),
     TypeOrmModule.forFeature([User]),
+    MailModule,
   ],
   controllers: [AuthController],
-  providers: [AuthService, JwtStrategy, ResponseService],
+  providers: [AuthService, JwtStrategy, ResponseService, GoogleStrategy],
   exports: [AuthService],
 })
 export class AuthModule {}

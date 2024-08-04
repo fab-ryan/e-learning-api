@@ -13,6 +13,23 @@ export type I18nTranslations = {
             "EMAIL_ALREADY_EXISTS": string;
             "PHONE_ALREADY_EXISTS": string;
             "USER_NOT_FOUND": string;
+            "LOGIN_SUCCESS": string;
+            "OTP_REQUIRED": string;
+            "OTP_INVALID": string;
+            "OTP_EXPIRED": string;
+            "OTP_SUCCESS": string;
+            "PASSWORD_RESET_SUCCESS": string;
+            "PASSWORD_RESET_FAIL": string;
+            "PASSWORD_MISMATCH": string;
+        };
+        "CATEGORY": {
+            "CATEGORY_EXIST": string;
+            "CATEGORY_CREATED_SUCCESSFULLY": string;
+            "CATEGORY_FETCH_SUCCESSFULLY": string;
+            "CATEGORY_NOT_FOUND": string;
+            "CATEGORY_UPDATED_SUCCESSFULLY": string;
+            "CATEGORY_DELETED_SUCCESSFULLY": string;
+            "CATEGORY_STATUS_UPDATED_SUCCESSFULLY": string;
         };
     };
     "validation": {
@@ -39,6 +56,15 @@ export type I18nTranslations = {
             "PASSWORD_INCORRECT": string;
             "LOGIN_SUCCESS": string;
             "LOGIN_FAIL": string;
+            "OTP_REQUIRED": string;
+            "OTP_INVALID": string;
+            "OTP_EXPIRED": string;
+            "OTP_SUCCESS": string;
+        };
+        "CATEGORY_REGISTER": {
+            "NAME_REQUIRED": string;
+            "DESCRIPTION_REQUIRED": string;
+            "ICON_URL_REQUIRED": string;
         };
     };
 };
