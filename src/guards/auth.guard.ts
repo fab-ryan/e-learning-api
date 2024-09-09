@@ -8,7 +8,7 @@ import { ROLE_KEY } from '@/decorators';
 import { RolesEnum as Role } from '@/enums';
 
 export type AuthUserType = {
-  id: number;
+  id: string;
   role: string;
 };
 

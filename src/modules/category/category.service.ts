@@ -64,7 +64,7 @@ export class CategoryService {
   async findAll(filter: boolean | string | null) {
     const lang = I18nContext.current().lang;
     const categories = await this.categoryRepository.find({
-      where: filter ? { status: Boolean(filter) } : {},
+      where: filter ? { status: filter as boolean } : {},
     });
     return this.responseService.Response({
       data: categories,

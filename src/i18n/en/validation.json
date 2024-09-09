@@ -32,5 +32,11 @@
     "NAME_REQUIRED": "Name is required",
     "DESCRIPTION_REQUIRED": "Description is required",
     "ICON_URL_REQUIRED": "Icon URL is required"
+  },
+  "USER_CATEGORY_REGISTER": {
+    "USER_ID_REQUIRED": "User ID is required",
+    "CATEGORY_ID_REQUIRED": "Category ID is required",
+    "CATEGORY_ID_MUST_BE_STRING": "Category ID must be a string",
+    "CATEGORY_NOT_FOUND": "Category not found"
   }
 }

@@ -12,6 +12,8 @@ import { uuid } from '@/utils';
 import { IsNotEmpty, IsString } from 'class-validator';
 import { Type } from 'class-transformer';
 
+import { UserCategory } from '@/modules/user-category/entities/user-category.entity';
+
 @Entity('categories')
 export class Category {
   constructor() {
@@ -50,4 +52,7 @@ export class Category {
   @DeleteDateColumn({ type: 'timestamp' })
   @Type(() => Date)
   deleted_at: Date;
+
+  @Type(() => UserCategory)
+  userCategories: UserCategory[];
 }

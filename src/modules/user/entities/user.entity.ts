@@ -11,6 +11,7 @@ import { IsEmail, IsNotEmpty, IsString, MinLength } from 'class-validator';
 import { Exclude, Type } from 'class-transformer';
 import { RolesEnum as Roles } from '../../../enums';
 import { uuid } from '@/utils';
+import { UserCategory } from '@/modules/user-category/entities/user-category.entity';
 
 @Entity('users')
 export class User {
@@ -69,4 +70,7 @@ export class User {
 
   @DeleteDateColumn({ type: 'timestamp', nullable: true })
   deleted_at: Date;
+
+  @Type(() => UserCategory)
+  userCategories: UserCategory[];
 }

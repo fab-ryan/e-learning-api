@@ -29,7 +29,7 @@ export class UserController {
   create(@Body() createUserDto: CreateUserDto) {
     return this.userService.create(createUserDto);
   }
-  @ApiBearerAuth() 
+  @ApiBearerAuth()
   @UseGuards(AuthGuard)
   @Roles(RolesEnum.ADMIN)
   @Get()

@@ -66,6 +66,12 @@ export type I18nTranslations = {
             "DESCRIPTION_REQUIRED": string;
             "ICON_URL_REQUIRED": string;
         };
+        "USER_CATEGORY_REGISTER": {
+            "USER_ID_REQUIRED": string;
+            "CATEGORY_ID_REQUIRED": string;
+            "CATEGORY_ID_MUST_BE_STRING": string;
+            "CATEGORY_NOT_FOUND": string;
+        };
     };
 };
 /* prettier-ignore */

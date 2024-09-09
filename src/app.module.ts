@@ -5,6 +5,7 @@ import { LanguageMiddleware } from '@/middlewares';
 import { AuthModule } from './modules/auth/auth.module';
 import { MailModule } from './modules/mails/mail.module';
 import { CategoryModule } from './modules/category/category.module';
+import { UserCategoryModule } from './modules/user-category/user-category.module';
 
 @Module({
   imports: [
@@ -15,6 +16,7 @@ import { CategoryModule } from './modules/category/category.module';
     AuthModule,
     MailModule,
     CategoryModule,
+    UserCategoryModule,
   ],
   controllers: [],
   providers: [],
