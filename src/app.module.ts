@@ -23,8 +23,6 @@ import { PrometheusModule } from './prometheus/prometheus.module';
     CoursesModule,
     PrometheusModule,
   ],
-  controllers: [],
-  providers: [],
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
