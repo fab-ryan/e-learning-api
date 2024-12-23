@@ -13710,6 +13710,7 @@ slick@^1.12.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6826d35 (course implementation)
 =======
@@ -13718,6 +13719,10 @@ slick@^1.12.2:
 >>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+=======
+>>>>>>> 6826d35 (course implementation)
+>>>>>>> 4a7a25b (course implementation)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
@@ -13729,6 +13734,9 @@ slugify@^1.6.6:
 >>>>>>> 800b548 (course implementation)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4a7a25b (course implementation)
 =======
 >>>>>>> 0b9225a (prometheus test)
 =======
@@ -13742,6 +13750,7 @@ slugify@^1.6.6:
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6826d35 (course implementation)
 =======
@@ -13754,6 +13763,10 @@ slugify@^1.6.6:
 >>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+=======
+>>>>>>> 6826d35 (course implementation)
+>>>>>>> 4a7a25b (course implementation)
 source-map-support@^0.5.21, source-map-support@~0.5.20, source-map-support@0.5.21:
   version "0.5.21"
   dependencies:
