@@ -38,5 +38,29 @@
     "CATEGORY_ID_REQUIRED": "Category ID is required",
     "CATEGORY_ID_MUST_BE_STRING": "Category ID must be a string",
     "CATEGORY_NOT_FOUND": "Category not found"
+  },
+
+  "COURSES": {
+    "COURSE_NAME_REQUIRED": "Course name is required",
+    "COURSE_DESCRIPTION_REQUIRED": "Course description is required",
+    "COURSE_CATEGORY_REQUIRED": "Course category is required",
+    "COURSE_CATEGORY_NOT_FOUND": "Course category not found",
+    "COURSE_CREATED_SUCCESS": "Course created successfully",
+    "COURSE_CREATED_FAIL": "Course creation failed",
+    "COURSE_UPDATED_SUCCESS": "Course updated successfully",
+    "COURSE_UPDATED_FAIL": "Course updation failed",
+    "COURSE_DELETED_SUCCESS": "Course deleted successfully",
+    "COURSE_DELETED_FAIL": "Course deletion failed",
+    "COURSE_NOT_FOUND": "Course not found",
+    "COURSE_ID_REQUIRED": "Course ID is required",
+    "COURSE_ID_MUST_BE_STRING": "Course ID must be a string",
+    "COURSE_THUMBNAIL_REQUIRED": "Course thumbnail is required",
+    "COURSE_PRICE_REQUIRED": "Course price is required",
+    "COURSE_PRICE_INVALID": "Course price is invalid",
+    "COURSE_PRICE_MUST_BE_NUMBER": "Course price must be a number",
+    "COURSE_PRICE_MUST_BE_POSITIVE": "Course price must be a positive number",
+    "COURSE_CURRENT_PRICE_REQUIRED": "Course current price is required",
+    "COURSE_CURRENT_PRICE_INVALID": "Course current price is invalid",
+    "COURSE_IS_FREE_REQUIRED": "Course is free is required"
   }
 }

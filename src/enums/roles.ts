@@ -3,4 +3,5 @@ export enum RolesEnum {
   USER = 'user',
   GUEST = 'guest',
   MENTOR = 'mentor',
+  INSTRUCTOR = 'instructor',
 }

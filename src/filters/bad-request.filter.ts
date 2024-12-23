@@ -34,7 +34,6 @@ export class HttpExceptionFilter implements ExceptionFilter {
     const formattedErrors = this.formatErrors(r.message);
     r.statusCode = statusCode;
     r.error = STATUS_CODES[statusCode];
-    console.log('formattedErrors', formattedErrors);
 
     throw response.status(statusCode).json(formattedErrors);
   }
@@ -56,20 +55,38 @@ export class HttpExceptionFilter implements ExceptionFilter {
     }
   }
 
-  private formatErrors(errors: ValidationError[]): ValidationResponse {
+  private formatErrors(
+    errors: ValidationError[],
+    seen = new WeakSet<ValidationError>(),
+  ): ValidationResponse {
     const errMsg = {};
+
     if (_.isArray(errors) && errors.length === 0) {
       errors.forEach((error: ValidationError) => {
-        errMsg[error.property] = error.children.length
-          ? [this.formatErrors(error.children)]
-          : [...Object.values(error.constraints)];
+        if (seen.has(error)) {
+          return;
+        }
+        seen.add(error);
+
+        if (error.constraints) {
+          errMsg[error.property] = Object.values(error.constraints);
+        } else if (error.children && error.children.length > 0) {
+          errMsg[error.property] = this.formatErrors(error.children);
+        } else {
+          errMsg[error.property] = ['Unknown validation error'];
+        }
       });
       const formattedErrors = {
         data: errMsg,
       };
       return formattedErrors;
     } else if (!_.isEmpty(errors)) {
-      return this.formatErrors(errors);
+      if (_.isString(errors)) {
+        errMsg['error'] = errors;
+        return {
+          data: errMsg,
+        };
+      }
     } else {
       return { data: {} };
     }

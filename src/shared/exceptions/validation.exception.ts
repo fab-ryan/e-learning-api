@@ -2,20 +2,33 @@ import { BadRequestException, ValidationError } from '@nestjs/common';
 
 export const ValidationExceptionFactory = (errors: ValidationError[]) => {
   const formattedErrors = formatErrors(errors);
-  return formattedErrors;
+  return new ValidationException(formattedErrors);
 };
 
 interface ValidationResponse {
-  [key: string]: Record<string, unknown> | string[];
+  [key: string]: string[] | ValidationResponse;
 }
-function formatErrors(errors: ValidationError[]): ValidationResponse {
-  const errMsg = {};
+function formatErrors(
+  errors: ValidationError[],
+  seen = new WeakSet<ValidationError>(),
+): ValidationResponse {
+  const errorResponse: ValidationResponse = {};
   errors.forEach((error: ValidationError) => {
-    errMsg[error.property] = error.children.length
-      ? [formatErrors(error.children)]
-      : [...Object.values(error.constraints)];
+    if (seen.has(error)) {
+      return;
+    }
+    seen.add(error);
+    if (error.constraints) {
+      // Standard validation errors
+      errorResponse[error.property] = Object.values(error.constraints);
+    } else if (error.children && error.children.length > 0) {
+      // Nested errors
+      errorResponse[error.property] = formatErrors(error.children);
+    } else {
+      errorResponse[error.property] = ['Unknown validation error'];
+    }
   });
-  return errMsg;
+  return errorResponse;
 }
 
 export class ValidationException extends BadRequestException {
