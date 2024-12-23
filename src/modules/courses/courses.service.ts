@@ -19,7 +19,7 @@ export class CoursesService {
     private readonly responseService: ResponseService,
     private readonly i18n: I18nService<I18nTranslations>,
     private readonly userService: UserService,
-  ) {}
+  ) { }
 
   async create(
     createCourseDto: CreateCourseDto,

@@ -31,7 +31,7 @@ import { storage } from '@/utils';
 @ApiTags('courses')
 @Controller('courses')
 export class CoursesController {
-  constructor(private readonly coursesService: CoursesService) {}
+  constructor(private readonly coursesService: CoursesService) { }
 
   @ApiBearerAuth()
   @UseGuards(AuthGuard)
