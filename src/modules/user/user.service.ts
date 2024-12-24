@@ -192,4 +192,12 @@ export class UserService {
       .replace(/\s/g, '')
       .toLowerCase();
   }
+
+  async userDetail(id: string) {
+    const user = await this.userRepository.findOneOrFail({
+      where: { id },
+      withDeleted: true,
+    });
+    return user;
+  }
 }

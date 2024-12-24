@@ -1,10 +1,4 @@
-import {
-  IsString,
-  IsNotEmpty,
-  IsNumber,
-  IsBoolean,
-  IsOptional,
-} from 'class-validator';
+import { IsString, IsNotEmpty, IsOptional } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 import { i18nValidationMessage } from 'nestjs-i18n';
 import { I18nTranslations } from '@/generated';
@@ -38,13 +32,13 @@ export class CreateCourseDto {
     example: 200,
     description: 'The price of the course',
   })
-  @IsNumber()
+  @IsString()
   @IsNotEmpty({
     message: i18nValidationMessage<I18nTranslations>(
       'validation.COURSES.COURSE_PRICE_REQUIRED',
     ),
   })
-  price: number;
+  price: string;
 
   @ApiProperty({
     example: 'USD',
@@ -60,14 +54,14 @@ export class CreateCourseDto {
 
   @ApiProperty({
     example: false,
+    type: 'boolean',
   })
-  @IsBoolean()
   @IsOptional({
     message: i18nValidationMessage<I18nTranslations>(
       'validation.COURSES.COURSE_IS_FREE_REQUIRED',
     ),
   })
-  isFree: boolean;
+  isFree: string;
 
   @ApiProperty({
     example: 'https://example.com/icon.png',
@@ -88,14 +82,16 @@ export class CreateCourseDto {
   thumbnail_url: string;
   @ApiProperty({
     example: false,
+    type: 'boolean',
   })
-  @IsBoolean()
   @IsOptional({
-    message: 'Course Is Featured',
+    message: i18nValidationMessage<I18nTranslations>(
+      'validation.COURSES.COURSE_IS_FEATURED_REQUIRED',
+    ),
   })
-  featured: boolean;
+  featured: string;
 }
 
 export class FilesDto {
-  thumbnail_url: Express.Multer.File;
+  thumbnail_url: Express.Multer.File[];
 }

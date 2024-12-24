@@ -11,7 +11,7 @@ import { UserCategoryService } from './user-category.service';
 import { CreateUserCategoryDto } from './dto/create-user-category.dto';
 import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
 import { AuthGuard, AuthUserType } from '@/guards';
-import { AuthUser, Roles } from '@/decorators';
+import { User, Roles } from '@/decorators';
 import { RolesEnum } from '@/enums';
 
 @ApiTags('user-category')
@@ -25,7 +25,7 @@ export class UserCategoryController {
   @Post()
   create(
     @Body() createUserCategoryDto: CreateUserCategoryDto,
-    @AuthUser() user: AuthUserType,
+    @User() user: AuthUserType,
   ) {
     const payload: CreateUserCategoryDto & AuthUserType = {
       ...createUserCategoryDto,
@@ -35,7 +35,7 @@ export class UserCategoryController {
   }
 
   @Get()
-  findAll(@AuthUser() user: AuthUserType) {
+  findAll(@User() user: AuthUserType) {
     return this.userCategoryService.findAll({
       userId: user.id,
     });

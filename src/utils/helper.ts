@@ -5,7 +5,10 @@ import path from 'path';
 const getFileName = (file: Express.Multer.File) => {
   const name = file.originalname.split('.')[0];
   const ext = file.originalname.split('.')[1];
-  return `${name}-${Date.now()}.${ext}`;
+  return `${removeWhiteSpace(name)}-${Date.now()}.${ext}`;
+};
+const removeWhiteSpace = (str: string) => {
+  return str.replace(/\s/g, '').toLowerCase();
 };
 
 export const storage = diskStorage({

@@ -80,7 +80,7 @@ export class Course {
   featured: boolean;
 
   @ManyToOne(() => User, (user) => user.id)
-  teacher: User;
+  creator: User;
 
   @OneToOne(() => Category, (category) => category.id)
   category: Category;

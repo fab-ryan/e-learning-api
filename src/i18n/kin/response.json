@@ -33,7 +33,8 @@
     "COURSE_NOT_FOUND": "This course is not found",
     "COURSE_UPDATED_SUCCESSFULLY": "Course updated successfully",
     "COURSE_DELETED_SUCCESSFULLY": "Course deleted successfully",
-    "COURSE_STATUS_UPDATED_SUCCESSFULLY": "Course status updated successfully"
+    "COURSE_STATUS_UPDATED_SUCCESSFULLY": "Course status updated successfully",
+    "COURSE_FAILED_TO_CREATE": "Failed to create course"
   },
   "LESSON": {
     "LESSON_EXIST": "This Lesson is Currently registered",

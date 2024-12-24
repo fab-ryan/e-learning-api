@@ -61,6 +61,9 @@
     "COURSE_PRICE_MUST_BE_POSITIVE": "Course price must be a positive number",
     "COURSE_CURRENT_PRICE_REQUIRED": "Course current price is required",
     "COURSE_CURRENT_PRICE_INVALID": "Course current price is invalid",
-    "COURSE_IS_FREE_REQUIRED": "Course is free is required"
+    "COURSE_IS_FREE_REQUIRED": "Course is free is required",
+    "COURSE_IS_FREE_INVALID": "Course is free is invalid",
+    "COURSE_IS_FEATURED_REQUIRED": "Course is featured is required",
+    "COURSE_IS_FEATURED_INVALID": "Course is featured is invalid"
   }
 }

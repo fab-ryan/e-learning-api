@@ -153,6 +153,9 @@ export type I18nTranslations = {
             "COURSE_CURRENT_PRICE_REQUIRED": string;
             "COURSE_CURRENT_PRICE_INVALID": string;
             "COURSE_IS_FREE_REQUIRED": string;
+            "COURSE_IS_FREE_INVALID": string;
+            "COURSE_IS_FEATURED_REQUIRED": string;
+            "COURSE_IS_FEATURED_INVALID": string;
         };
     };
 };

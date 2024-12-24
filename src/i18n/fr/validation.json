@@ -60,6 +60,9 @@
     "COURSE_PRICE_MUST_BE_POSITIVE": "Le prix du cours doit être un nombre positif",
     "COURSE_CURRENT_PRICE_REQUIRED": "Le prix actuel du cours est requis",
     "COURSE_CURRENT_PRICE_INVALID": "Le prix actuel du cours est invalide",
-    "COURSE_IS_FREE_REQUIRED": "Le cours est gratuit est requis"
+    "COURSE_IS_FREE_REQUIRED": "Le cours est gratuit est requis",
+    "COURSE_IS_FREE_INVALID": "Course is free is invalid",
+    "COURSE_IS_FEATURED_REQUIRED": "Course is featured is required",
+    "COURSE_IS_FEATURED_INVALID": "Course is featured is invalid"
   }
 }

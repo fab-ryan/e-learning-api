@@ -9,6 +9,8 @@ import {
   UseGuards,
   UseInterceptors,
   UploadedFiles,
+  Put,
+  Query,
 } from '@nestjs/common';
 import { CoursesService } from './courses.service';
 import { CreateCourseDto } from './dto/create-course.dto';
@@ -17,10 +19,11 @@ import {
   ApiAcceptedResponse,
   ApiBearerAuth,
   ApiConsumes,
+  ApiQuery,
   ApiTags,
 } from '@nestjs/swagger';
-import { AuthGuard } from '@/guards';
-import { Roles } from '@/decorators';
+import { AuthGuard, AuthUserType } from '@/guards';
+import { Roles, User } from '@/decorators';
 import { RolesEnum } from '@/enums';
 import { FileFieldsInterceptor } from '@nestjs/platform-express';
 import { storage } from '@/utils';
@@ -54,10 +57,11 @@ export class CoursesController {
     @Body() createCourseDto: CreateCourseDto,
     @UploadedFiles()
     files: {
-      thumbnail_url: Express.Multer.File;
+      thumbnail_url: Express.Multer.File[];
     },
+    @User() user: AuthUserType,
   ) {
-    return this.coursesService.create(createCourseDto, files);
+    return this.coursesService.create(createCourseDto, files, user);
   }
 
   @Get()
@@ -65,18 +69,63 @@ export class CoursesController {
     return this.coursesService.findAll();
   }
 
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.coursesService.findOne(+id);
+  @Get('my-course')
+  @ApiBearerAuth()
+  @UseGuards(AuthGuard)
+  @Roles(RolesEnum.ADMIN, RolesEnum.INSTRUCTOR)
+  findMyCourse(@User() user: AuthUserType) {
+    return this.coursesService.findMyCourse(user);
+  }
+  @Get(':slug')
+  findOne(@Param('slug') slug: string) {
+    return this.coursesService.findOne(slug);
   }
 
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateCourseDto: UpdateCourseDto) {
-    return this.coursesService.update(+id, updateCourseDto);
+  @ApiBearerAuth()
+  @UseGuards(AuthGuard)
+  @Roles(RolesEnum.ADMIN, RolesEnum.INSTRUCTOR)
+  @ApiConsumes('multipart/form-data')
+  @ApiAcceptedResponse({
+    description: 'The record has been successfully created.',
+    type: UpdateCourseDto,
+  })
+  @UseInterceptors(
+    FileFieldsInterceptor(
+      [
+        {
+          name: 'thumbnail_url',
+          maxCount: 1,
+        },
+      ],
+      { storage },
+    ),
+  )
+  @Patch(':slug')
+  update(
+    @Param('slug') slug: string,
+    @Body() updateCourseDto: UpdateCourseDto,
+    @UploadedFiles()
+    files: {
+      thumbnail_url: Express.Multer.File[];
+    },
+    @User() user: AuthUserType,
+  ) {
+    return this.coursesService.update(slug, updateCourseDto, files, user);
   }
-
+  @ApiBearerAuth()
+  @UseGuards(AuthGuard)
+  @Roles(RolesEnum.ADMIN, RolesEnum.INSTRUCTOR)
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.coursesService.remove(+id);
+    return this.coursesService.remove(id);
+  }
+
+  @ApiBearerAuth()
+  @UseGuards(AuthGuard)
+  @Roles(RolesEnum.ADMIN, RolesEnum.INSTRUCTOR)
+  @ApiQuery({ name: 'status', required: true, type: Boolean })
+  @Put('change-status:slug')
+  changeStatus(@Param('slug') slug: string, @Query('status') status: boolean) {
+    return this.coursesService.changeStatus(slug, status);
   }
 }
