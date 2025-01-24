@@ -248,6 +248,7 @@ export class CoursesService {
       const courses = await this.courseRepository.find({
         where: { creator },
       });
+
       return this.responseService.Response({
         data: courses,
         message: 'Courses fetched successfully',
