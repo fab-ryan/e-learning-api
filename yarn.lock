@@ -1039,14 +1039,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f26cb66 (prometheus test)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c0c4a88 (adding user categories)
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 "@nestjs/common@*", "@nestjs/common@^10.0.0", "@nestjs/common@^5.0.0 || ^6.6.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^6.1.1 || ^5.6.2 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0", "@nestjs/common@^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^9.0.0 || ^10.0.0", "@nestjs/common@>=7.0.9":
   version "10.3.8"
   dependencies:
@@ -1069,24 +1075,33 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 "@nestjs/common@*", "@nestjs/common@^10.0.0", "@nestjs/common@^5.0.0 || ^6.6.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^6.1.1 || ^5.6.2 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0", "@nestjs/common@^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^9.0.0 || ^10.0.0", "@nestjs/common@>=7.0.9":
 >>>>>>> 0b9225a (prometheus test)
 =======
 >>>>>>> c0c4a88 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 =======
 "@nestjs/common@*", "@nestjs/common@^10.0.0", "@nestjs/common@^5.0.0 || ^6.6.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^6.1.1 || ^5.6.2 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0", "@nestjs/common@^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^9.0.0 || ^10.0.0", "@nestjs/common@>=7.0.9":
 >>>>>>> 0b9225a (prometheus test)
 >>>>>>> f26cb66 (prometheus test)
+<<<<<<< HEAD
 =======
 "@nestjs/common@*", "@nestjs/common@^10.0.0", "@nestjs/common@^5.0.0 || ^6.6.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^6.1.1 || ^5.6.2 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0", "@nestjs/common@^8.0.0 || ^9.0.0 || ^10.0.0", "@nestjs/common@^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0", "@nestjs/common@^9.0.0 || ^10.0.0", "@nestjs/common@>=7.0.9":
 >>>>>>> f2e8c17 (fixing the issues with login all)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
   version "10.3.8"
   dependencies:
     iterare "1.2.1"
@@ -1505,19 +1520,28 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> 0b9225a (prometheus test)
 =======
 >>>>>>> c0c4a88 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 =======
 >>>>>>> 0b9225a (prometheus test)
 >>>>>>> f26cb66 (prometheus test)
+<<<<<<< HEAD
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 "@opentelemetry/api@^1.4.0":
 =======
 "@opentelemetry/api-logs@0.57.2":
@@ -1538,22 +1562,31 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f26cb66 (prometheus test)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+=======
+>>>>>>> f26cb66 (prometheus test)
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 0b9225a (prometheus test)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f26cb66 (prometheus test)
@@ -1832,6 +1865,10 @@
 >>>>>>> f2e8c17 (fixing the issues with login all)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+=======
+>>>>>>> f26cb66 (prometheus test)
+>>>>>>> 8154676 (prometheus test)
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
 
@@ -3141,21 +3178,30 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> 0b9225a (prometheus test)
 =======
 >>>>>>> c0c4a88 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 =======
 >>>>>>> 0b9225a (prometheus test)
 >>>>>>> f26cb66 (prometheus test)
+<<<<<<< HEAD
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 "@willsoto/nestjs-prometheus@^6.0.2":
   version "6.0.2"
   resolved "https://registry.npmjs.org/@willsoto/nestjs-prometheus/-/nestjs-prometheus-6.0.2.tgz"
@@ -3166,22 +3212,31 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f26cb66 (prometheus test)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+=======
+>>>>>>> f26cb66 (prometheus test)
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 0b9225a (prometheus test)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f26cb66 (prometheus test)
@@ -3189,6 +3244,10 @@
 >>>>>>> f2e8c17 (fixing the issues with login all)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+=======
+>>>>>>> f26cb66 (prometheus test)
+>>>>>>> 8154676 (prometheus test)
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
 
@@ -4078,15 +4137,21 @@ bintrees@1.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> c0c4a88 (adding user categories)
 =======
 >>>>>>> f26cb66 (prometheus test)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> c0c4a88 (adding user categories)
 >>>>>>> 15e73e1 (adding user categories)
 =======
+=======
+>>>>>>> 8154676 (prometheus test)
 binary-extensions@^2.0.0:
   version "2.3.0"
 
@@ -4094,21 +4159,30 @@ binary-extensions@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> 0b9225a (prometheus test)
 =======
 >>>>>>> c0c4a88 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 =======
 >>>>>>> 0b9225a (prometheus test)
 >>>>>>> f26cb66 (prometheus test)
+<<<<<<< HEAD
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 bl@^4.1.0:
   version "4.1.0"
   dependencies:
@@ -12460,17 +12534,24 @@ process-nextick-args@~2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> 0b9225a (prometheus test)
 =======
 >>>>>>> c0c4a88 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 =======
 >>>>>>> 0b9225a (prometheus test)
 >>>>>>> f26cb66 (prometheus test)
+<<<<<<< HEAD
 =======
 progress@^2.0.3:
   version "2.0.3"
@@ -12480,6 +12561,8 @@ progress@^2.0.3:
 >>>>>>> f2e8c17 (fixing the issues with login all)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 prom-client@^15.0.0, prom-client@^15.1.3:
   version "15.1.3"
   resolved "https://registry.npmjs.org/prom-client/-/prom-client-15.1.3.tgz"
@@ -12493,22 +12576,31 @@ prom-client@^15.0.0, prom-client@^15.1.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f26cb66 (prometheus test)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+=======
+>>>>>>> f26cb66 (prometheus test)
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> b714d19 (adding user categories)
 =======
 >>>>>>> 0b9225a (prometheus test)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f26cb66 (prometheus test)
@@ -12516,6 +12608,10 @@ prom-client@^15.0.0, prom-client@^15.1.3:
 >>>>>>> f2e8c17 (fixing the issues with login all)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+=======
+>>>>>>> f26cb66 (prometheus test)
+>>>>>>> 8154676 (prometheus test)
 promise@^7.0.1:
   version "7.3.1"
   dependencies:
@@ -13711,11 +13807,15 @@ slick@^1.12.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> 6826d35 (course implementation)
 =======
 >>>>>>> f26cb66 (prometheus test)
 =======
+<<<<<<< HEAD
 >>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 15e73e1 (adding user categories)
@@ -13724,6 +13824,8 @@ slick@^1.12.2:
 >>>>>>> 6826d35 (course implementation)
 >>>>>>> 4a7a25b (course implementation)
 =======
+=======
+>>>>>>> 8154676 (prometheus test)
 >>>>>>> b714d19 (adding user categories)
 =======
 slugify@^1.6.6:
@@ -13735,8 +13837,11 @@ slugify@^1.6.6:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4a7a25b (course implementation)
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> 0b9225a (prometheus test)
 =======
@@ -13757,6 +13862,7 @@ slugify@^1.6.6:
 =======
 >>>>>>> 0b9225a (prometheus test)
 >>>>>>> f26cb66 (prometheus test)
+<<<<<<< HEAD
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
 =======
@@ -13767,6 +13873,8 @@ slugify@^1.6.6:
 =======
 >>>>>>> 6826d35 (course implementation)
 >>>>>>> 4a7a25b (course implementation)
+=======
+>>>>>>> 8154676 (prometheus test)
 source-map-support@^0.5.21, source-map-support@~0.5.20, source-map-support@0.5.21:
   version "0.5.21"
   dependencies:
@@ -14541,21 +14649,30 @@ tar@^6.1.11:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> 0b9225a (prometheus test)
 =======
 >>>>>>> c0c4a88 (adding user categories)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 =======
 >>>>>>> 0b9225a (prometheus test)
 >>>>>>> f26cb66 (prometheus test)
+<<<<<<< HEAD
 =======
 >>>>>>> f2e8c17 (fixing the issues with login all)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+>>>>>>> 8154676 (prometheus test)
 tdigest@^0.1.1:
   version "0.1.2"
   resolved "https://registry.npmjs.org/tdigest/-/tdigest-0.1.2.tgz"
@@ -14568,14 +14685,20 @@ tdigest@^0.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 >>>>>>> f26cb66 (prometheus test)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 >>>>>>> cf27eed (stoping to auth unthentication)
+=======
+>>>>>>> 8154676 (prometheus test)
 tar@^6.1.11:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/tar/-/tar-6.2.1.tgz#717549c541bc3c2af15751bea94b1dd068d4b03a"
@@ -14602,12 +14725,16 @@ tar@^6.1.11:
 >>>>>>> 0b9225a (prometheus test)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8154676 (prometheus test)
 =======
 >>>>>>> 141ef9d (stoping to auth unthentication)
 =======
 =======
 >>>>>>> b714d19 (adding user categories)
 >>>>>>> c0c4a88 (adding user categories)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f26cb66 (prometheus test)
@@ -14619,6 +14746,10 @@ tar@^6.1.11:
 >>>>>>> cf27eed (stoping to auth unthentication)
 =======
 >>>>>>> 15e73e1 (adding user categories)
+=======
+=======
+>>>>>>> f26cb66 (prometheus test)
+>>>>>>> 8154676 (prometheus test)
 terser-webpack-plugin@^5.3.10:
   version "5.3.10"
   dependencies:
