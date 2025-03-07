@@ -1,0 +1,69 @@
+{
+  "USER_REGISTER": {
+    "NAME_REQUIRED": "Name is required",
+    "EMAIL_REQUIRED": "Email is required",
+    "EMAIL_INVALID": "Email is invalid",
+    "PASSWORD_REQUIRED": "Password is required",
+    "PASSWORD_MIN": "Password must be at least 6 characters",
+    "PASSWORD_MATCH": "Passwords must have at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character",
+    "PHONE_REQUIRED": "Phone is required",
+    "PHONE_INVALID": "Phone is invalid must with country code",
+    "USERNAME_REQUIRED": "Username is required",
+    "USERNAME_EXISTS": "Username already exists",
+    "EMAIL_EXISTS": "Email already exists",
+    "USER_SUCCESS": "User registered successfully",
+    "USER_FAIL": "User registration failed"
+  },
+  "AUTH_LOGIN": {
+    "USER_NAME": "Username must be provided",
+    "PASSWORD_REQUIRED": "Password is required",
+    "PASSWORD_MIN": "Password must be at least 6 characters",
+    "USER_NOT_FOUND": "User not found",
+    "PASSWORD_INCORRECT": "Password is incorrect",
+    "LOGIN_SUCCESS": "Login successful",
+    "LOGIN_FAIL": "Login failed",
+
+    "OTP_REQUIRED": "OTP is required",
+    "OTP_INVALID": "OTP is invalid",
+    "OTP_EXPIRED": "OTP is expired",
+    "OTP_SUCCESS": "OTP verified successfully"
+  },
+  "CATEGORY_REGISTER": {
+    "NAME_REQUIRED": "Name is required",
+    "DESCRIPTION_REQUIRED": "Description is required",
+    "ICON_URL_REQUIRED": "Icon URL is required"
+  },
+  "USER_CATEGORY_REGISTER": {
+    "USER_ID_REQUIRED": "User ID is required",
+    "CATEGORY_ID_REQUIRED": "Category ID is required",
+    "CATEGORY_ID_MUST_BE_STRING": "Category ID must be a string",
+    "CATEGORY_NOT_FOUND": "Category not found"
+  },
+
+  "COURSES": {
+    "COURSE_NAME_REQUIRED": "Course name is required",
+    "COURSE_DESCRIPTION_REQUIRED": "Course description is required",
+    "COURSE_CATEGORY_REQUIRED": "Course category is required",
+    "COURSE_CATEGORY_NOT_FOUND": "Course category not found",
+    "COURSE_CREATED_SUCCESS": "Course created successfully",
+    "COURSE_CREATED_FAIL": "Course creation failed",
+    "COURSE_UPDATED_SUCCESS": "Course updated successfully",
+    "COURSE_UPDATED_FAIL": "Course updation failed",
+    "COURSE_DELETED_SUCCESS": "Course deleted successfully",
+    "COURSE_DELETED_FAIL": "Course deletion failed",
+    "COURSE_NOT_FOUND": "Course not found",
+    "COURSE_ID_REQUIRED": "Course ID is required",
+    "COURSE_ID_MUST_BE_STRING": "Course ID must be a string",
+    "COURSE_THUMBNAIL_REQUIRED": "Course thumbnail is required",
+    "COURSE_PRICE_REQUIRED": "Course price is required",
+    "COURSE_PRICE_INVALID": "Course price is invalid",
+    "COURSE_PRICE_MUST_BE_NUMBER": "Course price must be a number",
+    "COURSE_PRICE_MUST_BE_POSITIVE": "Course price must be a positive number",
+    "COURSE_CURRENT_PRICE_REQUIRED": "Course current price is required",
+    "COURSE_CURRENT_PRICE_INVALID": "Course current price is invalid",
+    "COURSE_IS_FREE_REQUIRED": "Course is free is required",
+    "COURSE_IS_FREE_INVALID": "Course is free is invalid",
+    "COURSE_IS_FEATURED_REQUIRED": "Course is featured is required",
+    "COURSE_IS_FEATURED_INVALID": "Course is featured is invalid"
+  }
+}

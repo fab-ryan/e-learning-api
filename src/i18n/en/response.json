@@ -1,0 +1,89 @@
+{
+  "DEFAULT_MESSAGE": "Welcome to E-learning Platform API",
+  "DEFAULT_ERROR": "An error occurred while processing your request",
+  "AUTH": {
+    "INVALID_CREDENTIALS": "Invalid credentials",
+    "EMAIL_ALREADY_EXISTS": "Email already exists",
+    "PHONE_ALREADY_EXISTS": "Phone number already exists",
+    "USER_NOT_FOUND": "User not found in the system",
+    "LOGIN_SUCCESS": "Login successful",
+
+    "OTP_REQUIRED": "OTP is required",
+    "OTP_INVALID": "OTP is invalid",
+    "OTP_EXPIRED": "OTP is expired",
+    "OTP_SUCCESS": "OTP verified successfully",
+
+    "PASSWORD_RESET_SUCCESS": "Password reset successful",
+    "PASSWORD_RESET_FAIL": "Password reset failed",
+    "PASSWORD_MISMATCH": "Passwords do not match"
+  },
+  "CATEGORY": {
+    "CATEGORY_EXIST": "This Category is Currently registered",
+    "CATEGORY_CREATED_SUCCESSFULLY": "Category Created Successflly",
+    "CATEGORY_FETCH_SUCCESSFULLY": "Category Fetch Successflly",
+    "CATEGORY_NOT_FOUND": "This category is not found",
+    "CATEGORY_UPDATED_SUCCESSFULLY": "Category updated successfully",
+    "CATEGORY_DELETED_SUCCESSFULLY": "Category deleted successfully",
+    "CATEGORY_STATUS_UPDATED_SUCCESSFULLY": "Category status updated successfully"
+  },
+  "COURSE": {
+    "COURSE_EXIST": "This Course is Currently registered",
+    "COURSE_CREATED_SUCCESSFULLY": "Course Created Successflly",
+    "COURSE_FETCH_SUCCESSFULLY": "Course Fetch Successflly",
+    "COURSE_NOT_FOUND": "This course is not found",
+    "COURSE_UPDATED_SUCCESSFULLY": "Course updated successfully",
+    "COURSE_DELETED_SUCCESSFULLY": "Course deleted successfully",
+    "COURSE_STATUS_UPDATED_SUCCESSFULLY": "Course status updated successfully",
+    "COURSE_FAILED_TO_CREATE": "Failed to create course"
+  },
+  "LESSON": {
+    "LESSON_EXIST": "This Lesson is Currently registered",
+    "LESSON_CREATED_SUCCESSFULLY": "Lesson Created Successflly",
+    "LESSON_FETCH_SUCCESSFULLY": "Lesson Fetch Successflly",
+    "LESSON_NOT_FOUND": "This lesson is not found",
+    "LESSON_UPDATED_SUCCESSFULLY": "Lesson updated successfully",
+    "LESSON_DELETED_SUCCESSFULLY": "Lesson deleted successfully",
+    "LESSON_STATUS_UPDATED_SUCCESSFULLY": "Lesson status updated successfully",
+    "LESSON_FAILED_TO_CREATE": "Failed to create lesson"
+  },
+  "QUIZ": {
+    "QUIZ_EXIST": "This Quiz is Currently registered",
+    "QUIZ_CREATED_SUCCESSFULLY": "Quiz Created Successflly",
+    "QUIZ_FETCH_SUCCESSFULLY": "Quiz Fetch Successflly",
+    "QUIZ_NOT_FOUND": "This quiz is not found",
+    "QUIZ_UPDATED_SUCCESSFULLY": "Quiz updated successfully",
+    "QUIZ_DELETED_SUCCESSFULLY": "Quiz deleted successfully",
+    "QUIZ_STATUS_UPDATED_SUCCESSFULLY": "Quiz status updated successfully",
+    "QUIZ_FAILED_TO_CREATE": "Failed to create quiz"
+  },
+  "QUESTION": {
+    "QUESTION_EXIST": "This Question is Currently registered",
+    "QUESTION_CREATED_SUCCESSFULLY": "Question Created Successflly",
+    "QUESTION_FETCH_SUCCESSFULLY": "Question Fetch Successflly",
+    "QUESTION_NOT_FOUND": "This question is not found",
+    "QUESTION_UPDATED_SUCCESSFULLY": "Question updated successfully",
+    "QUESTION_DELETED_SUCCESSFULLY": "Question deleted successfully",
+    "QUESTION_STATUS_UPDATED_SUCCESSFULLY": "Question status updated successfully",
+    "QUESTION_FAILED_TO_CREATE": "Failed to create question"
+  },
+  "ANSWER": {
+    "ANSWER_EXIST": "This Answer is Currently registered",
+    "ANSWER_CREATED_SUCCESSFULLY": "Answer Created Successflly",
+    "ANSWER_FETCH_SUCCESSFULLY": "Answer Fetch Successflly",
+    "ANSWER_NOT_FOUND": "This answer is not found",
+    "ANSWER_UPDATED_SUCCESSFULLY": "Answer updated successfully",
+    "ANSWER_DELETED_SUCCESSFULLY": "Answer deleted successfully",
+    "ANSWER_STATUS_UPDATED_SUCCESSFULLY": "Answer status updated successfully",
+    "ANSWER_FAILED_TO_CREATE": "Failed to create answer"
+  },
+  "FILE": {
+    "FILE_EXIST": "This File is Currently registered",
+    "FILE_CREATED_SUCCESSFULLY": "File Created Successflly",
+    "FILE_FETCH_SUCCESSFULLY": "File Fetch Successflly",
+    "FILE_NOT_FOUND": "This file is not found",
+    "FILE_UPDATED_SUCCESSFULLY": "File updated successfully",
+    "FILE_DELETED_SUCCESSFULLY": "File deleted successfully",
+    "FILE_STATUS_UPDATED_SUCCESSFULLY": "File status updated successfully"
+  }
+
+}

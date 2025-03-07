@@ -1,0 +1,68 @@
+{
+  "USER_REGISTER": {
+    "NAME_REQUIRED": "Izina ni byo bishobora",
+    "EMAIL_REQUIRED": "Email ni byo bishobora",
+    "EMAIL_INVALID": "Email ntibishobora",
+    "PASSWORD_REQUIRED": "Ijambo ry'ibanga ni byo bishobora",
+    "PASSWORD_MIN": "Ijambo ry'ibanga rishobora kuba n'ibanga 8",
+    "PASSWORD_MATCH": "Ijambo ry'ibanga ntiribishobora",
+    "PHONE_REQUIRED": "Telefoni ni byo bishobora",
+    "PHONE_INVALID": "Telefoni ntibishobora kuba n'ibanga",
+    "EMAIL_EXISTS": "Iyi email isanzwe iri muri sistem",
+    "USERNAME_REQUIRED": "Izina rishobora kuba n'ibanga",
+    "USERNAME_EXISTS": "Iyi izina rishobora kuba ririmo",
+    "USER_SUCCESS": "Umuntu yashoboye kwinjira muri sistem byagenze neza",
+    "USER_FAIL": "Ntibyagenze neza, ongera ugerageze"
+  },
+  "AUTH_LOGIN": {
+    "USER_NAME": "Username must be provided",
+    "PASSWORD_REQUIRED": "Password is required",
+    "PASSWORD_MIN": "Password must be at least 6 characters",
+    "USER_NOT_FOUND": "User not found",
+    "PASSWORD_INCORRECT": "Password is incorrect",
+    "LOGIN_SUCCESS": "Login successful",
+    "LOGIN_FAIL": "Login failed",
+
+    "OTP_REQUIRED": "OTP is required",
+    "OTP_INVALID": "OTP is invalid",
+    "OTP_EXPIRED": "OTP is expired",
+    "OTP_SUCCESS": "OTP verified successfully"
+  },
+  "CATEGORY_REGISTER": {
+    "NAME_REQUIRED": "Name is required",
+    "DESCRIPTION_REQUIRED": "Description is required",
+    "ICON_URL_REQUIRED": "Icon URL is required"
+  },
+  "USER_CATEGORY_REGISTER": {
+    "USER_ID_REQUIRED": "User ID is required",
+    "CATEGORY_ID_REQUIRED": "Category ID is required",
+    "CATEGORY_ID_MUST_BE_STRING": "Category ID must be a string",
+    "CATEGORY_NOT_FOUND": "Category not found"
+  },
+  "COURSES": {
+    "COURSE_NAME_REQUIRED": "Izina ry'amasomo rirakenewe",
+    "COURSE_DESCRIPTION_REQUIRED": "Ibisobanuro by'amasomo birakenewe",
+    "COURSE_CATEGORY_REQUIRED": "Icyiciro cy'amasomo kirakenewe",
+    "COURSE_CATEGORY_NOT_FOUND": "Icyiciro cy'amasomo nticyabonetse",
+    "COURSE_CREATED_SUCCESS": "Amasomo yashyizweho neza",
+    "COURSE_CREATED_FAIL": "Gushyiraho amasomo byanze",
+    "COURSE_UPDATED_SUCCESS": "Amasomo avuguruwe neza",
+    "COURSE_UPDATED_FAIL": "Guhindura amasomo byanze",
+    "COURSE_DELETED_SUCCESS": "Amasomo yakuweho neza",
+    "COURSE_DELETED_FAIL": "Gukuraho amasomo byanze",
+    "COURSE_NOT_FOUND": "Amasomo ntayo wabonye",
+    "COURSE_ID_REQUIRED": "ID y'amasomo irakenewe",
+    "COURSE_ID_MUST_BE_STRING": "ID y'amasomo igomba kuba umugozi",
+    "COURSE_THUMBNAIL_REQUIRED": "Ifoto y'amasomo irakenewe",
+    "COURSE_PRICE_REQUIRED": "Igiciro cy'amasomo kirakenewe",
+    "COURSE_PRICE_INVALID": "Igiciro cy'amasomo ntigikwiye",
+    "COURSE_PRICE_MUST_BE_NUMBER": "Igiciro cy'amasomo kigomba kuba umubare",
+    "COURSE_PRICE_MUST_BE_POSITIVE": "Igiciro cy'amasomo kigomba kuba umubare wuzuye",
+    "COURSE_CURRENT_PRICE_REQUIRED": "Igiciro cya none cy'amasomo kirakenewe",
+    "COURSE_CURRENT_PRICE_INVALID": "Igiciro cya none cy'amasomo ntigikwiye",
+     "COURSE_IS_FREE_REQUIRED": "Course is free is required",
+     "COURSE_IS_FREE_INVALID": "Course is free is invalid",
+    "COURSE_IS_FEATURED_REQUIRED": "Course is featured is required",
+    "COURSE_IS_FEATURED_INVALID": "Course is featured is invalid"
+  }
+}
