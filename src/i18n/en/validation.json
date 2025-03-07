@@ -12,7 +12,12 @@
     "USERNAME_EXISTS": "Username already exists",
     "EMAIL_EXISTS": "Email already exists",
     "USER_SUCCESS": "User registered successfully",
-    "USER_FAIL": "User registration failed"
+    "USER_FAIL": "User registration failed",
+    "PROFILE_PIC_REQUIRED": "Profile picture is required",
+    "PROFILE_PIC_INVALID": "Profile picture is invalid",
+    "ADDRESS_REQUIRED": "Address is required",
+    "ADDRESS_INVALID": "Address is invalid",
+    "BIO_REQUIRED": "Bio is required"
   },
   "AUTH_LOGIN": {
     "USER_NAME": "Username must be provided",

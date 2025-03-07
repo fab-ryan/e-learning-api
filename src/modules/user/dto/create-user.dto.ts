@@ -8,6 +8,7 @@ import {
   IsPhoneNumber,
   IsOptional,
 } from 'class-validator';
+import { PartialType } from '@nestjs/mapped-types';
 import { ApiProperty } from '@nestjs/swagger';
 import { i18nValidationMessage } from 'nestjs-i18n';
 import { I18nTranslations } from '@/generated';
@@ -109,4 +110,45 @@ export class CreateUserDto {
     ),
   })
   password: string;
+}
+
+
+export class ProfileDto extends PartialType(CreateUserDto) {
+  @ApiProperty({
+    example: 'https://example.com/icon.png',
+    description: 'The profile picture of the user',
+    type: 'string',
+    format: 'binary',
+  })
+  @IsString({
+    message: i18nValidationMessage<I18nTranslations>(
+      'validation.USER_REGISTER.PROFILE_PIC_REQUIRED',
+    ),
+  })
+  profile_picture?: Express.Multer.File;
+
+  @ApiProperty({
+    example: 'Kigali, Rwanda',
+    description: 'The address of the user',
+  })
+  @IsString({
+    message: i18nValidationMessage<I18nTranslations>(
+      'validation.USER_REGISTER.ADDRESS_REQUIRED',
+    ),
+  })
+  address: string;
+
+  @ApiProperty({
+    example: 'I am a software engineer',
+    description: 'The bio of the user',
+  })
+  @IsString({
+    message: i18nValidationMessage<I18nTranslations>(
+      'validation.USER_REGISTER.BIO_REQUIRED',
+    ),
+  })
+  bio: string;
+}
+export class ImagePicDto {
+  profile_picture: Express.Multer.File;
 }

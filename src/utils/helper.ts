@@ -11,7 +11,7 @@ const removeWhiteSpace = (str: string) => {
   return str.replace(/\s/g, '').toLowerCase();
 };
 
-export const storage = diskStorage({
+export const storage = (dir?: string | undefined) => diskStorage({
   destination: (
     req: Express.Request,
     file: Express.Multer.File,
@@ -22,7 +22,7 @@ export const storage = diskStorage({
     } else if (!file.mimetype.match(/\/(jpg|jpeg|png|gif)$/)) {
       return cb(new Error('Only image files are allowed!'), null);
     }
-    const distination = path.join(__dirname, '../../uploads');
+    const distination = path.join(__dirname, '../../uploads', dir || '');
     if (!fs.existsSync(distination)) {
       fs.mkdirSync(distination);
     }
@@ -51,3 +51,11 @@ export const generateSlug = (title: string) => {
     .replace(/ /g, '-')
     .replace(/[^\w-]+/g, '');
 };
+
+export const getUploadPath = (fileName: string) => {
+  const regix = new RegExp(/https?:\/\//);
+  if (regix.test(fileName)) {
+    return fileName;
+  }
+  return `${process.env.BACKEND_DOMAIN}/uploads/${fileName}`;
+}

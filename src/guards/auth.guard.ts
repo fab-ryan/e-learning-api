@@ -20,6 +20,7 @@ export class AuthGuard implements CanActivate {
     private reflector: Reflector,
   ) { }
   matchRoles(roles: Role[], userRole: Role) {
+    if (userRole === Role.ALL) return true;
     return roles.some((role) => {
       return role === userRole;
     });
@@ -55,7 +56,7 @@ export class AuthGuard implements CanActivate {
     }
 
     if (!this.matchRoles(requiredRoles, user.role as Role)) {
-      
+
       throw this.responseServices.Response({
         success: false,
         data: null,

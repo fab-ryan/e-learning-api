@@ -12,7 +12,12 @@
     "USERNAME_REQUIRED": "Nom d'utilisateur est requis",
     "USERNAME_EXISTS": "Nom d'utilisateur existe déjà",
     "USER_SUCCESS": "Utilisateur enregistré avec succès",
-    "USER_FAIL": "Erreur lors de l'enregistrement de l'utilisateur"
+    "USER_FAIL": "Erreur lors de l'enregistrement de l'utilisateur",
+    "PROFILE_PIC_REQUIRED": "Photo de profil est requise",
+    "PROFILE_PIC_INVALID": "Photo de profil est invalide",
+    "ADDRESS_REQUIRED": "Adresse est requise",
+    "ADDRESS_INVALID": "Adresse est invalide",
+    "BIO_REQUIRED": "Bio est requis"
   },
   "AUTH_LOGIN": {
     "USER_NAME": "Username must be provided",

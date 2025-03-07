@@ -12,7 +12,12 @@
     "USERNAME_REQUIRED": "Izina rishobora kuba n'ibanga",
     "USERNAME_EXISTS": "Iyi izina rishobora kuba ririmo",
     "USER_SUCCESS": "Umuntu yashoboye kwinjira muri sistem byagenze neza",
-    "USER_FAIL": "Ntibyagenze neza, ongera ugerageze"
+    "USER_FAIL": "Ntibyagenze neza, ongera ugerageze",
+    "PROFILE_PIC_REQUIRED": "Izina ry'umuntu ni byo bishobora",
+    "PROFILE_PIC_INVALID": "Izina ry'umuntu ntibishobora",
+    "ADDRESS_REQUIRED": "Adiresi ni byo bishobora",
+    "ADDRESS_INVALID": "Adiresi ntibishobora",
+    "BIO_REQUIRED": "Bio ni byo bishobora"
   },
   "AUTH_LOGIN": {
     "USER_NAME": "Username must be provided",
