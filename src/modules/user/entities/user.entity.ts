@@ -21,6 +21,7 @@ export class User {
   @PrimaryColumn()
   id: string;
 
+
   @Column()
   @IsString()
   @IsNotEmpty()
@@ -49,6 +50,21 @@ export class User {
     default: Roles.USER,
   })
   role: Roles;
+
+  @Column({ nullable: true })
+  @IsString()
+  @IsNotEmpty()
+  profile_picture: string;
+
+  @Column({ nullable: true })
+  @IsString()
+  @IsNotEmpty()
+  address: string;
+
+  @Column({ nullable: true })
+  @IsString()
+  @IsNotEmpty()
+  bio: string;
 
   @Column()
   @IsString()

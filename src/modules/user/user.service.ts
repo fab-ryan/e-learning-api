@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { CreateUserDto } from './dto/create-user.dto';
+import { CreateUserDto, ImagePicDto, ProfileDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { User } from './entities/user.entity';
@@ -7,6 +7,8 @@ import { Repository } from 'typeorm';
 import {
   AssociativeArray,
   filterQueryBuilderFromRequest,
+  getUploadPath,
+  removeFile,
   ResponseService,
 } from '@/utils';
 import { I18nContext, I18nService } from 'nestjs-i18n';
@@ -14,6 +16,7 @@ import { I18nTranslations } from '@/generated';
 import * as bcrypt from 'bcrypt';
 import { RolesEnum as Roles } from '@/enums';
 import { PaginateHelper } from '@/utils/paginate';
+import { AuthUserType } from '@/guards';
 
 @Injectable()
 export class UserService {
@@ -23,7 +26,7 @@ export class UserService {
     private readonly responseService: ResponseService,
     private readonly i18n: I18nService<I18nTranslations>,
     private readonly userPagination: PaginateHelper<User>,
-  ) {}
+  ) { }
   async create(createUserDto: CreateUserDto) {
     try {
       const lang = I18nContext.current().lang;
@@ -102,7 +105,7 @@ export class UserService {
         key: 'users',
         message: 'Users fetched successfully',
       });
-    } catch (error) {}
+    } catch (error) { }
   }
 
   async findOne(id: string) {
@@ -199,5 +202,59 @@ export class UserService {
       withDeleted: true,
     });
     return user;
+  }
+
+  async updateProfile(updateUserDto: ProfileDto, authUser: AuthUserType, imageProfile: ImagePicDto) {
+    try {
+      const user = await this.userRepository.findOne({
+        where: { id: authUser.id },
+        withDeleted: true,
+      });
+      if (!user) {
+        return this.responseService.Response({
+          data: null,
+          message: 'User not found',
+        });
+      }
+      if (user?.profile_picture) {
+        removeFile(user.profile_picture);
+      }
+      const updatedUser = await this.userRepository.save({
+        ...user,
+        ...updateUserDto,
+        profile_picture: imageProfile?.profile_picture[0]?.filename || null,
+      });
+
+      return this.responseService.Response({
+        data: updatedUser,
+        key: 'users',
+        message: 'User updated successfully',
+      });
+    } catch (error) {
+      return this.responseService.Response({
+        data: null,
+        message: 'User not updated',
+      });
+    }
+
+  }
+  async getProfile(authUser: AuthUserType) {
+    try {
+      const user = await this.userRepository.findOneOrFail({
+        where: { id: authUser.id },
+        withDeleted: true,
+      });
+      user.profile_picture = user.profile_picture ? getUploadPath(user.profile_picture) : null;
+      return this.responseService.Response({
+        data: user,
+        key: 'users',
+        message: 'User fetched successfully',
+      });
+    } catch (error) {
+      return this.responseService.Response({
+        data: null,
+        message: 'User not found',
+      });
+    }
   }
 }

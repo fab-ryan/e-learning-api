@@ -15,7 +15,7 @@ export class CategoryService {
     private categoryRepository: Repository<Category>,
     private readonly responseService: ResponseService,
     private readonly i18n: I18nService<I18nTranslations>,
-  ) {}
+  ) { }
   /*
    *Create Category function
    */

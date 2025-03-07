@@ -25,7 +25,7 @@ export class AuthService {
     private readonly i18n: I18nService<I18nTranslations>,
     private readonly responseService: ResponseService,
     private readonly mailService: MailService,
-  ) {}
+  ) { }
 
   async create(createAuthDto: CreateAuthDto) {
     const lang = I18nContext.current().lang;
@@ -142,6 +142,7 @@ export class AuthService {
         role: userRole,
         username: this.formatUsername(req.user.firstName),
         password: await bcrypt.hash('password', 10),
+        profile_picture: req.user.picture,
       });
       await this.userRepository.save(user);
     }
@@ -163,7 +164,7 @@ export class AuthService {
   async forgotPassword(passwordDto: ForgetPasswordDto) {
     try {
       const { username } = passwordDto;
-      const user = await this.usernameFormat(username);
+      const user = this.usernameFormat(username);
       if (this.isEmail(user?.email)) {
         const emailExists = this.checkEmailExists(user.email);
         if (!emailExists) {

@@ -12,7 +12,12 @@
     "USERNAME_REQUIRED": "Izina rishobora kuba n'ibanga",
     "USERNAME_EXISTS": "Iyi izina rishobora kuba ririmo",
     "USER_SUCCESS": "Umuntu yashoboye kwinjira muri sistem byagenze neza",
-    "USER_FAIL": "Ntibyagenze neza, ongera ugerageze"
+    "USER_FAIL": "Ntibyagenze neza, ongera ugerageze",
+    "PROFILE_PIC_REQUIRED": "Izina ry'umuntu ni byo bishobora",
+    "PROFILE_PIC_INVALID": "Izina ry'umuntu ntibishobora",
+    "ADDRESS_REQUIRED": "Adiresi ni byo bishobora",
+    "ADDRESS_INVALID": "Adiresi ntibishobora",
+    "BIO_REQUIRED": "Bio ni byo bishobora"
   },
   "AUTH_LOGIN": {
     "USER_NAME": "Username must be provided",
@@ -22,7 +27,6 @@
     "PASSWORD_INCORRECT": "Password is incorrect",
     "LOGIN_SUCCESS": "Login successful",
     "LOGIN_FAIL": "Login failed",
-
     "OTP_REQUIRED": "OTP is required",
     "OTP_INVALID": "OTP is invalid",
     "OTP_EXPIRED": "OTP is expired",
@@ -60,8 +64,8 @@
     "COURSE_PRICE_MUST_BE_POSITIVE": "Igiciro cy'amasomo kigomba kuba umubare wuzuye",
     "COURSE_CURRENT_PRICE_REQUIRED": "Igiciro cya none cy'amasomo kirakenewe",
     "COURSE_CURRENT_PRICE_INVALID": "Igiciro cya none cy'amasomo ntigikwiye",
-     "COURSE_IS_FREE_REQUIRED": "Course is free is required",
-     "COURSE_IS_FREE_INVALID": "Course is free is invalid",
+    "COURSE_IS_FREE_REQUIRED": "Course is free is required",
+    "COURSE_IS_FREE_INVALID": "Course is free is invalid",
     "COURSE_IS_FEATURED_REQUIRED": "Course is featured is required",
     "COURSE_IS_FEATURED_INVALID": "Course is featured is invalid"
   }

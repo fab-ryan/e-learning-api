@@ -20,7 +20,7 @@ import { RolesEnum } from '@/enums';
 @Roles(RolesEnum.ADMIN, RolesEnum.USER)
 @Controller('user-category')
 export class UserCategoryController {
-  constructor(private readonly userCategoryService: UserCategoryService) {}
+  constructor(private readonly userCategoryService: UserCategoryService) { }
 
   @Post()
   create(

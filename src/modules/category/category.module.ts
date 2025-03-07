@@ -11,4 +11,4 @@ import { ResponseService } from '@/utils';
   providers: [CategoryService, ResponseService],
   exports: [CategoryService],
 })
-export class CategoryModule {}
+export class CategoryModule { }

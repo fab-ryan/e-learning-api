@@ -10,20 +10,23 @@ import {
   ParseIntPipe,
   DefaultValuePipe,
   UseGuards,
+  UseInterceptors,
+  UploadedFiles,
 } from '@nestjs/common';
 import { UserService } from './user.service';
-import { CreateUserDto } from './dto/create-user.dto';
+import { CreateUserDto, ProfileDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { ApiTags, ApiQuery, ApiBearerAuth } from '@nestjs/swagger';
-import { AssociativeArray } from '@/utils';
-import { AuthGuard } from '@/guards';
-import { Roles } from '@/decorators';
+import { ApiTags, ApiQuery, ApiBearerAuth, ApiOperation, ApiConsumes } from '@nestjs/swagger';
+import { AssociativeArray, storage } from '@/utils';
+import { AuthGuard, AuthUserType } from '@/guards';
+import { Roles, User } from '@/decorators';
 import { RolesEnum } from '@/enums';
+import { FileFieldsInterceptor } from '@nestjs/platform-express';
 
 @ApiTags('Users')
 @Controller('users')
 export class UserController {
-  constructor(private readonly userService: UserService) {}
+  constructor(private readonly userService: UserService) { }
 
   @Post()
   create(@Body() createUserDto: CreateUserDto) {
@@ -75,5 +78,45 @@ export class UserController {
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.userService.remove(id);
+  }
+}
+
+@ApiTags('Profile')
+@Controller('profile')
+export class ProfileController {
+
+  constructor(private readonly userService: UserService) { }
+  @ApiOperation({ summary: 'Get user profile' })
+  @ApiBearerAuth()
+  @Roles(RolesEnum.ALL)
+  @UseGuards(AuthGuard)
+  @Get('profile')
+  getProfile(@User() user: AuthUserType) {
+    return this.userService.getProfile(user);
+  }
+
+  @Patch('profile')
+  @ApiConsumes('multipart/form-data')
+  @UseInterceptors(
+    FileFieldsInterceptor(
+      [
+        {
+          name: 'icon_url',
+          maxCount: 1,
+        },
+      ],
+      { storage: storage('/profile') },
+    ),
+  )
+  @ApiOperation({ summary: 'Update user' })
+  @ApiBearerAuth()
+  @Roles(RolesEnum.ALL)
+  @UseGuards(AuthGuard)
+  updateProfile(@User() user: AuthUserType, @Body() updateUserDto: ProfileDto,
+    @UploadedFiles()
+    files: {
+      profile_picture: Express.Multer.File;
+    }) {
+    return this.userService.updateProfile(updateUserDto, user, files);
   }
 }
