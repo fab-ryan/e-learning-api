@@ -8,7 +8,7 @@ import { CategoryModule } from './modules/category/category.module';
 import { UserCategoryModule } from './modules/user-category/user-category.module';
 import { CoursesModule } from './modules/courses/courses.module';
 import { SharedModule } from './shared';
-import { PrometheusModule } from './prometheus/prometheus.module';
+import { PrometheusModule } from './modules/prometheus/prometheus.module';
 
 @Module({
   imports: [
