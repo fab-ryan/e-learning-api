@@ -8,7 +8,7 @@ import { ROLE_KEY } from '@/decorators';
 import { RolesEnum as Role } from '@/enums';
 
 export type AuthUserType = {
-  id: string;
+  sub: string;
   role: string;
 };
 
@@ -20,7 +20,7 @@ export class AuthGuard implements CanActivate {
     private reflector: Reflector,
   ) { }
   matchRoles(roles: Role[], userRole: Role) {
-    if (userRole === Role.ALL) return true;
+    if (Role.ALL === 'all') return true;
     return roles.some((role) => {
       return role === userRole;
     });

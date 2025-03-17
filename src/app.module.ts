@@ -10,6 +10,7 @@ import { CoursesModule } from './modules/courses/courses.module';
 import { SharedModule } from './shared';
 import { PrometheusModule } from './modules/prometheus/prometheus.module';
 
+
 @Module({
   imports: [
     SharedModule,
@@ -22,6 +23,7 @@ import { PrometheusModule } from './modules/prometheus/prometheus.module';
     UserCategoryModule,
     CoursesModule,
     PrometheusModule,
+
   ],
 })
 export class AppModule implements NestModule {

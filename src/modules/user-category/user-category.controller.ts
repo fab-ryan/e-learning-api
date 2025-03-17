@@ -37,7 +37,7 @@ export class UserCategoryController {
   @Get()
   findAll(@User() user: AuthUserType) {
     return this.userCategoryService.findAll({
-      userId: user.id,
+      userId: user.sub,
     });
   }
 

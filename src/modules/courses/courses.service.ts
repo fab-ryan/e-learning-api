@@ -38,7 +38,7 @@ export class CoursesService {
       }
 
       const images = files.thumbnail_url[0]?.filename;
-      const userDetail = await this.userService.userDetail(user.id);
+      const userDetail = await this.userService.userDetail(user.sub);
       const course = this.courseRepository.create({
         ...createCourseDto,
         price: createCourseDto.price.toString(),
@@ -139,7 +139,7 @@ export class CoursesService {
         images = course.thumbnail;
       }
 
-      const userDetail = await this.userService.userDetail(user.id);
+      const userDetail = await this.userService.userDetail(user.sub);
       const updatedCourse = await this.courseRepository.save({
         ...course,
         ...updateCourseDto,
@@ -236,7 +236,7 @@ export class CoursesService {
   }
   async findMyCourse(user: AuthUserType) {
     try {
-      const creator = await this.userService.userDetail(user.id);
+      const creator = await this.userService.userDetail(user.sub);
       const courses = await this.courseRepository.find({
         where: { creator },
       });

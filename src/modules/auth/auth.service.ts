@@ -117,7 +117,7 @@ export class AuthService {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     return emailRegex.test(username);
   }
-  checkPhoneExists(phone: string): Promise<boolean> {
+  async checkPhoneExists(phone: string): Promise<boolean> {
     const user = this.userRepository.findOne({ where: { phone } });
     return user.then((res) => {
       return res ? true : false;

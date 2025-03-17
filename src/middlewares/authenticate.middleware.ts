@@ -56,7 +56,7 @@ export class AuthenticateMiddleware implements NestMiddleware {
   }
 }
 interface User {
-  id: string;
+  sub: string;
   iat: number;
   exp: number;
   readonly role: string;

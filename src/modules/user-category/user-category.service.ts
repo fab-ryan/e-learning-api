@@ -21,10 +21,10 @@ export class UserCategoryService {
     private readonly categoryRepository: Repository<Category>,
     private readonly responseService: ResponseService,
     private readonly i18n: I18nService<I18nTranslations>,
-  ) {}
+  ) { }
   async create({
     categoryId,
-    id: userId,
+    sub: userId,
   }: CreateUserCategoryDto & AuthUserType) {
     try {
       for (const id of categoryId) {
