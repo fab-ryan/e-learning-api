@@ -90,7 +90,7 @@ export class ProfileController {
   @ApiBearerAuth()
   @Roles(RolesEnum.ALL)
   @UseGuards(AuthGuard)
-  @Get('profile')
+  @Get('')
   getProfile(@User() user: AuthUserType) {
     return this.userService.getProfile(user);
   }
@@ -118,5 +118,10 @@ export class ProfileController {
       profile_picture: Express.Multer.File;
     }) {
     return this.userService.updateProfile(updateUserDto, user, files);
+  }
+
+  @Get("/debug-sentry")
+  getError() {
+    throw new Error("My first Sentry error!");
   }
 }
