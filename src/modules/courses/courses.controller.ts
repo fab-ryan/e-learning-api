@@ -142,7 +142,7 @@ export class CoursesController {
   @UseGuards(AuthGuard)
   @Roles(RolesEnum.ADMIN, RolesEnum.INSTRUCTOR)
   @ApiQuery({ name: 'status', required: true, type: Boolean })
-  @Put('change-status:slug')
+  @Put('change-status/:slug')
   changeStatus(@Param('slug') slug: string, @Query('status') status: boolean) {
     return this.coursesService.changeStatus(slug, status);
   }
