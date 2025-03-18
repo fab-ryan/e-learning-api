@@ -9,6 +9,7 @@ import { UserCategoryModule } from './modules/user-category/user-category.module
 import { CoursesModule } from './modules/courses/courses.module';
 import { SharedModule } from './shared';
 import { PrometheusModule } from './modules/prometheus/prometheus.module';
+import { EnrollsModule } from './modules/enrolls/enrolls.module';
 
 
 @Module({
@@ -23,6 +24,7 @@ import { PrometheusModule } from './modules/prometheus/prometheus.module';
     UserCategoryModule,
     CoursesModule,
     PrometheusModule,
+    EnrollsModule,
 
   ],
 })

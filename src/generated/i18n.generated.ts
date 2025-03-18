@@ -90,6 +90,15 @@ export type I18nTranslations = {
             "FILE_DELETED_SUCCESSFULLY": string;
             "FILE_STATUS_UPDATED_SUCCESSFULLY": string;
         };
+        "ENROLL": {
+            "ENROLL_EXIST": string;
+            "ENROLL_CREATED_SUCCESSFULLY": string;
+            "ENROLL_FETCH_SUCCESSFULLY": string;
+            "ENROLL_NOT_FOUND": string;
+            "ENROLL_UPDATED_SUCCESSFULLY": string;
+            "ENROLL_DELETED_SUCCESSFULLY": string;
+            "ENROLL_STATUS_UPDATED_SUCCESSFULLY": string;
+        };
     };
     "validation": {
         "USER_REGISTER": {

@@ -5,11 +5,16 @@ import { UpdateCourseDto } from './dto/update-course.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Course } from './entities/course.entity';
 import { Repository } from 'typeorm';
-import { generateSlug, removeFile, ResponseService } from '@/utils';
+import {
+  generateSlug, removeFile, ResponseService,
+  AssociativeArray,
+  filterQueryBuilderFromRequest,
+} from '@/utils';
 import { I18nService } from 'nestjs-i18n';
 import { I18nTranslations } from '@/generated';
 import { AuthUserType } from '@/guards';
 import { UserService } from '../user/user.service';
+import { PaginateHelper } from '@/utils/paginate';
 
 @Injectable()
 export class CoursesService {
@@ -19,6 +24,7 @@ export class CoursesService {
     private readonly responseService: ResponseService,
     private readonly i18n: I18nService<I18nTranslations>,
     private readonly userService: UserService,
+    private readonly coursePagination: PaginateHelper<Course>,
   ) { }
 
   async create(
@@ -68,9 +74,12 @@ export class CoursesService {
     }
   }
 
-  async findAll() {
+  async findAll(filter?: AssociativeArray) {
     try {
-      const courses = await this.courseRepository.find();
+      const coursesQuery = this.courseRepository.createQueryBuilder('course');
+      filterQueryBuilderFromRequest(coursesQuery, filter);
+      const courses = await this.coursePagination.run(coursesQuery);
+
       return this.responseService.Response({
         data: courses,
         message: 'Courses fetched successfully',
@@ -79,7 +88,6 @@ export class CoursesService {
       });
     } catch (error) {
       const errorMsg = (error as Error).message;
-      console.log(error);
       return this.responseService.Response({
         data: errorMsg,
         message: 'Failed to fetch courses',

@@ -11,6 +11,8 @@ import {
   UploadedFiles,
   Put,
   Query,
+  DefaultValuePipe,
+  ParseIntPipe,
 } from '@nestjs/common';
 import { CoursesService } from './courses.service';
 import { CreateCourseDto } from './dto/create-course.dto';
@@ -26,7 +28,7 @@ import { AuthGuard, AuthUserType } from '@/guards';
 import { Roles, User } from '@/decorators';
 import { RolesEnum } from '@/enums';
 import { FileFieldsInterceptor } from '@nestjs/platform-express';
-import { storage } from '@/utils';
+import { AssociativeArray, storage } from '@/utils';
 
 @ApiTags('courses')
 @Controller('courses')
@@ -65,8 +67,24 @@ export class CoursesController {
   }
 
   @Get()
-  findAll() {
-    return this.coursesService.findAll();
+  @ApiQuery({
+    name: 'page',
+    required: false,
+    type: Number,
+    description: 'Page number',
+  })
+  @ApiQuery({
+    name: 'limit',
+    required: false,
+    type: Number,
+    description: 'Items per page',
+  })
+  findAll(  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    @Query('page', new DefaultValuePipe(1), ParseIntPipe) page = 1,
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    @Query('limit', new DefaultValuePipe(10), ParseIntPipe) limit = 10,
+    @Query() filters: AssociativeArray,) {
+    return this.coursesService.findAll(filters);
   }
 
   @Get('my-course')
