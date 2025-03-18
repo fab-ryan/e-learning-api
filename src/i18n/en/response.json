@@ -84,6 +84,15 @@
     "FILE_UPDATED_SUCCESSFULLY": "File updated successfully",
     "FILE_DELETED_SUCCESSFULLY": "File deleted successfully",
     "FILE_STATUS_UPDATED_SUCCESSFULLY": "File status updated successfully"
+  },
+  "ENROLL": {
+    "ENROLL_EXIST": "This Enroll is Currently registered",
+    "ENROLL_CREATED_SUCCESSFULLY": "Enroll Created Successflly",
+    "ENROLL_FETCH_SUCCESSFULLY": "Enroll Fetch Successflly",
+    "ENROLL_NOT_FOUND": "This enroll is not found",
+    "ENROLL_UPDATED_SUCCESSFULLY": "Enroll updated successfully",
+    "ENROLL_DELETED_SUCCESSFULLY": "Enroll deleted successfully",
+    "ENROLL_STATUS_UPDATED_SUCCESSFULLY": "Enroll status updated successfully"
   }
 
 }

@@ -207,7 +207,7 @@ export class UserService {
   async updateProfile(updateUserDto: ProfileDto, authUser: AuthUserType, imageProfile: ImagePicDto) {
     try {
       const user = await this.userRepository.findOne({
-        where: { id: authUser.id },
+        where: { id: authUser.sub },
         withDeleted: true,
       });
       if (!user) {
@@ -241,7 +241,7 @@ export class UserService {
   async getProfile(authUser: AuthUserType) {
     try {
       const user = await this.userRepository.findOneOrFail({
-        where: { id: authUser.id },
+        where: { id: authUser?.sub },
         withDeleted: true,
       });
       user.profile_picture = user.profile_picture ? getUploadPath(user.profile_picture) : null;

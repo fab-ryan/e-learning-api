@@ -15,6 +15,7 @@ import { uuid } from '@/utils';
 
 import { User } from '@/modules/user/entities/user.entity';
 import { Category } from '@/modules/category/entities/category.entity';
+import { Enroll } from '@/modules/enrolls/entities/enroll.entity';
 
 @Entity('courses')
 export class Course {
@@ -81,6 +82,9 @@ export class Course {
 
   @ManyToOne(() => User, (user) => user.id)
   creator: User;
+
+  @ManyToOne(() => Enroll, (enroll) => enroll.id)
+  enroll: Enroll;
 
   @OneToOne(() => Category, (category) => category.id)
   category: Category;
