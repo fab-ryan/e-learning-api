@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards, UseInterceptors, ParseUUIDPipe, UploadedFiles } from '@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards, UseInterceptors, ParseUUIDPipe, UploadedFiles, Query, DefaultValuePipe, ParseIntPipe } from '@nestjs/common';
 import { LessonsService } from './lessons.service';
 import { CreateLessonDto } from './dto/create-lesson.dto';
 import { UpdateLessonDto } from './dto/update-lesson.dto';
@@ -6,7 +6,6 @@ import {
   ApiAcceptedResponse,
   ApiBearerAuth,
   ApiConsumes,
-  ApiParam,
   ApiQuery,
   ApiTags,
 } from '@nestjs/swagger';
@@ -16,7 +15,7 @@ import { RolesEnum } from '@/enums';
 import { AuthGuard, AuthUserType } from '@/guards';
 import { Roles, User } from '@/decorators';
 import { FileFieldsInterceptor } from '@nestjs/platform-express';
-import { storage } from '@/utils';
+import { AssociativeArray, storage } from '@/utils';
 
 
 @ApiTags('Lesson')
@@ -59,8 +58,31 @@ export class LessonsController {
   }
 
   @Get()
-  findAll(@Param('slug') slug: string) {
-    return this.lessonsService.findAll(slug);
+  @ApiQuery({
+    name: 'slug',
+    required: false,
+    description: 'Slug of the course',
+    type: String,
+  })
+  @ApiQuery({
+    name: 'page',
+    required: false,
+    type: Number,
+    description: 'Page number',
+  })
+  @ApiQuery({
+    name: 'limit',
+    required: false,
+    type: Number,
+    description: 'Items per page',
+  })
+  findAll(@Query('slug') slug: string,
+    @Query('page', new DefaultValuePipe(1), ParseIntPipe) page = 1,
+    @Query('limit', new DefaultValuePipe(10), ParseIntPipe) limit = 10,
+    @Query() filters: AssociativeArray,
+  ) {
+    const { slug: _, ...filteredFilters } = filters; // Exclude 'slug' from filters
+    return this.lessonsService.findAll(slug, filteredFilters);
   }
 
   @Get(':id')
