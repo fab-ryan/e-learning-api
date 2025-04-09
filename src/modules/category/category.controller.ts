@@ -36,7 +36,7 @@ export class CategoryController {
 
   @ApiBearerAuth()
   @UseGuards(AuthGuard)
-  @Roles(RolesEnum.ADMIN)
+  @Roles(RolesEnum.ADMIN, RolesEnum.INSTRUCTOR)
   @Post()
   @Version('1')
   @ApiConsumes('multipart/form-data')
@@ -52,7 +52,7 @@ export class CategoryController {
           maxCount: 1,
         },
       ],
-      { storage },
+      { storage: storage('category') },
     ),
   )
   create(

@@ -8,6 +8,7 @@ import {
   ManyToOne,
   DeleteDateColumn,
   Unique,
+  OneToMany,
 } from 'typeorm';
 
 import { IsString, IsNotEmpty } from 'class-validator';
@@ -16,6 +17,8 @@ import { uuid } from '@/utils';
 import { User } from '@/modules/user/entities/user.entity';
 import { Category } from '@/modules/category/entities/category.entity';
 import { Enroll } from '@/modules/enrolls/entities/enroll.entity';
+import { Lesson } from '@/modules/lessons/entities/lesson.entity';
+import { Type } from 'class-transformer';
 
 @Entity('courses')
 export class Course {
@@ -88,6 +91,10 @@ export class Course {
 
   @OneToOne(() => Category, (category) => category.id)
   category: Category;
+
+  @Type(() => Lesson)
+  @OneToMany(() => Lesson, (lesson) => lesson.id)
+  lessons: Lesson[];
 
   @CreateDateColumn({ type: 'timestamp', nullable: false })
   createdAt: Date;

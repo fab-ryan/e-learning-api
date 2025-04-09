@@ -15,12 +15,15 @@ import { I18nTranslations } from '@/generated';
 import { AuthUserType } from '@/guards';
 import { UserService } from '../user/user.service';
 import { PaginateHelper } from '@/utils/paginate';
+import { Category } from '../category/entities/category.entity';
 
 @Injectable()
 export class CoursesService {
   constructor(
     @InjectRepository(Course)
     private courseRepository: Repository<Course>,
+    @InjectRepository(Category)
+    private categoryRepository: Repository<Category>,
     private readonly responseService: ResponseService,
     private readonly i18n: I18nService<I18nTranslations>,
     private readonly userService: UserService,
@@ -35,6 +38,16 @@ export class CoursesService {
     try {
       const slug = generateSlug(createCourseDto.title);
       const courseExist = await this.courseExist(createCourseDto.title, slug);
+      const category = await this.categoryRepository.findOne({
+        where: { id: createCourseDto.category_id },
+      });
+      if (!category) {
+        removeFile(files.thumbnail_url[0].filename);
+        return this.responseService.Response({
+          data: null,
+          message: this.i18n.t('response.CATEGORY.CATEGORY_NOT_FOUND'),
+        });
+      }
       if (courseExist) {
         removeFile(files.thumbnail_url[0].filename);
         return this.responseService.Response({
@@ -43,7 +56,7 @@ export class CoursesService {
         });
       }
 
-      const images = files.thumbnail_url[0]?.filename;
+      const images = 'course/' + files.thumbnail_url[0]?.filename;
       const userDetail = await this.userService.userDetail(user.sub);
       const course = this.courseRepository.create({
         ...createCourseDto,
@@ -53,6 +66,7 @@ export class CoursesService {
         isFree: createCourseDto.isFree === 'true',
         featured: createCourseDto.featured === 'true',
         creator: userDetail,
+        category
       });
       await this.courseRepository.save(course);
       return this.responseService.Response({
@@ -180,6 +194,21 @@ export class CoursesService {
 
   async remove(id: string) {
     try {
+      const course = await this.courseRepository.findOne({
+        where: { id },
+        relations: ['creator'],
+      })
+      if (!course) {
+        return this.responseService.Response({
+          data: null,
+          message: 'Course not found',
+          success: false,
+          key: 'courses',
+        });
+      }
+      if (course.thumbnail) {
+        removeFile(course.thumbnail);
+      }
       await this.courseRepository.softDelete(id);
 
       return this.responseService.Response({

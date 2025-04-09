@@ -10,6 +10,8 @@ import { CoursesModule } from './modules/courses/courses.module';
 import { SharedModule } from './shared';
 import { PrometheusModule } from './modules/prometheus/prometheus.module';
 import { EnrollsModule } from './modules/enrolls/enrolls.module';
+import { LessonsModule } from './modules/lessons/lessons.module';
+import { QuizModule } from './modules/quiz/quiz.module';
 
 
 @Module({
@@ -25,6 +27,8 @@ import { EnrollsModule } from './modules/enrolls/enrolls.module';
     CoursesModule,
     PrometheusModule,
     EnrollsModule,
+    LessonsModule,
+    QuizModule
 
   ],
 })
