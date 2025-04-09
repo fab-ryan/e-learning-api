@@ -257,4 +257,33 @@ export class UserService {
       });
     }
   }
+
+  async updateRole(id: string, role: Roles) {
+    try {
+      const user = await this.userRepository.findOne({
+        where: { id },
+        withDeleted: true,
+      });
+      if (!user) {
+        return this.responseService.Response({
+          data: null,
+          message: 'User not found',
+        });
+      }
+      const updatedUser = await this.userRepository.save({
+        ...user,
+        role,
+      });
+      return this.responseService.Response({
+        data: updatedUser,
+        key: 'users',
+        message: 'User updated successfully',
+      });
+    } catch (error) {
+      return this.responseService.Response({
+        data: null,
+        message: 'User not updated',
+      });
+    }
+  }
 }

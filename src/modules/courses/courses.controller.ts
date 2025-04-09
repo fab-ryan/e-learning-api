@@ -52,7 +52,7 @@ export class CoursesController {
           maxCount: 1,
         },
       ],
-      { storage },
+      { storage: storage('course') },
     ),
   )
   create(

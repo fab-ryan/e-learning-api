@@ -90,6 +90,18 @@ export class CreateCourseDto {
     ),
   })
   featured: string;
+
+  @ApiProperty({
+    example: 'category Id',
+    description: 'The category of the course',
+  })
+  @IsString()
+  @IsNotEmpty({
+    message: i18nValidationMessage<I18nTranslations>(
+      'validation.COURSES.COURSE_CATEGORY_REQUIRED',
+    ),
+  })
+  category_id: string;
 }
 
 export class FilesDto {

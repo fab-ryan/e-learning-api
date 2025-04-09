@@ -4,9 +4,10 @@ import { CoursesController } from './courses.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Course } from './entities/course.entity';
 import { UserModule } from '../user';
+import { Category } from '../category/entities/category.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Course]), UserModule],
+  imports: [TypeOrmModule.forFeature([Course, Category]), UserModule],
   controllers: [CoursesController],
   providers: [CoursesService],
   exports: [CoursesService],

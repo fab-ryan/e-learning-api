@@ -12,6 +12,7 @@ import {
   UseGuards,
   UseInterceptors,
   UploadedFiles,
+  Put,
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { CreateUserDto, ProfileDto } from './dto/create-user.dto';
@@ -78,6 +79,19 @@ export class UserController {
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.userService.remove(id);
+  }
+  @ApiBearerAuth()
+  @Roles(RolesEnum.ADMIN)
+  @UseGuards(AuthGuard)
+  @ApiQuery({
+    name: 'role',
+    required: true,
+    enum: RolesEnum,
+    description: 'Role to assign to the user',
+  })
+  @Put(':id/role')
+  updateRole(@Param('id') id: string, @Query('role') role: RolesEnum) {
+    return this.userService.updateRole(id, role);
   }
 }
 
