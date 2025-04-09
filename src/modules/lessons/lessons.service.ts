@@ -6,7 +6,8 @@ import { Lesson } from './entities/lesson.entity';
 import { DataSource, Repository } from 'typeorm';
 import { Course } from '../courses/entities/course.entity';
 import { Quiz } from '../quiz/entities/quiz.entity';
-import { generateSlug, ResponseService } from '@/utils';
+import { AssociativeArray, filterQueryBuilderFromRequest, generateSlug, ResponseService } from '@/utils';
+import { PaginateHelper } from '@/utils/paginate';
 
 @Injectable()
 export class LessonsService {
@@ -18,7 +19,8 @@ export class LessonsService {
     @InjectRepository(Quiz)
     private quizzesRepository: Repository<Quiz>,
     private dataSource: DataSource,
-    private readonly responseService: ResponseService
+    private readonly responseService: ResponseService,
+    private readonly pagination: PaginateHelper<Lesson>,
   ) { }
   async create(createLessonDto: CreateLessonDto, courseId: string, files: FilesDTO, quizId?: string) {
     try {
@@ -73,21 +75,20 @@ export class LessonsService {
     }
   }
 
-  async findAll(slug: string) {
+  async findAll(slug: string, filters?: AssociativeArray) {
     try {
-      const course = await this.courseRepository.findOne({
-        where: { slug },
-      });
-      const lesson = await this.lessonRepository.findAndCount({
-      });
-      const lessons = lesson[0].map((lesson) => { })
+      const lessonQuery = this.lessonRepository.createQueryBuilder('lesson')
+        .leftJoinAndSelect('lesson.course', 'course')
+        .where('course.slug = :slug', { slug })
+        .orderBy('lesson.position', 'ASC');
+      filterQueryBuilderFromRequest(lessonQuery, filters);
+      const lessons = await this.pagination.run(lessonQuery);
       return this.responseService.Response({
         message: 'Lessons fetched successfully',
         data: lessons,
         key: 'lessons',
         statusCode: 200,
       });
-
     } catch (error) {
       const errorMessage = (error as Error).message;
       return this.responseService.Response({
