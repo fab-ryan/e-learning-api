@@ -6,7 +6,7 @@ import { Lesson } from './entities/lesson.entity';
 import { DataSource, Repository } from 'typeorm';
 import { Course } from '../courses/entities/course.entity';
 import { Quiz } from '../quiz/entities/quiz.entity';
-import { AssociativeArray, filterQueryBuilderFromRequest, generateSlug, ResponseService } from '@/utils';
+import { AssociativeArray, filterQueryBuilderFromRequest, generateSlug, removeFile, ResponseService } from '@/utils';
 import { PaginateHelper } from '@/utils/paginate';
 
 @Injectable()
@@ -51,13 +51,6 @@ export class LessonsService {
           position: 1,
         });
         const savedLesson = await manager.save(lesson);
-        // if (quizId) {
-        //   const quiz = this.quizzesRepository.create({
-        //     ...createLessonDto,
-        //     lesson: savedLesson,
-        //   });
-        //   await manager.save(quiz);
-        // }
         return this.responseService.Response({
           message: 'Lesson created successfully',
           statusCode: 201,
@@ -80,9 +73,12 @@ export class LessonsService {
       const lessonQuery = this.lessonRepository.createQueryBuilder('lesson')
         .leftJoinAndSelect('lesson.course', 'course')
         .where('course.slug = :slug', { slug })
+        .andWhere('lesson.status = :status', { status: true })
         .orderBy('lesson.position', 'ASC');
       filterQueryBuilderFromRequest(lessonQuery, filters);
+
       const lessons = await this.pagination.run(lessonQuery);
+
       return this.responseService.Response({
         message: 'Lessons fetched successfully',
         data: lessons,
@@ -99,15 +95,129 @@ export class LessonsService {
     }
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} lesson`;
+  async findOne(lesson_slug: string, course_slug: string) {
+    try {
+      const lesson = await this.lessonRepository.createQueryBuilder('lesson')
+        .leftJoinAndSelect('lesson.course', 'course')
+        .leftJoinAndSelect('course.creator', 'instructor')
+        .where('lesson.slug = :lesson_slug', { lesson_slug })
+        .andWhere('course.slug = :course_slug', { course_slug })
+        .getOne();
+      if (!lesson) {
+        return this.responseService.Response({
+          message: 'Lesson not found',
+          statusCode: 404,
+        });
+      }
+      return this.responseService.Response({
+        message: 'Lesson fetched successfully',
+        data: lesson,
+        key: 'lesson',
+        statusCode: 200,
+      });
+    } catch (error) {
+      const errorMessage = (error as Error).message;
+      return this.responseService.Response({
+        message: errorMessage,
+        statusCode: 500,
+      });
+
+    }
   }
 
-  update(id: number, updateLessonDto: UpdateLessonDto) {
-    return `This action updates a #${id} lesson`;
+  async update(id: string, updateLessonDto: UpdateLessonDto, files: FilesDTO, quizId?: string) {
+    try {
+      const lesson = await this.lessonRepository.findOne({
+        where: { id },
+      });
+      if (!lesson) {
+        return this.responseService.Response({
+          message: 'Lesson not found',
+          statusCode: 404,
+        });
+      }
+      if (files.content_url) {
+        removeFile(lesson.contentUrl);
+
+      }
+      if (files.thumbnail) {
+        removeFile(lesson.thumbnail);
+      }
+      const updatedLesson = await this.lessonRepository.save({
+        ...lesson,
+        ...updateLessonDto,
+        contentUrl: files.content_url ? `lesson/${files.content_url[0]?.filename}` : lesson.contentUrl,
+        thumbnail: files.thumbnail ? `lesson/${files.thumbnail[0]?.filename}` : lesson.thumbnail,
+      });
+      return this.responseService.Response({
+        message: 'Lesson updated successfully',
+        data: updatedLesson,
+        key: 'lesson',
+        statusCode: 200,
+      });
+    } catch (error) {
+      const errorMessage = (error as Error).message;
+      return this.responseService.Response({
+        message: errorMessage,
+        statusCode: 500,
+      });
+
+    }
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} lesson`;
+  async remove(id: string) {
+    try {
+      const lesson = await this.lessonRepository.findOne({
+        where: { id },
+      });
+      if (!lesson) {
+        return this.responseService.Response({
+          message: 'Lesson not found',
+          statusCode: 404,
+        });
+
+      }
+      removeFile(lesson.contentUrl);
+      removeFile(lesson.thumbnail);
+      await this.lessonRepository.delete(id);
+      return this.responseService.Response({
+        message: 'Lesson deleted successfully',
+        statusCode: 200,
+      });
+    } catch (error) {
+      const errorMessage = (error as Error).message;
+      return this.responseService.Response({
+        message: errorMessage,
+        statusCode: 500,
+      });
+    }
+  }
+
+  async getAllLessonByInstructionn(slug: string, filters?: AssociativeArray) {
+    {
+      try {
+        const lessonQuery = this.lessonRepository.createQueryBuilder('lesson')
+          .leftJoinAndSelect('lesson.course', 'course')
+          .where('course.slug = :slug', { slug })
+          .orderBy('lesson.position', 'ASC');
+        filterQueryBuilderFromRequest(lessonQuery, filters);
+
+        const lessons = await this.pagination.run(lessonQuery);
+
+        return this.responseService.Response({
+          message: 'Lessons fetched successfully',
+          data: lessons,
+          key: 'lessons',
+          statusCode: 200,
+        });
+      } catch (error) {
+        const errorMessage = (error as Error).message;
+        return this.responseService.Response({
+          message: errorMessage,
+          statusCode: 500,
+        });
+
+      }
+    }
   }
 }
