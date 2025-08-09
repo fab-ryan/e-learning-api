@@ -8,11 +8,10 @@ import { CategoryModule } from './modules/category/category.module';
 import { UserCategoryModule } from './modules/user-category/user-category.module';
 import { CoursesModule } from './modules/courses/courses.module';
 import { SharedModule } from './shared';
-import { PrometheusModule } from './modules/prometheus/prometheus.module';
+import { PrometheusModule, PrometheusMiddleware } from './modules/prometheus';
 import { EnrollsModule } from './modules/enrolls/enrolls.module';
 import { LessonsModule } from './modules/lessons/lessons.module';
 import { QuizModule } from './modules/quiz/quiz.module';
-
 
 @Module({
   imports: [
@@ -28,12 +27,13 @@ import { QuizModule } from './modules/quiz/quiz.module';
     PrometheusModule,
     EnrollsModule,
     LessonsModule,
-    QuizModule
-
+    QuizModule,
   ],
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer.apply(LanguageMiddleware).forRoutes('*');
+
+    consumer.apply(PrometheusMiddleware).forRoutes('*');
   }
 }

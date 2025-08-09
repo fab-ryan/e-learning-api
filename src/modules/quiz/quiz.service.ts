@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { CreateQuizDto } from './dto/create-quiz.dto';
-import { UpdateQuizDto } from './dto/update-quiz.dto';
+// import {  } from './dto/update-quiz.dto';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Quiz, Question, QuestionType, AnswerOption } from './entities/quiz.entity';
+import { Quiz, Question, AnswerOption } from './entities/quiz.entity';
 import { Repository } from 'typeorm';
 import { Lesson } from '../lessons/entities/lesson.entity';
 import { ResponseService } from '@/utils';
@@ -18,11 +18,11 @@ export class QuizService {
     private questionRepository: Repository<Question>,
     @InjectRepository(AnswerOption)
     private answerOptionRepository: Repository<AnswerOption>,
+    // @InjectRepository(Answer)
+    // private answerRepository: Repository<Answer>,
 
     private readonly responseService: ResponseService,
-
-
-  ) { }
+  ) {}
 
   async createQuiz(createQuizDto: CreateQuizDto, lessonId: string) {
     try {
@@ -37,25 +37,39 @@ export class QuizService {
         });
       }
 
+      // const options = createQuizDto.questions.map((question) => ({
+      //   text: question.options,
+      //   isCorrect: question.correctAnswers,
+      // }));
+
       const quiz = this.quizRepository.create({
-        ...createQuizDto,
-        lesson,
+        title: createQuizDto.title,
+        description: createQuizDto.description,
+        lesson: lesson,
       });
 
-      const savedQuiz = await this.quizRepository.save(quiz);
+      const questions = createQuizDto.questions.map((question) => ({
+        text: question.text,
+        type: question.type,
+        correctAnswers: question.correctAnswers,
+      }));
+      const savedQuestions = await this.questionRepository.save(questions);
+
+      const savedQuiz = await this.quizRepository.save({
+        ...quiz,
+        questions: savedQuestions,
+      });
 
       return this.responseService.Response({
         message: 'Quiz created successfully',
         statusCode: 201,
         data: savedQuiz,
       });
-
     } catch (error) {
       this.responseService.Response({
         message: 'Error creating quiz',
         statusCode: 500,
       });
-
     }
   }
 }

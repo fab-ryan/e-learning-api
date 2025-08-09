@@ -18,7 +18,11 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.js",
-    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org bytegenie --project e-learning-api ./dist && sentry-cli sourcemaps upload --org bytegenie --project e-learning-api ./dist"
+    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org bytegenie --project e-learning-api ./dist && sentry-cli sourcemaps upload --org bytegenie --project e-learning-api ./dist",
+    "documentation": "npx @compodoc/compodoc -p tsconfig.json -s -d documentation --theme gitbook",
+    "start:prometheus": " ./scripts/start-prometheus.sh",
+    "stop:prometheus": "./scripts/stop-prometheus.sh"
+
   },
   "dependencies": {
     "@nestjs-modules/mailer": "^2.0.2",
@@ -59,6 +63,7 @@
     "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
+    "@compodoc/compodoc": "^1.1.26",
     "@nestjs/cli": "^10.0.0",
     "@nestjs/schematics": "^10.0.0",
     "@nestjs/testing": "^10.0.0",
