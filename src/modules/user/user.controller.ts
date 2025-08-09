@@ -12,11 +12,18 @@ import {
   UseGuards,
   UseInterceptors,
   UploadedFiles,
+  Put,
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { CreateUserDto, ProfileDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { ApiTags, ApiQuery, ApiBearerAuth, ApiOperation, ApiConsumes } from '@nestjs/swagger';
+import {
+  ApiTags,
+  ApiQuery,
+  ApiBearerAuth,
+  ApiOperation,
+  ApiConsumes,
+} from '@nestjs/swagger';
 import { AssociativeArray, storage } from '@/utils';
 import { AuthGuard, AuthUserType } from '@/guards';
 import { Roles, User } from '@/decorators';
@@ -26,7 +33,7 @@ import { FileFieldsInterceptor } from '@nestjs/platform-express';
 @ApiTags('Users')
 @Controller('users')
 export class UserController {
-  constructor(private readonly userService: UserService) { }
+  constructor(private readonly userService: UserService) {}
 
   @Post()
   create(@Body() createUserDto: CreateUserDto) {
@@ -79,13 +86,25 @@ export class UserController {
   remove(@Param('id') id: string) {
     return this.userService.remove(id);
   }
+  @ApiBearerAuth()
+  @Roles(RolesEnum.ADMIN)
+  @UseGuards(AuthGuard)
+  @ApiQuery({
+    name: 'role',
+    required: true,
+    enum: RolesEnum,
+    description: 'Role to assign to the user',
+  })
+  @Put(':id/role')
+  updateRole(@Param('id') id: string, @Query('role') role: RolesEnum) {
+    return this.userService.updateRole(id, role);
+  }
 }
 
 @ApiTags('Profile')
 @Controller('profile')
 export class ProfileController {
-
-  constructor(private readonly userService: UserService) { }
+  constructor(private readonly userService: UserService) {}
   @ApiOperation({ summary: 'Get user profile' })
   @ApiBearerAuth()
   @Roles(RolesEnum.ALL)
@@ -112,16 +131,19 @@ export class ProfileController {
   @ApiBearerAuth()
   @Roles(RolesEnum.ALL)
   @UseGuards(AuthGuard)
-  updateProfile(@User() user: AuthUserType, @Body() updateUserDto: ProfileDto,
+  updateProfile(
+    @User() user: AuthUserType,
+    @Body() updateUserDto: ProfileDto,
     @UploadedFiles()
     files: {
       profile_picture: Express.Multer.File;
-    }) {
+    },
+  ) {
     return this.userService.updateProfile(updateUserDto, user, files);
   }
 
-  @Get("/debug-sentry")
+  @Get('/debug-sentry')
   getError() {
-    throw new Error("My first Sentry error!");
+    throw new Error('My first Sentry error!');
   }
 }

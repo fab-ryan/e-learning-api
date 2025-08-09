@@ -1,0 +1,671 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>e-learning-api documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+          <script>
+               // Blocking script to avoid flickering dark mode
+               // Dark mode toggle button
+               var useDark = window.matchMedia('(prefers-color-scheme: dark)');
+               var darkModeState = useDark.matches;
+               var $darkModeToggleSwitchers = document.querySelectorAll('.dark-mode-switch input');
+               var $darkModeToggles = document.querySelectorAll('.dark-mode-switch');
+               var darkModeStateLocal = localStorage.getItem('compodoc_darkmode-state');
+
+               function checkToggle(check) {
+                    for (var i = 0; i < $darkModeToggleSwitchers.length; i++) {
+                         $darkModeToggleSwitchers[i].checked = check;
+                    }
+               }
+
+               function toggleDarkMode(state) {
+                    if (window.localStorage) {
+                         localStorage.setItem('compodoc_darkmode-state', state);
+                    }
+
+                    checkToggle(state);
+
+                    const hasClass = document.body.classList.contains('dark');
+
+                    if (state) {
+                         for (var i = 0; i < $darkModeToggles.length; i++) {
+                              $darkModeToggles[i].classList.add('dark');
+                         }
+                         if (!hasClass) {
+                              document.body.classList.add('dark');
+                         }
+                    } else {
+                         for (var i = 0; i < $darkModeToggles.length; i++) {
+                              $darkModeToggles[i].classList.remove('dark');
+                         }
+                         if (hasClass) {
+                              document.body.classList.remove('dark');
+                         }
+                    }
+               }
+
+               useDark.addEventListener('change', function (evt) {
+                    toggleDarkMode(evt.matches);
+               });
+               if (darkModeStateLocal) {
+                    darkModeState = darkModeStateLocal === 'true';
+               }
+               toggleDarkMode(darkModeState);
+          </script>
+
+        <div class="navbar navbar-default navbar-fixed-top d-md-none p-0">
+               <div class="d-flex">
+                    <a href="../" class="navbar-brand">e-learning-api documentation</a>
+                    <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+               </div>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="d-none d-md-block menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Injectables</li>
+  <li class="breadcrumb-item" >EnrollsService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" 
+                class="nav-link"
+                class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" 
+                class="nav-link"
+                
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/modules/enrolls/enrolls.service.ts</code>
+        </p>
+
+
+
+
+
+            <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#instructorGetEnrollsCourses" >instructorGetEnrollsCourses</a>
+                            </li>
+                            <li>
+                                <a href="#studentEnroll" >studentEnroll</a>
+                            </li>
+                            <li>
+                                <a href="#studentEnrollChangeStatus" >studentEnrollChangeStatus</a>
+                            </li>
+                            <li>
+                                <a href="#studentGetEnrollsCourses" >studentGetEnrollsCourses</a>
+                            </li>
+                            <li>
+                                <a href="#unenrollCourse" >unenrollCourse</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(enrollRepository: <a href="../entitys/Enroll.html" target="_self">Repository&lt;Enroll&gt;</a>, userRepository: <a href="../interfaces/User.html" target="_self">Repository&lt;User&gt;</a>, courseRepository: <a href="../entitys/Course.html" target="_self">Repository&lt;Course&gt;</a>, responseService: <a href="../injectables/ResponseService.html" target="_self">ResponseService</a>, i18n: <a href="../undefineds/I18nTranslations.html" target="_self">I18nService&lt;I18nTranslations&gt;</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/modules/enrolls/enrolls.service.ts:13</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>enrollRepository</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../entitys/Enroll.html" target="_self" >Repository&lt;Enroll&gt;</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>userRepository</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../interfaces/User.html" target="_self" >Repository&lt;User&gt;</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>courseRepository</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../entitys/Course.html" target="_self" >Repository&lt;Course&gt;</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>responseService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/ResponseService.html" target="_self" >ResponseService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>i18n</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../miscellaneous/typealiases.html#I18nTranslations" target="_self" >I18nService&lt;I18nTranslations&gt;</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+            <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="instructorGetEnrollsCourses"></a>
+                    <span class="name">
+                        <span ><b>instructorGetEnrollsCourses</b></span>
+                        <a href="#instructorGetEnrollsCourses"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="162" class="link-to-prism">src/modules/enrolls/enrolls.service.ts:162</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studentEnroll"></a>
+                    <span class="name">
+                        <span ><b>studentEnroll</b></span>
+                        <a href="#studentEnroll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/modules/enrolls/enrolls.service.ts:26</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studentEnrollChangeStatus"></a>
+                    <span class="name">
+                        <span ><b>studentEnrollChangeStatus</b></span>
+                        <a href="#studentEnrollChangeStatus"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="102" class="link-to-prism">src/modules/enrolls/enrolls.service.ts:102</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="studentGetEnrollsCourses"></a>
+                    <span class="name">
+                        <span ><b>studentGetEnrollsCourses</b></span>
+                        <a href="#studentGetEnrollsCourses"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="137" class="link-to-prism">src/modules/enrolls/enrolls.service.ts:137</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="unenrollCourse"></a>
+                    <span class="name">
+                        <span ><b>unenrollCourse</b></span>
+                        <a href="#unenrollCourse"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="72" class="link-to-prism">src/modules/enrolls/enrolls.service.ts:72</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Injectable } from &#x27;@nestjs/common&#x27;;
+import { InjectRepository } from &#x27;@nestjs/typeorm&#x27;;
+import { Enroll } from &#x27;./entities/enroll.entity&#x27;;
+import { Repository } from &#x27;typeorm&#x27;;
+import { User } from &#x27;../user/entities/user.entity&#x27;;
+import { Course } from &#x27;../courses/entities/course.entity&#x27;;
+import { ResponseService } from &#x27;@/utils&#x27;;
+import { AuthUserType } from &#x27;@/guards&#x27;;
+import { I18nService } from &#x27;nestjs-i18n&#x27;;
+import { I18nTranslations } from &#x27;@/generated&#x27;;
+
+@Injectable()
+export class EnrollsService {
+    constructor(
+        @InjectRepository(Enroll)
+        private enrollRepository: Repository&lt;Enroll&gt;,
+        @InjectRepository(User)
+        private userRepository: Repository&lt;User&gt;,
+        @InjectRepository(Course)
+        private courseRepository: Repository&lt;Course&gt;,
+        private readonly responseService: ResponseService,
+        private readonly i18n: I18nService&lt;I18nTranslations&gt;,
+
+    ) { }
+
+    studentEnroll &#x3D; async (courseId: string, student: AuthUserType) &#x3D;&gt; {
+        try {
+            const user &#x3D; await this.userRepository.findOne({
+                where: { id: student.sub }
+            })
+            const existUserEnrolled &#x3D; await this.enrollRepository.findOne({
+                where: {
+                    course: { id: courseId },
+                    student: user,
+                }
+            })
+            if (existUserEnrolled) {
+                return this.responseService.Response({
+                    message: &#x27;You have already enrolled in this course&#x27;,
+                    data: null
+                })
+            }
+            const course &#x3D; await this.courseRepository.findOne({
+                where: { id: courseId }
+            })
+            if (!course) {
+                return this.responseService.Response({
+                    message: &#x27;Course not found&#x27;,
+                    data: null
+                })
+            }
+            const enroll &#x3D; this.enrollRepository.create({
+                course,
+                student: user
+            })
+            await this.enrollRepository.save(enroll)
+            return this.responseService.Response({
+                message: &#x27;Enrolled successfully&#x27;,
+                data: enroll,
+                key: &#x27;enroll&#x27;
+            })
+
+        } catch (error) {
+            const message &#x3D; (error as Error).message
+            return this.responseService.Response({
+                message,
+                data: null
+            })
+        }
+    }
+
+    unenrollCourse &#x3D; async (courseId: string, student: AuthUserType) &#x3D;&gt; {
+        try {
+            const user &#x3D; await this.userRepository.findOne({
+                where: { id: student.sub }
+            })
+            const enroll &#x3D; await this.enrollRepository.findOne({
+                where: {
+                    course: { id: courseId },
+                    student: user
+                }
+            })
+            if (!enroll) {
+                return this.responseService.Response({
+                    message: &#x27;You have not enrolled in this course&#x27;,
+                    data: null
+                })
+            }
+            await this.enrollRepository.remove(enroll)
+            return this.responseService.Response({
+                message: &#x27;Unenrolled successfully&#x27;,
+                data: null
+            })
+        } catch (error) {
+            const message &#x3D; (error as Error).message
+            return this.responseService.Response({
+                message,
+                data: null
+            })
+        }
+    }
+    studentEnrollChangeStatus &#x3D; async (courseId: string, student: AuthUserType) &#x3D;&gt; {
+        try {
+            const user &#x3D; await this.userRepository.findOne({
+                where: { id: student.sub }
+            })
+            const enroll &#x3D; await this.enrollRepository.createQueryBuilder(&#x27;enroll&#x27;)
+                .leftJoinAndSelect(&#x27;enroll.course&#x27;, &#x27;course&#x27;)
+                .where(&#x27;enroll.student.id &#x3D; :id&#x27;,
+                    { id: user.id })
+                .andWhere(&#x27;course.id &#x3D; :courseId&#x27;, { courseId })
+                .getOne()
+
+            if (!enroll) {
+                return this.responseService.Response({
+                    message: &#x27;You have not enrolled in this course&#x27;,
+                    data: null
+                })
+            }
+            const updatedEnroll &#x3D; await this.enrollRepository.save({
+                ...enroll,
+                status: !enroll.status
+            })
+            return this.responseService.Response({
+                message: &#x27;Enroll status updated successfully&#x27;,
+                data: updatedEnroll,
+                key: &#x27;enroll&#x27;
+            })
+        } catch (error) {
+            const message &#x3D; (error as Error).message
+            return this.responseService.Response({
+                message,
+                data: null
+            })
+        }
+    }
+    studentGetEnrollsCourses &#x3D; async (student: AuthUserType) &#x3D;&gt; {
+        try {
+            const user &#x3D; await this.userRepository.findOne({
+                where: { id: student.sub }
+            })
+            const enrolls &#x3D; await this.enrollRepository.createQueryBuilder(&#x27;enroll&#x27;)
+                .leftJoinAndSelect(&#x27;enroll.course&#x27;, &#x27;course&#x27;)
+                .where(&#x27;enroll.student.id &#x3D; :id&#x27;,
+                    { id: user.id })
+                .getMany()
+            return this.responseService.Response({
+                message: &#x27;Enrolls fetched successfully&#x27;,
+                data: enrolls,
+                key: &#x27;enrolls&#x27;
+            })
+        } catch (error) {
+            const message &#x3D; (error as Error).message
+            return this.responseService.Response({
+                message,
+                data: null
+            })
+        }
+    }
+
+
+    instructorGetEnrollsCourses &#x3D; async (instructor: AuthUserType) &#x3D;&gt; {
+        try {
+            const user &#x3D; await this.userRepository.findOne({
+                where: { id: instructor.sub }
+            })
+            const enrolls &#x3D; await this.enrollRepository.createQueryBuilder(&#x27;enroll&#x27;)
+                .leftJoinAndSelect(&#x27;enroll.course&#x27;, &#x27;course&#x27;)
+                .where(&#x27;course.creator.id &#x3D; :id&#x27;,
+                    { id: user.id })
+                .getMany()
+            return this.responseService.Response({
+                message: &#x27;Enrolls fetched successfully&#x27;,
+                data: enrolls,
+                key: &#x27;enrolls&#x27;
+            })
+        } catch (error) {
+            const message &#x3D; (error as Error).message
+            return this.responseService.Response({
+                message,
+                data: null
+            })
+        }
+    }
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'EnrollsService.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script>
+               $darkModeToggleSwitchers = document.querySelectorAll('.dark-mode-switch input');
+               checkToggle(darkModeState);
+               if ($darkModeToggleSwitchers.length > 0) {
+                    for (var i = 0; i < $darkModeToggleSwitchers.length; i++) {
+                         $darkModeToggleSwitchers[i].addEventListener('change', function (event) {
+                              darkModeState = !darkModeState;
+                              toggleDarkMode(darkModeState);
+                         });
+                    }
+               }
+          </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

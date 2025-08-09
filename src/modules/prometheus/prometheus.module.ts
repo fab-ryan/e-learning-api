@@ -1,7 +1,10 @@
-import { Module } from '@nestjs/common';
+import { Module, Global } from '@nestjs/common';
 import { PrometheusService } from './prometheus.service';
 import { PrometheusController } from './prometheus.controller';
+import { PrometheusMiddleware } from './prometheus.middleware';
 import { PrometheusModule as PrometheusModules } from '@willsoto/nestjs-prometheus';
+
+@Global()
 @Module({
   imports: [
     PrometheusModules.register({
@@ -9,10 +12,10 @@ import { PrometheusModule as PrometheusModules } from '@willsoto/nestjs-promethe
         enabled: true,
       },
       global: true,
-
-    })
+    }),
   ],
   controllers: [PrometheusController],
-  providers: [PrometheusService,],
+  providers: [PrometheusService, PrometheusMiddleware],
+  exports: [PrometheusService, PrometheusMiddleware],
 })
-export class PrometheusModule { }
+export class PrometheusModule {}

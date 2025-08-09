@@ -26,7 +26,7 @@ export class UserService {
     private readonly responseService: ResponseService,
     private readonly i18n: I18nService<I18nTranslations>,
     private readonly userPagination: PaginateHelper<User>,
-  ) { }
+  ) {}
   async create(createUserDto: CreateUserDto) {
     try {
       const lang = I18nContext.current().lang;
@@ -105,7 +105,7 @@ export class UserService {
         key: 'users',
         message: 'Users fetched successfully',
       });
-    } catch (error) { }
+    } catch (error) {}
   }
 
   async findOne(id: string) {
@@ -204,7 +204,11 @@ export class UserService {
     return user;
   }
 
-  async updateProfile(updateUserDto: ProfileDto, authUser: AuthUserType, imageProfile: ImagePicDto) {
+  async updateProfile(
+    updateUserDto: ProfileDto,
+    authUser: AuthUserType,
+    imageProfile: ImagePicDto,
+  ) {
     try {
       const user = await this.userRepository.findOne({
         where: { id: authUser.sub },
@@ -236,7 +240,6 @@ export class UserService {
         message: 'User not updated',
       });
     }
-
   }
   async getProfile(authUser: AuthUserType) {
     try {
@@ -244,7 +247,9 @@ export class UserService {
         where: { id: authUser?.sub },
         withDeleted: true,
       });
-      user.profile_picture = user.profile_picture ? getUploadPath(user.profile_picture) : null;
+      user.profile_picture = user.profile_picture
+        ? getUploadPath(user.profile_picture)
+        : null;
       return this.responseService.Response({
         data: user,
         key: 'users',
@@ -254,6 +259,35 @@ export class UserService {
       return this.responseService.Response({
         data: null,
         message: 'User not found',
+      });
+    }
+  }
+
+  async updateRole(id: string, role: Roles) {
+    try {
+      const user = await this.userRepository.findOne({
+        where: { id },
+        withDeleted: true,
+      });
+      if (!user) {
+        return this.responseService.Response({
+          data: null,
+          message: 'User not found',
+        });
+      }
+      const updatedUser = await this.userRepository.save({
+        ...user,
+        role,
+      });
+      return this.responseService.Response({
+        data: updatedUser,
+        key: 'users',
+        message: 'User updated successfully',
+      });
+    } catch (error) {
+      return this.responseService.Response({
+        data: null,
+        message: 'User not updated',
       });
     }
   }

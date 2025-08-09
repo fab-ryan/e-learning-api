@@ -1,4 +1,13 @@
-import { Injectable, Scope, Inject, HttpStatus, ExceptionFilter, Catch, ArgumentsHost, HttpException } from '@nestjs/common';
+import {
+  Injectable,
+  Scope,
+  Inject,
+  HttpStatus,
+  ExceptionFilter,
+  Catch,
+  ArgumentsHost,
+  HttpException,
+} from '@nestjs/common';
 import { ResponseDto } from './response.dto';
 import { REQUEST } from '@nestjs/core';
 import { Request, Response } from 'express';
@@ -16,11 +25,11 @@ export class IResponseData<T> {
   key?: string = 'data';
 }
 
-export class IRequest extends PartialType(IResponseData) { }
+export class IRequest extends PartialType(IResponseData) {}
 
 @Injectable({ scope: Scope.REQUEST | Scope.TRANSIENT | Scope.DEFAULT })
 export class ResponseService {
-  constructor(@Inject(REQUEST) private readonly request: Request) { }
+  constructor(@Inject(REQUEST) private readonly request: Request) {}
   public Response(result: IRequest): ResponseDto {
     const { route, method } = this.request;
     const response: ResponseDto = {
@@ -35,13 +44,11 @@ export class ResponseService {
     };
     return response;
   }
-
 }
-
 
 @Catch()
 export class CustomExceptionFilter implements ExceptionFilter {
-  constructor(private readonly responseService: ResponseService) { }
+  constructor(private readonly responseService: ResponseService) {}
   catch(exception: any, host: ArgumentsHost) {
     const ctx = host.switchToHttp();
     const response = ctx.getResponse<Response>();
@@ -56,11 +63,9 @@ export class CustomExceptionFilter implements ExceptionFilter {
       statusCode: status,
       data: null,
       key: 'error',
-      message:
-        exception.message || 'An unexpected error occurred',
+      message: exception.message || 'An unexpected error occurred',
     };
     const errorResponse = this.responseService.Response(result);
     response.status(status).json(errorResponse);
   }
-
 }
