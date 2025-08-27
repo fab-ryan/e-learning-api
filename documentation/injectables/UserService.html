@@ -649,8 +649,8 @@
 
                     <tr>
                         <td class="col-md-4">
-                            <div class="io-line">Defined in <a href="" data-line="241"
-                                    class="link-to-prism">src/modules/user/user.service.ts:241</a></div>
+                            <div class="io-line">Defined in <a href="" data-line="244"
+                                    class="link-to-prism">src/modules/user/user.service.ts:244</a></div>
                         </td>
                     </tr>
 
@@ -961,8 +961,8 @@
 
                     <tr>
                         <td class="col-md-4">
-                            <div class="io-line">Defined in <a href="" data-line="261"
-                                    class="link-to-prism">src/modules/user/user.service.ts:261</a></div>
+                            <div class="io-line">Defined in <a href="" data-line="266"
+                                    class="link-to-prism">src/modules/user/user.service.ts:266</a></div>
                         </td>
                     </tr>
 
@@ -1192,7 +1192,7 @@ export class UserService {
     private readonly responseService: ResponseService,
     private readonly i18n: I18nService&lt;I18nTranslations&gt;,
     private readonly userPagination: PaginateHelper&lt;User&gt;,
-  ) { }
+  ) {}
   async create(createUserDto: CreateUserDto) {
     try {
       const lang &#x3D; I18nContext.current().lang;
@@ -1271,7 +1271,7 @@ export class UserService {
         key: &#x27;users&#x27;,
         message: &#x27;Users fetched successfully&#x27;,
       });
-    } catch (error) { }
+    } catch (error) {}
   }
 
   async findOne(id: string) {
@@ -1370,7 +1370,11 @@ export class UserService {
     return user;
   }
 
-  async updateProfile(updateUserDto: ProfileDto, authUser: AuthUserType, imageProfile: ImagePicDto) {
+  async updateProfile(
+    updateUserDto: ProfileDto,
+    authUser: AuthUserType,
+    imageProfile: ImagePicDto,
+  ) {
     try {
       const user &#x3D; await this.userRepository.findOne({
         where: { id: authUser.sub },
@@ -1402,7 +1406,6 @@ export class UserService {
         message: &#x27;User not updated&#x27;,
       });
     }
-
   }
   async getProfile(authUser: AuthUserType) {
     try {
@@ -1410,7 +1413,9 @@ export class UserService {
         where: { id: authUser?.sub },
         withDeleted: true,
       });
-      user.profile_picture &#x3D; user.profile_picture ? getUploadPath(user.profile_picture) : null;
+      user.profile_picture &#x3D; user.profile_picture
+        ? getUploadPath(user.profile_picture)
+        : null;
       return this.responseService.Response({
         data: user,
         key: &#x27;users&#x27;,

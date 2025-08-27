@@ -32,7 +32,7 @@ import { RolesEnum } from '@/enums';
 @ApiTags('category')
 @Controller('category')
 export class CategoryController {
-  constructor(private readonly categoryService: CategoryService) { }
+  constructor(private readonly categoryService: CategoryService) {}
 
   @ApiBearerAuth()
   @UseGuards(AuthGuard)

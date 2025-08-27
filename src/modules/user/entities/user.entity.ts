@@ -21,7 +21,6 @@ export class User {
   @PrimaryColumn()
   id: string;
 
-
   @Column()
   @IsString()
   @IsNotEmpty()

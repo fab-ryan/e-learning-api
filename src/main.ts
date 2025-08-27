@@ -1,4 +1,4 @@
-import './instrument'
+import './instrument';
 import { NestFactory, Reflector } from '@nestjs/core';
 import { config } from 'dotenv';
 import helmet from 'helmet';

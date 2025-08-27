@@ -1,4 +1,9 @@
-import { CanActivate, ExecutionContext, Injectable, UnauthorizedException } from '@nestjs/common';
+import {
+  CanActivate,
+  ExecutionContext,
+  Injectable,
+  UnauthorizedException,
+} from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
 import { ResponseService } from '@/utils';
 import { Request, Response } from 'express';
@@ -18,7 +23,7 @@ export class AuthGuard implements CanActivate {
     private readonly responseServices: ResponseService,
     private authMiddleware: AuthenticateMiddleware,
     private reflector: Reflector,
-  ) { }
+  ) {}
   matchRoles(roles: Role[], userRole: Role) {
     return roles.some((role) => {
       if (role === Role.ALL) return true;
@@ -29,7 +34,7 @@ export class AuthGuard implements CanActivate {
     await this.authMiddleware.use(
       context.switchToHttp().getRequest<Request>(),
       context.switchToHttp().getResponse<Response>(),
-      () => { },
+      () => {},
     );
     const requiredRoles = this.reflector.getAllAndOverride<Role[]>(ROLE_KEY, [
       context.getHandler(),
@@ -37,13 +42,12 @@ export class AuthGuard implements CanActivate {
     ]);
     if (!requiredRoles) {
       throw new UnauthorizedException(
-
         this.responseServices.Response({
           success: false,
           data: null,
           statusCode: 401,
           message: 'Unauthorized',
-        })
+        }),
       );
     }
     const request = context.switchToHttp().getRequest<Request>();
@@ -59,13 +63,14 @@ export class AuthGuard implements CanActivate {
     }
 
     if (!this.matchRoles(requiredRoles, user.role as Role)) {
-
-      throw new UnauthorizedException(this.responseServices.Response({
-        success: false,
-        data: null,
-        statusCode: 401,
-        message: 'Unauthorized',
-      }));
+      throw new UnauthorizedException(
+        this.responseServices.Response({
+          success: false,
+          data: null,
+          statusCode: 401,
+          message: 'Unauthorized',
+        }),
+      );
     }
     return true;
   }

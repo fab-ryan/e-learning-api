@@ -6,7 +6,9 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Course } from './entities/course.entity';
 import { Repository } from 'typeorm';
 import {
-  generateSlug, removeFile, ResponseService,
+  generateSlug,
+  removeFile,
+  ResponseService,
   AssociativeArray,
   filterQueryBuilderFromRequest,
 } from '@/utils';
@@ -28,7 +30,7 @@ export class CoursesService {
     private readonly i18n: I18nService<I18nTranslations>,
     private readonly userService: UserService,
     private readonly coursePagination: PaginateHelper<Course>,
-  ) { }
+  ) {}
 
   async create(
     createCourseDto: CreateCourseDto,
@@ -66,7 +68,7 @@ export class CoursesService {
         isFree: createCourseDto.isFree === 'true',
         featured: createCourseDto.featured === 'true',
         creator: userDetail,
-        category
+        category,
       });
       await this.courseRepository.save(course);
       return this.responseService.Response({
@@ -197,7 +199,7 @@ export class CoursesService {
       const course = await this.courseRepository.findOne({
         where: { id },
         relations: ['creator'],
-      })
+      });
       if (!course) {
         return this.responseService.Response({
           data: null,

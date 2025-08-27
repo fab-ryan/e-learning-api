@@ -12,4 +12,4 @@ import { Category } from '../category/entities/category.entity';
   providers: [CoursesService],
   exports: [CoursesService],
 })
-export class CoursesModule { }
+export class CoursesModule {}

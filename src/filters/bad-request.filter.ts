@@ -17,7 +17,7 @@ interface ValidationResponse {
 
 @Catch(BadRequestException)
 export class HttpExceptionFilter implements ExceptionFilter {
-  constructor(public reflector: Reflector) { }
+  constructor(public reflector: Reflector) {}
 
   catch(exception: BadRequestException, host: ArgumentsHost) {
     const ctx = host.switchToHttp();

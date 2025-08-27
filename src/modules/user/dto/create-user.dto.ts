@@ -112,7 +112,6 @@ export class CreateUserDto {
   password: string;
 }
 
-
 export class ProfileDto extends PartialType(CreateUserDto) {
   @ApiProperty({
     example: 'https://example.com/icon.png',

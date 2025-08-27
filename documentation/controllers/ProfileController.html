@@ -208,8 +208,8 @@
 
                     <tr>
                         <td class="col-md-4">
-                            <div class="io-line">Defined in <a href="" data-line="138"
-                                    class="link-to-prism">src/modules/user/user.controller.ts:138</a></div>
+                            <div class="io-line">Defined in <a href="" data-line="146"
+                                    class="link-to-prism">src/modules/user/user.controller.ts:146</a></div>
                         </td>
                     </tr>
 
@@ -258,8 +258,8 @@
 
                     <tr>
                         <td class="col-md-4">
-                            <div class="io-line">Defined in <a href="" data-line="108"
-                                    class="link-to-prism">src/modules/user/user.controller.ts:108</a></div>
+                            <div class="io-line">Defined in <a href="" data-line="113"
+                                    class="link-to-prism">src/modules/user/user.controller.ts:113</a></div>
                         </td>
                     </tr>
 
@@ -340,8 +340,8 @@
 
                     <tr>
                         <td class="col-md-4">
-                            <div class="io-line">Defined in <a href="" data-line="129"
-                                    class="link-to-prism">src/modules/user/user.controller.ts:129</a></div>
+                            <div class="io-line">Defined in <a href="" data-line="134"
+                                    class="link-to-prism">src/modules/user/user.controller.ts:134</a></div>
                         </td>
                     </tr>
 
@@ -434,7 +434,13 @@
 import { UserService } from &#x27;./user.service&#x27;;
 import { CreateUserDto, ProfileDto } from &#x27;./dto/create-user.dto&#x27;;
 import { UpdateUserDto } from &#x27;./dto/update-user.dto&#x27;;
-import { ApiTags, ApiQuery, ApiBearerAuth, ApiOperation, ApiConsumes } from &#x27;@nestjs/swagger&#x27;;
+import {
+  ApiTags,
+  ApiQuery,
+  ApiBearerAuth,
+  ApiOperation,
+  ApiConsumes,
+} from &#x27;@nestjs/swagger&#x27;;
 import { AssociativeArray, storage } from &#x27;@/utils&#x27;;
 import { AuthGuard, AuthUserType } from &#x27;@/guards&#x27;;
 import { Roles, User } from &#x27;@/decorators&#x27;;
@@ -444,7 +450,7 @@ import { FileFieldsInterceptor } from &#x27;@nestjs/platform-express&#x27;;
 @ApiTags(&#x27;Users&#x27;)
 @Controller(&#x27;users&#x27;)
 export class UserController {
-  constructor(private readonly userService: UserService) { }
+  constructor(private readonly userService: UserService) {}
 
   @Post()
   create(@Body() createUserDto: CreateUserDto) {
@@ -515,8 +521,7 @@ export class UserController {
 @ApiTags(&#x27;Profile&#x27;)
 @Controller(&#x27;profile&#x27;)
 export class ProfileController {
-
-  constructor(private readonly userService: UserService) { }
+  constructor(private readonly userService: UserService) {}
   @ApiOperation({ summary: &#x27;Get user profile&#x27; })
   @ApiBearerAuth()
   @Roles(RolesEnum.ALL)
@@ -543,17 +548,20 @@ export class ProfileController {
   @ApiBearerAuth()
   @Roles(RolesEnum.ALL)
   @UseGuards(AuthGuard)
-  updateProfile(@User() user: AuthUserType, @Body() updateUserDto: ProfileDto,
+  updateProfile(
+    @User() user: AuthUserType,
+    @Body() updateUserDto: ProfileDto,
     @UploadedFiles()
     files: {
       profile_picture: Express.Multer.File;
-    }) {
+    },
+  ) {
     return this.userService.updateProfile(updateUserDto, user, files);
   }
 
-  @Get(&quot;/debug-sentry&quot;)
+  @Get(&#x27;/debug-sentry&#x27;)
   getError() {
-    throw new Error(&quot;My first Sentry error!&quot;);
+    throw new Error(&#x27;My first Sentry error!&#x27;);
   }
 }
 </code></pre>

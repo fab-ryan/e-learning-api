@@ -10,4 +10,4 @@ import { Lesson } from '../lessons/entities/lesson.entity';
   controllers: [QuizController],
   providers: [QuizService],
 })
-export class QuizModule { }
+export class QuizModule {}

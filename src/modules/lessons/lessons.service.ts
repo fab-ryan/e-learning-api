@@ -6,7 +6,13 @@ import { Lesson } from './entities/lesson.entity';
 import { DataSource, Repository } from 'typeorm';
 import { Course } from '../courses/entities/course.entity';
 import { Quiz } from '../quiz/entities/quiz.entity';
-import { AssociativeArray, filterQueryBuilderFromRequest, generateSlug, removeFile, ResponseService } from '@/utils';
+import {
+  AssociativeArray,
+  filterQueryBuilderFromRequest,
+  generateSlug,
+  removeFile,
+  ResponseService,
+} from '@/utils';
 import { PaginateHelper } from '@/utils/paginate';
 
 @Injectable()
@@ -21,8 +27,13 @@ export class LessonsService {
     private dataSource: DataSource,
     private readonly responseService: ResponseService,
     private readonly pagination: PaginateHelper<Lesson>,
-  ) { }
-  async create(createLessonDto: CreateLessonDto, courseId: string, files: FilesDTO, quizId?: string) {
+  ) {}
+  async create(
+    createLessonDto: CreateLessonDto,
+    courseId: string,
+    files: FilesDTO,
+    quizId?: string,
+  ) {
     try {
       const course = await this.courseRepository.findOne({
         where: { id: courseId },
@@ -36,7 +47,8 @@ export class LessonsService {
       }
 
       this.dataSource.transaction(async (manager) => {
-        await manager.getRepository(Lesson)
+        await manager
+          .getRepository(Lesson)
           .createQueryBuilder()
           .update()
           .set({ position: () => `"position" + 1` })
@@ -56,21 +68,20 @@ export class LessonsService {
           statusCode: 201,
           data: savedLesson,
         });
-      })
-
+      });
     } catch (error) {
       const errorMessage = (error as Error).message;
       this.responseService.Response({
         message: errorMessage,
         statusCode: 500,
       });
-
     }
   }
 
   async findAll(slug: string, filters?: AssociativeArray) {
     try {
-      const lessonQuery = this.lessonRepository.createQueryBuilder('lesson')
+      const lessonQuery = this.lessonRepository
+        .createQueryBuilder('lesson')
         .leftJoinAndSelect('lesson.course', 'course')
         .where('course.slug = :slug', { slug })
         .andWhere('lesson.status = :status', { status: true })
@@ -91,13 +102,13 @@ export class LessonsService {
         message: errorMessage,
         statusCode: 500,
       });
-
     }
   }
 
   async findOne(lesson_slug: string, course_slug: string) {
     try {
-      const lesson = await this.lessonRepository.createQueryBuilder('lesson')
+      const lesson = await this.lessonRepository
+        .createQueryBuilder('lesson')
         .leftJoinAndSelect('lesson.course', 'course')
         .leftJoinAndSelect('course.creator', 'instructor')
         .where('lesson.slug = :lesson_slug', { lesson_slug })
@@ -121,11 +132,15 @@ export class LessonsService {
         message: errorMessage,
         statusCode: 500,
       });
-
     }
   }
 
-  async update(id: string, updateLessonDto: UpdateLessonDto, files: FilesDTO, quizId?: string) {
+  async update(
+    id: string,
+    updateLessonDto: UpdateLessonDto,
+    files: FilesDTO,
+    quizId?: string,
+  ) {
     try {
       const lesson = await this.lessonRepository.findOne({
         where: { id },
@@ -138,7 +153,6 @@ export class LessonsService {
       }
       if (files.content_url) {
         removeFile(lesson.contentUrl);
-
       }
       if (files.thumbnail) {
         removeFile(lesson.thumbnail);
@@ -146,8 +160,12 @@ export class LessonsService {
       const updatedLesson = await this.lessonRepository.save({
         ...lesson,
         ...updateLessonDto,
-        contentUrl: files.content_url ? `lesson/${files.content_url[0]?.filename}` : lesson.contentUrl,
-        thumbnail: files.thumbnail ? `lesson/${files.thumbnail[0]?.filename}` : lesson.thumbnail,
+        contentUrl: files.content_url
+          ? `lesson/${files.content_url[0]?.filename}`
+          : lesson.contentUrl,
+        thumbnail: files.thumbnail
+          ? `lesson/${files.thumbnail[0]?.filename}`
+          : lesson.thumbnail,
       });
       return this.responseService.Response({
         message: 'Lesson updated successfully',
@@ -161,7 +179,6 @@ export class LessonsService {
         message: errorMessage,
         statusCode: 500,
       });
-
     }
   }
 
@@ -175,7 +192,6 @@ export class LessonsService {
           message: 'Lesson not found',
           statusCode: 404,
         });
-
       }
       removeFile(lesson.contentUrl);
       removeFile(lesson.thumbnail);
@@ -196,7 +212,8 @@ export class LessonsService {
   async getAllLessonByInstructionn(slug: string, filters?: AssociativeArray) {
     {
       try {
-        const lessonQuery = this.lessonRepository.createQueryBuilder('lesson')
+        const lessonQuery = this.lessonRepository
+          .createQueryBuilder('lesson')
           .leftJoinAndSelect('lesson.course', 'course')
           .where('course.slug = :slug', { slug })
           .orderBy('lesson.position', 'ASC');
@@ -216,7 +233,6 @@ export class LessonsService {
           message: errorMessage,
           statusCode: 500,
         });
-
       }
     }
   }

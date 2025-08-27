@@ -402,8 +402,8 @@
 
                     <tr>
                         <td class="col-md-4">
-                            <div class="io-line">Defined in <a href="" data-line="36"
-                                    class="link-to-prism">src/app.module.ts:36</a></div>
+                            <div class="io-line">Defined in <a href="" data-line="34"
+                                    class="link-to-prism">src/app.module.ts:34</a></div>
                         </td>
                     </tr>
 
@@ -464,11 +464,10 @@ import { CategoryModule } from &#x27;./modules/category/category.module&#x27;;
 import { UserCategoryModule } from &#x27;./modules/user-category/user-category.module&#x27;;
 import { CoursesModule } from &#x27;./modules/courses/courses.module&#x27;;
 import { SharedModule } from &#x27;./shared&#x27;;
-import { PrometheusModule } from &#x27;./modules/prometheus/prometheus.module&#x27;;
+import { PrometheusModule, PrometheusMiddleware } from &#x27;./modules/prometheus&#x27;;
 import { EnrollsModule } from &#x27;./modules/enrolls/enrolls.module&#x27;;
 import { LessonsModule } from &#x27;./modules/lessons/lessons.module&#x27;;
 import { QuizModule } from &#x27;./modules/quiz/quiz.module&#x27;;
-
 
 @Module({
   imports: [
@@ -484,13 +483,14 @@ import { QuizModule } from &#x27;./modules/quiz/quiz.module&#x27;;
     PrometheusModule,
     EnrollsModule,
     LessonsModule,
-    QuizModule
-
+    QuizModule,
   ],
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer.apply(LanguageMiddleware).forRoutes(&#x27;*&#x27;);
+
+    consumer.apply(PrometheusMiddleware).forRoutes(&#x27;*&#x27;);
   }
 }
 </code></pre>

@@ -24,6 +24,10 @@
 <title>cluster_CoursesModule</title>
 <polygon fill="none" stroke="black" stroke-dasharray="1,5" points="106,-70 106,-268 390,-268 390,-70 106,-70"/>
 </g>
+<g id="clust4" class="cluster">
+<title>cluster_CoursesModule_exports</title>
+<polygon fill="none" stroke="black" points="178,-208 178,-260 300,-260 300,-208 178,-208"/>
+</g>
 <g id="clust6" class="cluster">
 <title>cluster_CoursesModule_providers</title>
 <polygon fill="none" stroke="black" points="224,-78 224,-130 382,-130 382,-78 224,-78"/>
@@ -31,10 +35,6 @@
 <g id="clust3" class="cluster">
 <title>cluster_CoursesModule_imports</title>
 <polygon fill="none" stroke="black" points="114,-78 114,-130 216,-130 216,-78 114,-78"/>
-</g>
-<g id="clust4" class="cluster">
-<title>cluster_CoursesModule_exports</title>
-<polygon fill="none" stroke="black" points="178,-208 178,-260 300,-260 300,-208 178,-208"/>
 </g>
 <!-- UserModule -->
 <g id="node1" class="node">

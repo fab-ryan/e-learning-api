@@ -192,8 +192,8 @@
 
                     <tr>
                         <td class="col-md-4">
-                            <div class="io-line">Defined in <a href="" data-line="11"
-                                    class="link-to-prism">src/modules/prometheus/prometheus.controller.ts:11</a></div>
+                            <div class="io-line">Defined in <a href="" data-line="10"
+                                    class="link-to-prism">src/modules/prometheus/prometheus.controller.ts:10</a></div>
                         </td>
                     </tr>
 
@@ -247,10 +247,9 @@
 import { Response } from &#x27;express&#x27;;
 import { PrometheusService } from &#x27;./prometheus.service&#x27;;
 
-
 @Controller(&#x27;metrics&#x27;)
 export class PrometheusController {
-  constructor(private readonly prometheusService: PrometheusService) { }
+  constructor(private readonly prometheusService: PrometheusService) {}
 
   @Get()
   async getMetrics(@Res() res: Response) {
@@ -258,8 +257,6 @@ export class PrometheusController {
     res.setHeader(&#x27;Content-Type&#x27;, &#x27;text/plain&#x27;);
     res.send(metrics);
   }
-
-
 }
 </code></pre>
     </div>

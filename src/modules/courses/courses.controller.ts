@@ -33,7 +33,7 @@ import { AssociativeArray, storage } from '@/utils';
 @ApiTags('courses')
 @Controller('courses')
 export class CoursesController {
-  constructor(private readonly coursesService: CoursesService) { }
+  constructor(private readonly coursesService: CoursesService) {}
 
   @ApiBearerAuth()
   @UseGuards(AuthGuard)
@@ -79,11 +79,13 @@ export class CoursesController {
     type: Number,
     description: 'Items per page',
   })
-  findAll(  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  findAll(
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     @Query('page', new DefaultValuePipe(1), ParseIntPipe) page = 1,
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     @Query('limit', new DefaultValuePipe(10), ParseIntPipe) limit = 10,
-    @Query() filters: AssociativeArray,) {
+    @Query() filters: AssociativeArray,
+  ) {
     return this.coursesService.findAll(filters);
   }
 

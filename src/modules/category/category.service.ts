@@ -15,7 +15,7 @@ export class CategoryService {
     private categoryRepository: Repository<Category>,
     private readonly responseService: ResponseService,
     private readonly i18n: I18nService<I18nTranslations>,
-  ) { }
+  ) {}
   /*
    *Create Category function
    */
@@ -33,7 +33,7 @@ export class CategoryService {
       const category = this.categoryRepository.create({
         name: createCategoryDto.name.toLowerCase(),
         description: createCategoryDto.description,
-        icon_url: 'category/' + files.icon_url[0]?.filename as string,
+        icon_url: ('category/' + files.icon_url[0]?.filename) as string,
         status: false,
       });
       await this.categoryRepository.save(category);
@@ -135,7 +135,7 @@ export class CategoryService {
         ...category,
         ...updateCategoryDto,
         icon_url: files
-          ? ('category/' + files.icon_url[0]?.filename as string)
+          ? (('category/' + files.icon_url[0]?.filename) as string)
           : category.icon_url,
       });
       return this.responseService.Response({

@@ -1,4 +1,12 @@
-import { Controller, Get, Param, Patch, Post, Put, UseGuards } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Param,
+  Patch,
+  Post,
+  Put,
+  UseGuards,
+} from '@nestjs/common';
 import { EnrollsService } from './enrolls.service';
 import { Roles, User } from '@/decorators';
 import { AuthGuard, AuthUserType } from '@/guards';
@@ -8,7 +16,7 @@ import { RolesEnum } from '@/enums';
 @ApiTags('enrolls')
 @Controller('enrolls')
 export class EnrollsController {
-  constructor(private readonly enrollsService: EnrollsService) { }
+  constructor(private readonly enrollsService: EnrollsService) {}
   @ApiBearerAuth()
   @UseGuards(AuthGuard)
   @Roles(RolesEnum.ADMIN, RolesEnum.ALL)
@@ -28,7 +36,10 @@ export class EnrollsController {
   @Roles(RolesEnum.ADMIN, RolesEnum.ALL)
   @UseGuards(AuthGuard)
   @Post('/:courseId')
-  enrollCourse(@User() user: AuthUserType, @Param('courseId') courseId: string) {
+  enrollCourse(
+    @User() user: AuthUserType,
+    @Param('courseId') courseId: string,
+  ) {
     return this.enrollsService.studentEnroll(courseId, user);
   }
 
@@ -36,7 +47,10 @@ export class EnrollsController {
   @UseGuards(AuthGuard)
   @Roles(RolesEnum.ADMIN, RolesEnum.ALL)
   @Put('/:courseId')
-  unenrollCourse(@User() user: AuthUserType, @Param('courseId') courseId: string) {
+  unenrollCourse(
+    @User() user: AuthUserType,
+    @Param('courseId') courseId: string,
+  ) {
     return this.enrollsService.unenrollCourse(courseId, user);
   }
 
@@ -44,9 +58,10 @@ export class EnrollsController {
   @UseGuards(AuthGuard)
   @Roles(RolesEnum.ADMIN, RolesEnum.ALL)
   @Patch('/:courseId/status')
-  changeStatusCourse(@User() user: AuthUserType, @Param('courseId') courseId: string) {
+  changeStatusCourse(
+    @User() user: AuthUserType,
+    @Param('courseId') courseId: string,
+  ) {
     return this.enrollsService.studentEnrollChangeStatus(courseId, user);
   }
-
-
 }

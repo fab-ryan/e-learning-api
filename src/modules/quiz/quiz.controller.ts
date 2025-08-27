@@ -1,4 +1,13 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+  UseGuards,
+} from '@nestjs/common';
 import { QuizService } from './quiz.service';
 import { CreateQuizDto } from './dto/create-quiz.dto';
 import { UpdateQuizDto } from './dto/update-quiz.dto';
@@ -10,7 +19,7 @@ import { RolesEnum } from '@/enums';
 @ApiTags('Quiz')
 @Controller('quiz')
 export class QuizController {
-  constructor(private readonly quizService: QuizService) { }
+  constructor(private readonly quizService: QuizService) {}
 
   @ApiBearerAuth()
   @UseGuards(AuthGuard)
@@ -22,9 +31,8 @@ export class QuizController {
   })
   createQuiz(
     @Body() createQuizDto: CreateQuizDto,
-    @Param('lessonId') lessonId: string,) {
+    @Param('lessonId') lessonId: string,
+  ) {
     return this.quizService.createQuiz(createQuizDto, lessonId);
   }
-
-
 }

@@ -14,7 +14,19 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A comprehensive E-Learning API built with NestJS and TypeScript. This platform provides a complete backend solution for online education, featuring course management, user authentication, lesson tracking, quizzes, and more.
+
+### Features
+
+- **User Management**: User registration, authentication, and profile management
+- **Course Management**: Create, update, and organize courses with categories
+- **Lesson System**: Structured lessons with content delivery
+- **Quiz & Assessment**: Interactive quizzes for learning evaluation
+- **Category Organization**: Organize courses by categories for better navigation
+- **File Upload**: Support for course materials and media uploads
+- **Authentication**: Secure JWT-based authentication system
+- **Monitoring**: Integrated with Prometheus for performance monitoring
+- **Documentation**: Auto-generated API documentation
 
 ## Installation
 
@@ -22,42 +34,75 @@
 $ yarn install
 ```
 
-## Running the app
+## Available Scripts
 
+### Development
 ```bash
-# development
-$ yarn run start
-
-# watch mode
+# Start development server with hot reload
 $ yarn run start:dev
 
-# production mode
+# Start application normally
+$ yarn run start
+
+# Start with debug mode and watch for changes
+$ yarn run start:debug
+```
+
+### Production
+```bash
+# Build the application
+$ yarn run build
+
+# Start production server
 $ yarn run start:prod
 ```
 
-## Test
-
+### Testing
 ```bash
-# unit tests
+# Run unit tests
 $ yarn run test
 
-# e2e tests
-$ yarn run test:e2e
+# Run tests in watch mode
+$ yarn run test:watch
 
-# test coverage
+# Run tests with coverage report
 $ yarn run test:cov
+
+# Run tests in debug mode
+$ yarn run test:debug
+
+# Run end-to-end tests
+$ yarn run test:e2e
+```
+
+### Code Quality
+```bash
+# Format code with Prettier
+$ yarn run format
+
+# Lint and fix code issues
+$ yarn run lint
+```
+
+### Documentation
+```bash
+# Generate API documentation
+$ yarn run documentation
+```
+
+### Monitoring (Prometheus)
+```bash
+# Start Prometheus monitoring
+$ yarn run start:prometheus
+
+# Stop Prometheus monitoring
+$ yarn run stop:prometheus
 ```
 
 ## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+This is an open source e-learning API project. Contributions and feedback are welcome to help improve the platform and make online education more accessible.
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+This project is [MIT licensed](LICENSE).
